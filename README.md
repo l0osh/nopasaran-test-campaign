@@ -61,7 +61,7 @@ project/
 
 ```yaml
 parameters:
-  environment: production
+  dst_port: 443
   config: "@file:configs.yml"
 ```
 
@@ -75,14 +75,14 @@ Each entry in `campaign.yml` will look like:
 - id: 1
   name: Example Test
   Worker_1:
-    name: Alice
-    role: leader
+    name: VPS_1
+    role: client
     ...
   Worker_2:
-    name: Bob
-    role: follower
+    name: VPS_2
+    role: server
     ...
   parameters:
-    environment: production
-    config: default
+    dst_port: 443
+    server_ip: 10.78.89.43
 ```
