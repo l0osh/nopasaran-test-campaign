@@ -1,0 +1,1968 @@
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 1
+  name: client-server ping test
+  parameters:
+    config_file: host1.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 2
+  name: client-server ping test
+  parameters:
+    config_file: host2.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 3
+  name: client-server ping test
+  parameters:
+    config_file: host3.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 4
+  name: client-server ping test
+  parameters:
+    config_file: host4.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 5
+  name: client-server ping test
+  parameters:
+    config_file: host5.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 6
+  name: client-server ping test
+  parameters:
+    config_file: host6.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 7
+  name: client-server ping test
+  parameters:
+    config_file: host7.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 8
+  name: client-server ping test
+  parameters:
+    config_file: host8.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 9
+  name: client-server ping test
+  parameters:
+    config_file: host9.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 10
+  name: client-server ping test
+  parameters:
+    config_file: host10.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  id: 11
+  name: peer-to-peer bandwidth test
+  parameters:
+    duration: 30
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 12
+  name: client-server ping test
+  parameters:
+    config_file: host1.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 13
+  name: client-server ping test
+  parameters:
+    config_file: host2.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 14
+  name: client-server ping test
+  parameters:
+    config_file: host3.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 15
+  name: client-server ping test
+  parameters:
+    config_file: host4.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 16
+  name: client-server ping test
+  parameters:
+    config_file: host5.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 17
+  name: client-server ping test
+  parameters:
+    config_file: host6.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 18
+  name: client-server ping test
+  parameters:
+    config_file: host7.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 19
+  name: client-server ping test
+  parameters:
+    config_file: host8.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 20
+  name: client-server ping test
+  parameters:
+    config_file: host9.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 21
+  name: client-server ping test
+  parameters:
+    config_file: host10.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  id: 22
+  name: peer-to-peer bandwidth test
+  parameters:
+    duration: 30
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 23
+  name: client-server ping test
+  parameters:
+    config_file: host1.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 24
+  name: client-server ping test
+  parameters:
+    config_file: host2.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 25
+  name: client-server ping test
+  parameters:
+    config_file: host3.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 26
+  name: client-server ping test
+  parameters:
+    config_file: host4.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 27
+  name: client-server ping test
+  parameters:
+    config_file: host5.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 28
+  name: client-server ping test
+  parameters:
+    config_file: host6.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 29
+  name: client-server ping test
+  parameters:
+    config_file: host7.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 30
+  name: client-server ping test
+  parameters:
+    config_file: host8.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 31
+  name: client-server ping test
+  parameters:
+    config_file: host9.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 32
+  name: client-server ping test
+  parameters:
+    config_file: host10.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  id: 33
+  name: peer-to-peer bandwidth test
+  parameters:
+    duration: 30
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 34
+  name: client-server ping test
+  parameters:
+    config_file: host1.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 35
+  name: client-server ping test
+  parameters:
+    config_file: host2.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 36
+  name: client-server ping test
+  parameters:
+    config_file: host3.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 37
+  name: client-server ping test
+  parameters:
+    config_file: host4.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 38
+  name: client-server ping test
+  parameters:
+    config_file: host5.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 39
+  name: client-server ping test
+  parameters:
+    config_file: host6.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 40
+  name: client-server ping test
+  parameters:
+    config_file: host7.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 41
+  name: client-server ping test
+  parameters:
+    config_file: host8.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 42
+  name: client-server ping test
+  parameters:
+    config_file: host9.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 43
+  name: client-server ping test
+  parameters:
+    config_file: host10.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  id: 44
+  name: peer-to-peer bandwidth test
+  parameters:
+    duration: 30
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 45
+  name: client-server ping test
+  parameters:
+    config_file: host1.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 46
+  name: client-server ping test
+  parameters:
+    config_file: host2.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 47
+  name: client-server ping test
+  parameters:
+    config_file: host3.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 48
+  name: client-server ping test
+  parameters:
+    config_file: host4.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 49
+  name: client-server ping test
+  parameters:
+    config_file: host5.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 50
+  name: client-server ping test
+  parameters:
+    config_file: host6.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 51
+  name: client-server ping test
+  parameters:
+    config_file: host7.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 52
+  name: client-server ping test
+  parameters:
+    config_file: host8.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 53
+  name: client-server ping test
+  parameters:
+    config_file: host9.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 54
+  name: client-server ping test
+  parameters:
+    config_file: host10.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  id: 55
+  name: peer-to-peer bandwidth test
+  parameters:
+    duration: 30
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 56
+  name: client-server ping test
+  parameters:
+    config_file: host1.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 57
+  name: client-server ping test
+  parameters:
+    config_file: host2.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 58
+  name: client-server ping test
+  parameters:
+    config_file: host3.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 59
+  name: client-server ping test
+  parameters:
+    config_file: host4.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 60
+  name: client-server ping test
+  parameters:
+    config_file: host5.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 61
+  name: client-server ping test
+  parameters:
+    config_file: host6.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 62
+  name: client-server ping test
+  parameters:
+    config_file: host7.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 63
+  name: client-server ping test
+  parameters:
+    config_file: host8.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 64
+  name: client-server ping test
+  parameters:
+    config_file: host9.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 65
+  name: client-server ping test
+  parameters:
+    config_file: host10.example.com
+    count: 10
+- Worker_1:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  id: 66
+  name: peer-to-peer bandwidth test
+  parameters:
+    duration: 30
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 67
+  name: client-server ping test
+  parameters:
+    config_file: host1.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 68
+  name: client-server ping test
+  parameters:
+    config_file: host2.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 69
+  name: client-server ping test
+  parameters:
+    config_file: host3.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 70
+  name: client-server ping test
+  parameters:
+    config_file: host4.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 71
+  name: client-server ping test
+  parameters:
+    config_file: host5.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 72
+  name: client-server ping test
+  parameters:
+    config_file: host6.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 73
+  name: client-server ping test
+  parameters:
+    config_file: host7.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 74
+  name: client-server ping test
+  parameters:
+    config_file: host8.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 75
+  name: client-server ping test
+  parameters:
+    config_file: host9.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 76
+  name: client-server ping test
+  parameters:
+    config_file: host10.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  id: 77
+  name: peer-to-peer bandwidth test
+  parameters:
+    duration: 30
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 78
+  name: client-server ping test
+  parameters:
+    config_file: host1.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 79
+  name: client-server ping test
+  parameters:
+    config_file: host2.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 80
+  name: client-server ping test
+  parameters:
+    config_file: host3.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 81
+  name: client-server ping test
+  parameters:
+    config_file: host4.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 82
+  name: client-server ping test
+  parameters:
+    config_file: host5.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 83
+  name: client-server ping test
+  parameters:
+    config_file: host6.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 84
+  name: client-server ping test
+  parameters:
+    config_file: host7.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 85
+  name: client-server ping test
+  parameters:
+    config_file: host8.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 86
+  name: client-server ping test
+  parameters:
+    config_file: host9.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 87
+  name: client-server ping test
+  parameters:
+    config_file: host10.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  id: 88
+  name: peer-to-peer bandwidth test
+  parameters:
+    duration: 30
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 89
+  name: client-server ping test
+  parameters:
+    config_file: host1.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 90
+  name: client-server ping test
+  parameters:
+    config_file: host2.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 91
+  name: client-server ping test
+  parameters:
+    config_file: host3.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 92
+  name: client-server ping test
+  parameters:
+    config_file: host4.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 93
+  name: client-server ping test
+  parameters:
+    config_file: host5.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 94
+  name: client-server ping test
+  parameters:
+    config_file: host6.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 95
+  name: client-server ping test
+  parameters:
+    config_file: host7.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 96
+  name: client-server ping test
+  parameters:
+    config_file: host8.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 97
+  name: client-server ping test
+  parameters:
+    config_file: host9.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: server
+  id: 98
+  name: client-server ping test
+  parameters:
+    config_file: host10.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  id: 99
+  name: peer-to-peer bandwidth test
+  parameters:
+    duration: 30
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 100
+  name: client-server ping test
+  parameters:
+    config_file: host1.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 101
+  name: client-server ping test
+  parameters:
+    config_file: host2.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 102
+  name: client-server ping test
+  parameters:
+    config_file: host3.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 103
+  name: client-server ping test
+  parameters:
+    config_file: host4.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 104
+  name: client-server ping test
+  parameters:
+    config_file: host5.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 105
+  name: client-server ping test
+  parameters:
+    config_file: host6.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 106
+  name: client-server ping test
+  parameters:
+    config_file: host7.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 107
+  name: client-server ping test
+  parameters:
+    config_file: host8.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 108
+  name: client-server ping test
+  parameters:
+    config_file: host9.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: server
+  id: 109
+  name: client-server ping test
+  parameters:
+    config_file: host10.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 172.16.0.22
+    name: rbp-03
+    role: client
+  id: 110
+  name: peer-to-peer bandwidth test
+  parameters:
+    duration: 30
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 111
+  name: client-server ping test
+  parameters:
+    config_file: host1.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 112
+  name: client-server ping test
+  parameters:
+    config_file: host2.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 113
+  name: client-server ping test
+  parameters:
+    config_file: host3.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 114
+  name: client-server ping test
+  parameters:
+    config_file: host4.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 115
+  name: client-server ping test
+  parameters:
+    config_file: host5.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 116
+  name: client-server ping test
+  parameters:
+    config_file: host6.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 117
+  name: client-server ping test
+  parameters:
+    config_file: host7.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 118
+  name: client-server ping test
+  parameters:
+    config_file: host8.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 119
+  name: client-server ping test
+  parameters:
+    config_file: host9.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: server
+  id: 120
+  name: client-server ping test
+  parameters:
+    config_file: host10.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: true
+    ip_address: 192.168.1.10
+    name: rbp-01
+    role: client
+  id: 121
+  name: peer-to-peer bandwidth test
+  parameters:
+    duration: 30
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 122
+  name: client-server ping test
+  parameters:
+    config_file: host1.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 123
+  name: client-server ping test
+  parameters:
+    config_file: host2.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 124
+  name: client-server ping test
+  parameters:
+    config_file: host3.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 125
+  name: client-server ping test
+  parameters:
+    config_file: host4.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 126
+  name: client-server ping test
+  parameters:
+    config_file: host5.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 127
+  name: client-server ping test
+  parameters:
+    config_file: host6.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 128
+  name: client-server ping test
+  parameters:
+    config_file: host7.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 129
+  name: client-server ping test
+  parameters:
+    config_file: host8.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 130
+  name: client-server ping test
+  parameters:
+    config_file: host9.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: server
+  id: 131
+  name: client-server ping test
+  parameters:
+    config_file: host10.example.com
+    count: 10
+- Worker_1:
+    accessible_online: false
+    ip_address: 10.0.0.5
+    name: rbp-02
+    role: client
+  Worker_2:
+    accessible_online: false
+    ip_address: 192.168.100.7
+    name: rbp-04
+    role: client
+  id: 132
+  name: peer-to-peer bandwidth test
+  parameters:
+    duration: 30

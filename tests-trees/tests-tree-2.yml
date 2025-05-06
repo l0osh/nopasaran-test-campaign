@@ -1,0 +1,5 @@
+name: peer-to-peer bandwidth test
+worker_1_role: client
+worker_2_role: client
+parameters:
+  duration: 30
