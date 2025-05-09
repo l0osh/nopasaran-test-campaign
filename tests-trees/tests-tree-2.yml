@@ -1,5 +1,6 @@
-name: peer-to-peer bandwidth test
+name: http_simple_request
 worker_1_role: client
-worker_2_role: client
+worker_2_role: server
 parameters:
-  duration: 30
+  hostname: "@file:inputs/hostnames.yml"
+  ip: "@file:inputs/ip.yml"

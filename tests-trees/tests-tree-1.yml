@@ -1,6 +1,17 @@
-name: client-server ping test
+name: https_sni
 worker_1_role: client
 worker_2_role: server
 parameters:
-  config_file: "@file:inputs/hostnames.yml"
-  count: 10
+  domain: "@file:inputs/hostnames.yml"
+  port: 443
+  request_method: "GET"
+  request_path: "/"
+  request_headers:
+    - ["User-Agent", "Test-Client"]
+    - ["Accept", "*/*"]
+  request_body: ""
+  response_status_code: 200
+  response_headers:
+    - ["Content-Type", "text/plain"]
+    - ["Content-Length", "2"]
+  response_body: "OK"

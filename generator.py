@@ -2,6 +2,10 @@ import os
 import yaml
 from itertools import permutations, product
 
+class NoAliasDumper(yaml.SafeDumper):
+    def ignore_aliases(self, data):
+        return True
+
 def read_worker_profiles(profiles_folder='./profiles'):
     worker_data = []
     for filename in os.listdir(profiles_folder):
@@ -23,7 +27,7 @@ def read_worker_profiles(profiles_folder='./profiles'):
         })
     return worker_pairs
 
-def expand_parameters(params):
+def expand_parameters(params, test_name=None):
     static = {}
     dynamic = {}
 
@@ -42,20 +46,36 @@ def expand_parameters(params):
         else:
             static[key] = value
 
+    # Add controller config to all cases
+    static["controller_conf_filename"] = "controller_configuration.json"
+
     if not dynamic:
+        if test_name == "http_simple_request":
+            return [dict(static, use_https="0"), dict(static, use_https="1")]
         return [static]
 
-    # Cartesian product of all dynamic fields
     keys, values = zip(*dynamic.items())
-    combinations_list = product(*values)
+
+    if test_name == "http_simple_request":
+        if len(set(map(len, values))) != 1:
+            raise ValueError("Hostname and IP lists must be the same length for one-to-one mapping.")
+        combinations_list = [dict(zip(keys, items)) for items in zip(*values)]
+    else:
+        combinations_list = [dict(zip(keys, combo)) for combo in product(*values)]
 
     expanded = []
     for combo in combinations_list:
         param_set = static.copy()
-        param_set.update(dict(zip(keys, combo)))
-        expanded.append(param_set)
-    
+        param_set.update(combo)
+        if test_name == "http_simple_request":
+            # Create two versions: one with HTTPS, one without
+            expanded.append(dict(param_set, use_https="0"))
+            expanded.append(dict(param_set, use_https="1"))
+        else:
+            expanded.append(param_set)
+
     return expanded
+
 
 def load_all_test_trees(tests_folder='./tests-trees'):
     test_trees = []
@@ -78,13 +98,26 @@ def main():
     test_cases = load_all_test_trees()
 
     campaign_entries = []
-
-    test_id = 1  # Start ID count
+    test_id = 1
 
     for pair in worker_pairs:
         for test in test_cases:
-            parameter_sets = expand_parameters(test.get("parameters", {}))
+            test_name = test["name"].lower()
+
+            # Skip if Worker_2 is not accessible for server-required tests
+            if test_name in ["https_sni", "dns_qname_probing"]:
+                if not pair["Worker_2"].get("intranet_accessible", False):
+                    continue
+
+            parameter_sets = expand_parameters(test.get("parameters", {}), test_name=test_name)
             for params in parameter_sets:
+                if test_name != "http_simple_request":
+                    params["ip"] = pair["Worker_2"]["ip"]
+
+                if test_name == "https_sni" or test_name == "dns_qname_probing":
+                    params["identifier"] = params.get("ip", pair["Worker_2"]["ip"])
+
+
                 campaign_entry = {
                     "id": test_id,
                     "name": test["name"],
@@ -93,10 +126,23 @@ def main():
                     "parameters": params
                 }
                 campaign_entries.append(campaign_entry)
-                test_id += 1  # Increment ID for next test
+                test_id += 1
+
+# Add representer before dumping
+    def custom_representer(dumper, data):
+        if isinstance(data, list) and all(isinstance(i, list) and len(i) == 2 for i in data):
+            return dumper.represent_sequence('tag:yaml.org,2002:seq', data, flow_style=True)
+        return dumper.represent_list(data)
+
+    NoAliasDumper.add_representer(list, custom_representer)
 
     with open(campaign_output_file, 'w') as f:
-        yaml.dump(campaign_entries, f)
+        yaml.dump(campaign_entries, f, Dumper=NoAliasDumper, default_flow_style=False)
+
 
 if __name__ == "__main__":
     main()
+
+
+
+
