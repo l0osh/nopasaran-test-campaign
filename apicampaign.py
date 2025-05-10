@@ -117,17 +117,18 @@ for test in test_campaign:
         variables = {
             "Root": {
                 "Worker_1": {
-                    "ip": test["Worker_1"]["ip"],
+                    **{k: v for k, v in test["Worker_1"].items() if k != "parameters"},
                     "controller_conf_filename": controller_conf,
                     **shared_params
                 },
                 "Worker_2": {
-                    "ip": test["Worker_2"]["ip"],
+                    **{k: v for k, v in test["Worker_2"].items() if k != "parameters"},
                     "controller_conf_filename": controller_conf,
                     **shared_params
                 }
             }
         }
+
 
         payload = {
             "master": master,
@@ -138,8 +139,7 @@ for test in test_campaign:
             "variables": variables
         }
 
-        print(payload)
-        exit(1)
+      
 
         try:
             tqdm.write(f"Submitting test {test_id} - {test_name}")

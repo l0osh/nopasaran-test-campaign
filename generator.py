@@ -27,54 +27,101 @@ def read_worker_profiles(profiles_folder='./profiles'):
         })
     return worker_pairs
 
-def expand_parameters(params, test_name=None):
-    static = {}
-    dynamic = {}
-
-    for key, value in params.items():
-        if isinstance(value, str) and value.startswith("@file:"):
-            file_path = value.replace("@file:", "")
-            if os.path.isfile(file_path):
-                with open(file_path, 'r') as f:
-                    content = yaml.safe_load(f)
-                    if isinstance(content, list):
-                        dynamic[key] = content
-                    else:
-                        raise ValueError(f"File {file_path} does not contain a list.")
-            else:
-                raise FileNotFoundError(f"Referenced file not found: {file_path}")
+def resolve_file_references(data):
+    if isinstance(data, dict):
+        return {k: resolve_file_references(v) for k, v in data.items()}
+    elif isinstance(data, list):
+        return [resolve_file_references(i) for i in data]
+    elif isinstance(data, str) and data.startswith("@file:"):
+        file_path = data.replace("@file:", "")
+        if os.path.isfile(file_path):
+            with open(file_path, 'r') as f:
+                content = yaml.safe_load(f)
+                return content
         else:
-            static[key] = value
+            raise FileNotFoundError(f"Referenced file not found: {file_path}")
+    else:
+        return data
 
-    # Add controller config to all cases
+import copy
+
+def expand_parameters(params, test_name=None):
+    def collect_dynamic_parameters(obj, path_prefix=""):
+        static = {}
+        dynamic = {}
+
+        for key, value in obj.items():
+            full_key = f"{path_prefix}{key}" if path_prefix else key
+
+            if isinstance(value, dict):
+                nested_static, nested_dynamic = collect_dynamic_parameters(value, f"{full_key}.")
+                static[key] = nested_static
+                dynamic.update(nested_dynamic)
+            elif isinstance(value, str) and value.startswith("@file:"):
+                file_path = value.replace("@file:", "")
+                if os.path.isfile(file_path):
+                    with open(file_path, 'r') as f:
+                        content = yaml.safe_load(f)
+                        if isinstance(content, list):
+                            dynamic[full_key] = content
+                        else:
+                            raise ValueError(f"File {file_path} does not contain a list.")
+                else:
+                    raise FileNotFoundError(f"Referenced file not found: {file_path}")
+            else:
+                static[key] = value
+
+        return static, dynamic
+
+    static, dynamic = collect_dynamic_parameters(params)
+
     static["controller_conf_filename"] = "controller_configuration.json"
 
     if not dynamic:
+        # Keep existing HTTP/HTTPS branching for http_simple_request only
         if test_name == "http_simple_request":
             return [dict(static, use_https="0"), dict(static, use_https="1")]
         return [static]
 
     keys, values = zip(*dynamic.items())
 
-    if test_name == "http_simple_request":
-        if len(set(map(len, values))) != 1:
-            raise ValueError("Hostname and IP lists must be the same length for one-to-one mapping.")
+    # Align combinations if all lists have the same length, otherwise use product
+    if len(set(map(len, values))) == 1:
         combinations_list = [dict(zip(keys, items)) for items in zip(*values)]
     else:
         combinations_list = [dict(zip(keys, combo)) for combo in product(*values)]
 
     expanded = []
     for combo in combinations_list:
-        param_set = static.copy()
-        param_set.update(combo)
+        param_set = copy.deepcopy(static)
+
+        # Apply dynamic values to the correct nested paths
+        for full_key, value in combo.items():
+            keys_path = full_key.split(".")
+            target = param_set
+            for k in keys_path[:-1]:
+                target = target.setdefault(k, {})
+            target[keys_path[-1]] = value
+
+        # Resolve nested @file references (if any left after dynamic expansion)
+        param_set = resolve_file_references(param_set)
+
+        # Force request-data host = domain if both exist
+        domain = param_set.get("domain")
+        request_data = param_set.get("request-data", {})
+        if isinstance(request_data, dict) and domain:
+            request_data["host"] = domain
+            param_set["request-data"] = request_data
+
+        # Only apply HTTP/HTTPS branching to http_simple_request
         if test_name == "http_simple_request":
-            # Create two versions: one with HTTPS, one without
             expanded.append(dict(param_set, use_https="0"))
             expanded.append(dict(param_set, use_https="1"))
         else:
             expanded.append(param_set)
 
     return expanded
+
 
 
 def load_all_test_trees(tests_folder='./tests-trees'):
@@ -104,8 +151,16 @@ def main():
         for test in test_cases:
             test_name = test["name"].lower()
 
-            # Skip if Worker_2 is not accessible for server-required tests
-            if test_name in ["https_sni", "dns_qname_probing"]:
+            w1_inet = pair["Worker_1"].get("internet_accessible", False)
+            w2_inet = pair["Worker_2"].get("internet_accessible", False)
+
+            if w1_inet and not w2_inet:
+                pair = {
+                    "Worker_1": pair["Worker_2"],
+                    "Worker_2": pair["Worker_1"]
+                }
+
+            if test_name in ["https_sni", "dns_qname_probing", "http_1_conformance"]:
                 if not pair["Worker_2"].get("intranet_accessible", False):
                     continue
 
@@ -114,9 +169,8 @@ def main():
                 if test_name != "http_simple_request":
                     params["ip"] = pair["Worker_2"]["ip"]
 
-                if test_name == "https_sni" or test_name == "dns_qname_probing":
+                if test_name in ["https_sni"]:
                     params["identifier"] = params.get("ip", pair["Worker_2"]["ip"])
-
 
                 campaign_entry = {
                     "id": test_id,
@@ -125,10 +179,10 @@ def main():
                     "Worker_2": {**pair["Worker_2"], "role": test["worker_2_role"]},
                     "parameters": params
                 }
+
                 campaign_entries.append(campaign_entry)
                 test_id += 1
 
-# Add representer before dumping
     def custom_representer(dumper, data):
         if isinstance(data, list) and all(isinstance(i, list) and len(i) == 2 for i in data):
             return dumper.represent_sequence('tag:yaml.org,2002:seq', data, flow_style=True)
@@ -139,10 +193,5 @@ def main():
     with open(campaign_output_file, 'w') as f:
         yaml.dump(campaign_entries, f, Dumper=NoAliasDumper, default_flow_style=False)
 
-
 if __name__ == "__main__":
     main()
-
-
-
-
