@@ -13,12 +13,11 @@ This project generates test campaign configurations by pairing worker profiles a
 ## Dependencies
 
 - Python 3.x
-- PyYAML
 
 Install dependencies:
 
 ```bash
-pip install pyyaml
+pip install -r requirements.txt
 ```
 
 ## File Structure
