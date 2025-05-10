@@ -1,9 +1,8 @@
-name: https_sni
+name: http_1_conformance
 worker_1_role: client
 worker_2_role: server
 parameters:
-  domain: "@file:inputs/hostnames.yml"
-  port: 443
+  port: 80
   request-data:
     host: "@file:inputs/hostnames.yml"
     method: GET
@@ -21,4 +20,3 @@ parameters:
       - ["Content-Type", "text/plain"]
       - ["Content-Length", "18"]
       - ["Connection", "close"]
-

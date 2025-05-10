@@ -34,7 +34,7 @@ def log_result(results_dict, test_id, entry):
     }
     results_dict[str(test_id)] = ordered_entry
 
-def poll_status(status_url, progress_bar, interval=5, timeout=30):
+def poll_status(status_url, progress_bar, interval=2, timeout=30):
     start_time = time.time()
     anim = itertools.cycle(["←", "↖", "↑", "↗", "→", "↘", "↓", "↙"])
     while time.time() - start_time < timeout:
@@ -137,6 +137,9 @@ for test in test_campaign:
             "tests-tree": tests_tree,
             "variables": variables
         }
+
+        print(payload)
+        exit(1)
 
         try:
             tqdm.write(f"Submitting test {test_id} - {test_name}")
