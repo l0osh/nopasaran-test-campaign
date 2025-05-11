@@ -1,3 +1,4 @@
 name: linodelosangeles
 ip: "172.235.37.51"
-intranet_accessible: false
+intranet_accessible: true
+internet_accessible: true

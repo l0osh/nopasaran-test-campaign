@@ -151,24 +151,27 @@ def main():
         for test in test_cases:
             test_name = test["name"].lower()
 
-            w1_inet = pair["Worker_1"].get("internet_accessible", False)
-            w2_inet = pair["Worker_2"].get("internet_accessible", False)
+            # Rule 1: Skip mirrored roles for http_simple_request (keep one direction only)
+            if test_name == "http_simple_request":
+                if pair["Worker_1"]["name"] > pair["Worker_2"]["name"]:
+                    continue
 
-            if w1_inet and not w2_inet:
-                pair = {
-                    "Worker_1": pair["Worker_2"],
-                    "Worker_2": pair["Worker_1"]
-                }
+            # Rule 2: Server (Worker_2) must be internet accessible for all tests
+            if not pair["Worker_2"].get("internet_accessible", False):
+                continue
 
+            # Additional skip for intranet-restricted tests
             if test_name in ["https_sni", "dns_qname_probing", "http_1_conformance"]:
                 if not pair["Worker_2"].get("intranet_accessible", False):
                     continue
 
             parameter_sets = expand_parameters(test.get("parameters", {}), test_name=test_name)
             for params in parameter_sets:
+                # Inject target IP if not http_simple_request
                 if test_name != "http_simple_request":
                     params["ip"] = pair["Worker_2"]["ip"]
 
+                # Add identifier for https_sni
                 if test_name in ["https_sni"]:
                     params["identifier"] = params.get("ip", pair["Worker_2"]["ip"])
 
@@ -179,6 +182,14 @@ def main():
                     "Worker_2": {**pair["Worker_2"], "role": test["worker_2_role"]},
                     "parameters": params
                 }
+
+                # Apply special filters for dns_qname_prober
+                if test_name == "dns_qname_prober":
+                    w1_ip = pair["Worker_1"]["ip"]
+                    w2_ip = pair["Worker_2"]["ip"]
+
+                    campaign_entry["Worker_1"]["filter"] = f"udp and src port 53 and host {w2_ip}"
+                    campaign_entry["Worker_2"]["filter"] = f"udp and dst port 53 and host {w1_ip}"
 
                 campaign_entries.append(campaign_entry)
                 test_id += 1
