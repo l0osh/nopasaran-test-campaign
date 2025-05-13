@@ -4,4 +4,3 @@ worker_2_role: server
 parameters:
   qname: "@file:inputs/hostnames.yml"
   response_ip: "127.0.0.1"
-  filter: "udp and port 53"
