@@ -1,14 +1,16 @@
 import os
 import yaml
 from itertools import permutations, product
+import copy
 
 class NoAliasDumper(yaml.SafeDumper):
     def ignore_aliases(self, data):
         return True
 
+
 def read_worker_profiles(profiles_folder='./profiles'):
     worker_data = []
-    for filename in os.listdir(profiles_folder):
+    for filename in sorted(os.listdir(profiles_folder)):
         file_path = os.path.join(profiles_folder, filename)
         if filename.endswith(".yml"):
             with open(file_path, 'r') as file:
@@ -19,6 +21,8 @@ def read_worker_profiles(profiles_folder='./profiles'):
                     print(f"Error reading {filename}: {e}")
                     continue
 
+    worker_data.sort(key=lambda x: x.get("name", ""))
+
     worker_pairs = []
     for pair in permutations(worker_data, 2):
         worker_pairs.append({
@@ -26,6 +30,7 @@ def read_worker_profiles(profiles_folder='./profiles'):
             "Worker_2": pair[1]
         })
     return worker_pairs
+
 
 def resolve_file_references(data):
     if isinstance(data, dict):
@@ -43,7 +48,7 @@ def resolve_file_references(data):
     else:
         return data
 
-import copy
+
 
 def expand_parameters(params, test_name=None):
     def collect_dynamic_parameters(obj, path_prefix=""):
@@ -78,14 +83,12 @@ def expand_parameters(params, test_name=None):
     static["controller_conf_filename"] = "controller_configuration.json"
 
     if not dynamic:
-        # Keep existing HTTP/HTTPS branching for http_simple_request only
         if test_name == "http_simple_request":
             return [dict(static, use_https="0"), dict(static, use_https="1")]
         return [static]
 
-    keys, values = zip(*dynamic.items())
+    keys, values = zip(*sorted(dynamic.items()))
 
-    # Align combinations if all lists have the same length, otherwise use product
     if len(set(map(len, values))) == 1:
         combinations_list = [dict(zip(keys, items)) for items in zip(*values)]
     else:
@@ -95,7 +98,6 @@ def expand_parameters(params, test_name=None):
     for combo in combinations_list:
         param_set = copy.deepcopy(static)
 
-        # Apply dynamic values to the correct nested paths
         for full_key, value in combo.items():
             keys_path = full_key.split(".")
             target = param_set
@@ -103,17 +105,14 @@ def expand_parameters(params, test_name=None):
                 target = target.setdefault(k, {})
             target[keys_path[-1]] = value
 
-        # Resolve nested @file references (if any left after dynamic expansion)
         param_set = resolve_file_references(param_set)
 
-        # Force request-data host = domain if both exist
         domain = param_set.get("domain")
         request_data = param_set.get("request-data", {})
         if isinstance(request_data, dict) and domain:
             request_data["host"] = domain
             param_set["request-data"] = request_data
 
-        # Only apply HTTP/HTTPS branching to http_simple_request
         if test_name == "http_simple_request":
             expanded.append(dict(param_set, use_https="0"))
             expanded.append(dict(param_set, use_https="1"))
@@ -124,9 +123,10 @@ def expand_parameters(params, test_name=None):
 
 
 
+
 def load_all_test_trees(tests_folder='./tests-trees'):
     test_trees = []
-    for filename in os.listdir(tests_folder):
+    for filename in sorted(os.listdir(tests_folder)):
         if filename.endswith('.yml') or filename.endswith('.yaml'):
             path = os.path.join(tests_folder, filename)
             try:
@@ -138,6 +138,7 @@ def load_all_test_trees(tests_folder='./tests-trees'):
             except FileNotFoundError as e:
                 print(f"File reference error in {filename}: {e}")
     return test_trees
+
 
 def main():
     campaign_output_file = "campaign.yml"
@@ -188,8 +189,8 @@ def main():
                     w1_ip = pair["Worker_1"]["ip"]
                     w2_ip = pair["Worker_2"]["ip"]
 
-                    campaign_entry["Worker_1"]["filter"] = f"udp and src port 53 and host {w2_ip}"
-                    campaign_entry["Worker_2"]["filter"] = f"udp and dst port 53 and host {w1_ip}"
+                    campaign_entry["Worker_1"]["filter"] = f"dst host {w2_ip}"
+                    campaign_entry["Worker_2"]["filter"] = f"udp and dst port 53"
 
                 campaign_entries.append(campaign_entry)
                 test_id += 1
