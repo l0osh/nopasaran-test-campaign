@@ -101,4 +101,9 @@ ax.axis("off")
 plt.title("Discrepancy Vector Chart: HTTP (top) vs HTTPS (bottom)")
 
 plt.tight_layout()
+
+# Save the vector chart as PNG image
+plt.savefig("http_https_discrepancy_vector.png", dpi=150)
+print("✅ Vector chart saved as 'http_https_discrepancy_vector.png'")
+
 plt.show()
