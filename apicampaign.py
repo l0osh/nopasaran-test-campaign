@@ -18,19 +18,18 @@ def load_existing_results():
 def save_results(results):
     sorted_results = {
         str(k): results[str(k)]
-        for k in sorted((int(i) for i in results.keys()))
+        for k in sorted((int(i) for i in results.keys() if i.isdigit()))
     }
     with open(results_log_file, "w") as f:
         json.dump(sorted_results, f, indent=2)
 
 def log_result(results_dict, test_id, entry):
-    # Move timestamp and worker info to top
     ordered_entry = {
         "timestamp": datetime.utcnow().isoformat() + "Z",
         "worker_1": entry.pop("worker_1", None),
         "worker_2": entry.pop("worker_2", None),
         "polling_url": entry.pop("polling_url", None),
-        **entry  # rest of the fields
+        **entry
     }
     results_dict[str(test_id)] = ordered_entry
 
@@ -53,25 +52,47 @@ def poll_status(status_url, progress_bar, interval=2, timeout=30):
         time.sleep(interval)
     return None
 
+def extract_test_names(folder="./tests-trees"):
+    names = set()
+    for fname in os.listdir(folder):
+        if fname.endswith(".yml") or fname.endswith(".yaml"):
+            with open(os.path.join(folder, fname), "r") as f:
+                try:
+                    content = yaml.safe_load(f)
+                    if isinstance(content, dict) and "name" in content:
+                        names.add(content["name"])
+                except Exception:
+                    continue
+    return sorted(names)
+
 # --- Load and select tests ---
 campaign_file = "./campaign.yml"
+if not os.path.exists(campaign_file):
+    raise FileNotFoundError("The campaign.yml file does not exist in the current directory.")
+
 with open(campaign_file, "r") as file:
     test_campaign = yaml.safe_load(file)
 
 existing_results = load_existing_results()
 
-# Ask whether to run all tests
-run_all = input("Run all tests? (y/n): ").strip().lower()
-while run_all not in ("y", "n"):
-    run_all = input("Please enter 'y' or 'n': ").strip().lower()
+print("Test selection method:")
+print("1. Run all tests")
+print("2. Run by test ID range")
+print("3. Run all tests with a specific name")
+selection = input("Select option (1/2/3): ").strip()
+
+while selection not in ("1", "2", "3"):
+    selection = input("Please enter 1, 2, or 3: ").strip()
 
 rerun_completed = False
-if run_all == "y":
+
+if selection == "1":
     rerun_input = input("Re-run completed tests as well? (y/n): ").strip().lower()
     while rerun_input not in ("y", "n"):
         rerun_input = input("Please enter 'y' or 'n': ").strip().lower()
     rerun_completed = rerun_input == "y"
-else:
+
+elif selection == "2":
     while True:
         try:
             start_id = int(input("Enter start test ID (inclusive): ").strip())
@@ -85,6 +106,34 @@ else:
                 print("No matching test IDs found in range.")
         except ValueError:
             print("Invalid input. Please enter numeric test IDs.")
+
+elif selection == "3":
+    names = extract_test_names()
+    if not names:
+        print("No test names found in tests-trees directory.")
+        exit(1)
+
+    print("\nAvailable test names:")
+    for i, name in enumerate(names, start=1):
+        print(f"{i}. {name}")
+
+    while True:
+        try:
+            choice = int(input("\nEnter the number of the test to run: ").strip())
+            if 1 <= choice <= len(names):
+                selected_name = names[choice - 1]
+                break
+            else:
+                print(f"Please enter a number between 1 and {len(names)}.")
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+
+    filtered = [t for t in test_campaign if t.get("name") == selected_name]
+    if not filtered:
+        print(f"No tests found with the name '{selected_name}'. Exiting.")
+        exit(1)
+    test_campaign = filtered
+
 
 # --- Configuration ---
 master = "mahmoudmaster.admin.master.nopasaran.org"
@@ -129,7 +178,6 @@ for test in test_campaign:
             }
         }
 
-
         payload = {
             "master": master,
             "first-worker": worker_1,
@@ -138,8 +186,6 @@ for test in test_campaign:
             "tests-tree": tests_tree,
             "variables": variables
         }
-
-      
 
         try:
             tqdm.write(f"Submitting test {test_id} - {test_name}")
@@ -154,26 +200,17 @@ for test in test_campaign:
             if task_id:
                 status_url = f"{task_url}/{task_id}"
                 result = poll_status(status_url, tqdm(desc=f"Polling {test_id}", total=0))
-                if result:
-                    log_result(existing_results, test_id, {
-                        "worker_1": worker_1_name,
-                        "worker_2": worker_2_name,
-                        "polling_url": status_url,
-                        "test_name": test_name,
-                        "status": "completed",
-                        "result": result
-                    })
-                else:
-                    log_result(existing_results, test_id, {
-                        "worker_1": worker_1_name,
-                        "worker_2": worker_2_name,
-                        "polling_url": status_url,
-                        "test_name": test_name,
-                        "status": "polling_failed",
-                        "error": "Polling failed or timed out."
-                    })
+                log_result(existing_results, str(test_id), {
+                    "worker_1": worker_1_name,
+                    "worker_2": worker_2_name,
+                    "polling_url": status_url,
+                    "test_name": test_name,
+                    "status": "completed" if result else "polling_failed",
+                    "result": result if result else None,
+                    "error": None if result else "Polling failed or timed out."
+                })
             else:
-                log_result(existing_results, test_id, {
+                log_result(existing_results, str(test_id), {
                     "worker_1": worker_1_name,
                     "worker_2": worker_2_name,
                     "polling_url": None,
@@ -183,7 +220,7 @@ for test in test_campaign:
                 })
 
         except requests.exceptions.RequestException as e:
-            log_result(existing_results, test_id, {
+            log_result(existing_results, str(test_id), {
                 "worker_1": worker_1_name,
                 "worker_2": worker_2_name,
                 "polling_url": None,
@@ -194,3 +231,4 @@ for test in test_campaign:
 
         save_results(existing_results)
         bar.update(1)
+
