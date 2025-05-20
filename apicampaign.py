@@ -65,6 +65,19 @@ def extract_test_names(folder="./tests-trees"):
                     continue
     return sorted(names)
 
+def extract_worker_names(profiles_folder="./profiles"):
+    worker_names = []
+    for fname in sorted(os.listdir(profiles_folder)):
+        if fname.endswith(".yml") or fname.endswith(".yaml"):
+            with open(os.path.join(profiles_folder, fname), "r") as f:
+                try:
+                    data = yaml.safe_load(f)
+                    if isinstance(data, dict) and "name" in data:
+                        worker_names.append(data["name"])
+                except Exception:
+                    continue
+    return sorted(set(worker_names))
+
 # --- Load and select tests ---
 campaign_file = "./campaign.yml"
 if not os.path.exists(campaign_file):
@@ -79,10 +92,12 @@ print("Test selection method:")
 print("1. Run all tests")
 print("2. Run by test ID range")
 print("3. Run all tests with a specific name")
-selection = input("Select option (1/2/3): ").strip()
+print("4. Run all tests between two specific workers")
+print("5. Filter by both test name and worker pair")
+selection = input("Select option (1/2/3/4/5): ").strip()
 
-while selection not in ("1", "2", "3"):
-    selection = input("Please enter 1, 2, or 3: ").strip()
+while selection not in ("1", "2", "3", "4", "5"):
+    selection = input("Please enter 1, 2, 3, 4, or 5: ").strip()
 
 rerun_completed = False
 
@@ -134,6 +149,105 @@ elif selection == "3":
         exit(1)
     test_campaign = filtered
 
+elif selection == "4":
+    worker_names = extract_worker_names()
+    if len(worker_names) < 2:
+        print("Not enough workers found to create a pair.")
+        exit(1)
+
+    print("\nAvailable workers:")
+    for i, name in enumerate(worker_names, 1):
+        print(f"{i}. {name}")
+
+    def choose_worker(prompt):
+        while True:
+            try:
+                choice = int(input(prompt).strip())
+                if 1 <= choice <= len(worker_names):
+                    return worker_names[choice - 1]
+                else:
+                    print(f"Enter a number between 1 and {len(worker_names)}.")
+            except ValueError:
+                print("Invalid input. Please enter a number.")
+
+    selected_w1 = choose_worker("Select Worker 1 by number: ")
+    selected_w2 = choose_worker("Select Worker 2 by number: ")
+
+    if selected_w1 == selected_w2:
+        print("Worker 1 and Worker 2 cannot be the same.")
+        exit(1)
+
+    filtered = [
+        t for t in test_campaign
+        if t["Worker_1"]["name"] == selected_w1 and t["Worker_2"]["name"] == selected_w2
+    ]
+
+    if not filtered:
+        print(f"No tests found between {selected_w1} and {selected_w2}. Exiting.")
+        exit(1)
+
+    test_campaign = filtered
+
+elif selection == "5":
+    names = extract_test_names()
+    if not names:
+        print("No test names found in tests-trees directory.")
+        exit(1)
+
+    print("\nAvailable test names:")
+    for i, name in enumerate(names, start=1):
+        print(f"{i}. {name}")
+
+    while True:
+        try:
+            choice = int(input("\nEnter the number of the test to run: ").strip())
+            if 1 <= choice <= len(names):
+                selected_name = names[choice - 1]
+                break
+            else:
+                print(f"Please enter a number between 1 and {len(names)}.")
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+
+    worker_names = extract_worker_names()
+    if len(worker_names) < 2:
+        print("Not enough workers found to create a pair.")
+        exit(1)
+
+    print("\nAvailable workers:")
+    for i, name in enumerate(worker_names, 1):
+        print(f"{i}. {name}")
+
+    def choose_worker(prompt):
+        while True:
+            try:
+                choice = int(input(prompt).strip())
+                if 1 <= choice <= len(worker_names):
+                    return worker_names[choice - 1]
+                else:
+                    print(f"Enter a number between 1 and {len(worker_names)}.")
+            except ValueError:
+                print("Invalid input. Please enter a number.")
+
+    selected_w1 = choose_worker("Select Worker 1 by number: ")
+    selected_w2 = choose_worker("Select Worker 2 by number: ")
+
+    if selected_w1 == selected_w2:
+        print("Worker 1 and Worker 2 cannot be the same.")
+        exit(1)
+
+    filtered = [
+        t for t in test_campaign
+        if t.get("name") == selected_name
+        and t["Worker_1"]["name"] == selected_w1
+        and t["Worker_2"]["name"] == selected_w2
+    ]
+
+    if not filtered:
+        print(f"No tests found for '{selected_name}' between {selected_w1} and {selected_w2}. Exiting.")
+        exit(1)
+
+    test_campaign = filtered
 
 # --- Configuration ---
 master = "mahmoudmaster.admin.master.nopasaran.org"
@@ -231,4 +345,3 @@ for test in test_campaign:
 
         save_results(existing_results)
         bar.update(1)
-
