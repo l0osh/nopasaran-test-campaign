@@ -29,8 +29,6 @@ def classify_entry(entry):
     if recv1 is None:
         return 'Null'
 
-    print("worker1", sync1 == recv2, sync1, recv2)
-    print("worker2", sync2 == recv1, sync2, recv1)
     if sync1 == recv2 and sync2 == recv1:
         return 'Match'
 
@@ -99,7 +97,18 @@ ax.legend(
 # 8) Final formatting & save
 ax.set_xlim(-6, len(test_ids))
 ax.set_ylim(0.5, 4.5)
-ax.axis('off')
+# Show only x-axis ticks every 5 indices
+xtick_positions = list(range(0, len(test_ids), 5))
+ax.set_xticks(xtick_positions)
+ax.set_xticklabels([str(i) for i in xtick_positions], fontsize=10)
+
+# Hide top, right, left spines and y-axis ticks/labels
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+ax.spines['left'].set_visible(False)
+ax.spines['bottom'].set_visible(False)  # Optional: keep True if you want a bottom line
+
+ax.tick_params(axis='y', which='both', left=False, labelleft=False)
 plt.tight_layout()
 plt.savefig('https_1_conformance_vector.png', dpi=300, bbox_inches='tight')
 print("✅ Vector chart saved as 'https_1_conformance_vector.png'")
