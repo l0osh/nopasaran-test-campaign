@@ -189,7 +189,7 @@ def main():
                     w1_ip = pair["Worker_1"]["ip"]
                     w2_ip = pair["Worker_2"]["ip"]
 
-                    campaign_entry["Worker_1"]["filter"] = f"dst host {w2_ip}"
+                    campaign_entry["Worker_1"]["filter"] = f"src host {w2_ip} and udp and src port 53"
                     campaign_entry["Worker_2"]["filter"] = f"udp and dst port 53"
 
                 campaign_entries.append(campaign_entry)
