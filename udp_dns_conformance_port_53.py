@@ -1,0 +1,129 @@
+import json
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import os
+
+# 1) Load the data files
+data = {}
+for run_idx in range(1, 5):
+    path = f'run_{run_idx}_udp_dns_results.json'
+    if not os.path.exists(path):
+        print(f"⚠️ File not found: {path}")
+        continue
+    with open(path, 'r') as f:
+        data[run_idx] = json.load(f)
+
+# 2) Gather a stable, sorted list of test IDs
+if data:
+    test_ids = sorted(next(iter(data.values())).keys(), key=int)
+else:
+    test_ids = []
+
+# 3) Classification function for DNS
+def classify_dns_entry(entry):
+    result = entry.get('result', {})
+    w1 = result.get('Worker_1')
+    if not w1:
+        return 'Failure'
+    
+    vars1 = w1.get('Variables', {})
+    dict1 = vars1.get('dict', {})
+
+    query_sent = dict1.get('query_sent')
+    received = dict1.get('received')
+
+    # Case: query_sent true and received is literal string "false"
+    if query_sent == "true" and received == "false":
+        return 'Empty'
+
+    # Case: received is a dict with DNS answers
+    if isinstance(received, dict):
+        answers = received.get('answers', [])
+        for ans in answers:
+            rdata = ans.get('rdata')
+            if rdata == "127.0.0.1":
+                return 'Received'
+            elif rdata == "sinkhole.paloaltonetworks.com.":
+                return 'Sinkhole'
+
+    return 'Failure'
+
+# 4) Build a classification list for each run
+classifications = {
+    run_idx: [classify_dns_entry(data[run_idx][tid]) for tid in test_ids]
+    for run_idx in data
+}
+
+# 5) Plotting parameters
+patterns = {
+    'Received': '//',   # green diagonal
+    'Sinkhole': '\\\\', # red backslash
+    'Empty':    'xx',   # yellow cross
+    'Failure':  '...',  # gray dots
+}
+colors = {
+    'Received': 'green',
+    'Sinkhole': 'red',
+    'Empty':    'yellow',
+    'Failure':  'gray',
+}
+
+# 6) Create the figure
+fig, ax = plt.subplots(figsize=(len(test_ids)/4, 4.5))
+y_positions = [4, 3, 2, 1]  # one row per run
+
+for idx, run_idx in enumerate(sorted(classifications)):
+    vector = classifications[run_idx]
+    y = y_positions[idx]
+    for i, status in enumerate(vector):
+        ax.barh(
+            y=y,
+            width=1,
+            left=i,
+            height=0.8,
+            color=colors[status],
+            edgecolor='black',
+            hatch=patterns[status]
+        )
+    ax.text(
+        -5, y,
+        f'Run {run_idx}',
+        va='center',
+        ha='right',
+        fontweight='bold',
+        fontsize=12
+    )
+
+# 7) Add a legend
+legend_handles = [
+    mpatches.Patch(facecolor=colors[key], edgecolor='black', hatch=patterns[key], label=key)
+    for key in ['Received', 'Sinkhole', 'Empty', 'Failure']
+]
+ax.legend(
+    handles=legend_handles,
+    title="Classification",
+    title_fontsize=14,
+    fontsize=12,
+    loc='lower center',
+    bbox_to_anchor=(0.5, -0.2),
+    ncol=4,
+    frameon=True
+)
+
+# 8) Final formatting & save
+ax.set_xlim(-6, len(test_ids))
+ax.set_ylim(0.5, 4.5)
+xtick_positions = list(range(0, len(test_ids), 5))
+ax.set_xticks(xtick_positions)
+ax.set_xticklabels([str(i) for i in xtick_positions], fontsize=10)
+
+# Hide top, right, left spines and y-axis ticks/labels
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+ax.spines['left'].set_visible(False)
+ax.spines['bottom'].set_visible(False)
+
+ax.tick_params(axis='y', which='both', left=False, labelleft=False)
+plt.tight_layout()
+plt.savefig('udp_dns_conformance_vector.png', dpi=300, bbox_inches='tight')
+print("✅ Vector chart saved as 'udp_dns_conformance_vector.png'")
