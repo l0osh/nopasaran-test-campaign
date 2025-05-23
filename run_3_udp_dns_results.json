@@ -1,0 +1,7082 @@
+{
+  "3251": {
+    "timestamp": "2025-05-22T10:15:35.101149Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/51e28165-9f49-4b24-bfca-00ceeecd40a9",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1459,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "ad2bitcoin.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "ad2bitcoin.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1459,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "ad2bitcoin.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1459,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "ad2bitcoin.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1459,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "ad2bitcoin.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "ad2bitcoin.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3252": {
+    "timestamp": "2025-05-22T10:16:10.742026Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/f3a27427-b0ee-45e1-af0f-0bb0973d0225",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1714,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "airplus.website.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1714,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "airplus.website.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3253": {
+    "timestamp": "2025-05-22T10:16:32.240894Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5143ffad-e073-41fa-bc89-167cdaa624ce",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1806,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "alt.litebonk.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "alt.litebonk.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1806,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "alt.litebonk.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1806,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "alt.litebonk.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1806,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "alt.litebonk.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "alt.litebonk.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3254": {
+    "timestamp": "2025-05-22T10:16:50.497997Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/a81f13c2-e946-463a-820d-fc860f253c2e",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1012,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "api-stratum.bitcoin.cz.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "api-stratum.bitcoin.cz.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1012,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "api-stratum.bitcoin.cz.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1012,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "api-stratum.bitcoin.cz.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1012,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "api-stratum.bitcoin.cz.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "api-stratum.bitcoin.cz.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3255": {
+    "timestamp": "2025-05-22T10:17:07.063517Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/dde1637b-3496-4353-8a93-39fc29e857a5",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1153,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "api.bitcoin.cz.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "api.bitcoin.cz.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1153,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "api.bitcoin.cz.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1153,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "api.bitcoin.cz.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1153,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "api.bitcoin.cz.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "api.bitcoin.cz.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3256": {
+    "timestamp": "2025-05-22T10:17:23.000729Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/36ad7d89-2c2f-4f54-b2da-ee47665ad212",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1365,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "api2.bitcoin.cz.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "api2.bitcoin.cz.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1365,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "api2.bitcoin.cz.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1365,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "api2.bitcoin.cz.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1365,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "api2.bitcoin.cz.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "api2.bitcoin.cz.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3257": {
+    "timestamp": "2025-05-22T10:17:56.710392Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d5fc0346-7c8b-4af2-9990-53c7095abacd",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1315,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "arsbitcoin.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1315,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "arsbitcoin.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3258": {
+    "timestamp": "2025-05-22T10:18:29.656235Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/22107745-e5dc-47dc-bce4-7dab664b4699",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1867,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "auroracoin.org.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1867,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "auroracoin.org.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3259": {
+    "timestamp": "2025-05-22T10:18:45.751146Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/7594f9a0-68a8-4046-9c60-4a5e2473b24d",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1416,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "autosurfdusoleil.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "autosurfdusoleil.com.",
+                  "type": 5,
+                  "type_name": "CNAME",
+                  "rclass": 1,
+                  "ttl": 1,
+                  "rdata": "sinkhole.paloaltonetworks.com.",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1416,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "autosurfdusoleil.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1416,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "autosurfdusoleil.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1416,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "autosurfdusoleil.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "autosurfdusoleil.com.",
+                  "type": 5,
+                  "type_name": "CNAME",
+                  "rclass": 1,
+                  "ttl": 1,
+                  "rdata": "sinkhole.paloaltonetworks.com.",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3260": {
+    "timestamp": "2025-05-22T10:19:04.777241Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/39c7140b-e947-4ad3-9999-64112e760af7",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1671,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bfgminer.org.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bfgminer.org.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1671,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bfgminer.org.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1671,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bfgminer.org.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1671,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bfgminer.org.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bfgminer.org.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3261": {
+    "timestamp": "2025-05-22T10:19:23.667841Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/14c645a1-7e8c-484f-a293-f390c75bdb0d",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1688,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bibox.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bibox.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1688,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bibox.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1688,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bibox.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1688,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bibox.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bibox.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3262": {
+    "timestamp": "2025-05-22T10:19:39.252228Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/81501a7f-f8a1-4e2d-818a-80a7e624b1a4",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1656,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bigzone.xyz.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bigzone.xyz.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1656,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bigzone.xyz.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1656,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bigzone.xyz.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1656,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bigzone.xyz.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bigzone.xyz.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3263": {
+    "timestamp": "2025-05-22T10:19:55.142839Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/9dbcdfbd-99f9-4aa9-ace9-bfc4aa5c8ea3",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1530,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "binance.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "binance.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1530,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "binance.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1530,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "binance.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1530,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "binance.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "binance.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3264": {
+    "timestamp": "2025-05-22T10:20:11.065656Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/2d412423-a221-412c-84df-0c4a704ca3d4",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1835,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcanna.io.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcanna.io.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1835,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcanna.io.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1835,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcanna.io.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1835,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcanna.io.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcanna.io.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3265": {
+    "timestamp": "2025-05-22T10:20:27.519765Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/f1a88d66-3c9c-405e-9919-2ce595c00b18",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1177,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitclockers.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitclockers.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1177,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitclockers.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1177,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitclockers.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1177,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitclockers.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitclockers.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3266": {
+    "timestamp": "2025-05-22T10:20:43.262538Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/dbce7686-26e8-4ccb-811f-81d3dc7f894d",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1400,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoin-champion.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoin-champion.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1400,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoin-champion.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1400,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoin-champion.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1400,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoin-champion.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoin-champion.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3267": {
+    "timestamp": "2025-05-22T10:20:57.272416Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/9aa81ba4-1564-459e-be62-489d469c2ca7",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1614,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoin-patrimoine.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoin-patrimoine.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1614,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoin-patrimoine.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1614,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoin-patrimoine.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1614,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoin-patrimoine.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoin-patrimoine.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3268": {
+    "timestamp": "2025-05-22T10:21:13.103086Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/586edc42-e572-470f-b381-272314f46a5c",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1721,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoin-server.de.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoin-server.de.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1721,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoin-server.de.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1721,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoin-server.de.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1721,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoin-server.de.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoin-server.de.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3269": {
+    "timestamp": "2025-05-22T10:21:45.988581Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/6ab99ce7-de04-4903-b22f-f51023083afa",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1555,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoin-storm.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1555,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoin-storm.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3270": {
+    "timestamp": "2025-05-22T10:22:19.834486Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/3da872a6-2065-4d18-af86-6708a9ef036a",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1265,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoin.de.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1265,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoin.de.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3271": {
+    "timestamp": "2025-05-22T10:22:52.983543Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/8b177bce-de0b-491b-ad11-f5a7043f4ff3",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1566,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoin.it.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1566,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoin.it.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3272": {
+    "timestamp": "2025-05-22T10:23:26.453743Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/9ee3af2d-e658-440f-bbff-392b08f1b708",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1547,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoincode.store.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1547,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoincode.store.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3273": {
+    "timestamp": "2025-05-22T10:23:48.022106Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/06ebcb87-ada2-4fb5-b302-f76adf8077ee",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1142,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinera.app.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinera.app.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1142,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinera.app.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1142,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinera.app.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1142,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinera.app.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinera.app.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3274": {
+    "timestamp": "2025-05-22T10:24:03.893081Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/1697898d-4ba8-42a6-b4e4-465a6adade0f",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1168,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinmonkey.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinmonkey.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1168,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinmonkey.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1168,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinmonkey.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1168,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinmonkey.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinmonkey.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3275": {
+    "timestamp": "2025-05-22T10:24:26.855352Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/82ce0ace-8091-4bb8-93f7-1e353045f0ee",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1212,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinpool.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinpool.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1212,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinpool.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1212,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinpool.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1212,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinpool.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinpool.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3276": {
+    "timestamp": "2025-05-22T10:24:48.450996Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/18569919-3a0f-4b80-808e-6453ff0ad63b",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1249,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinptc.top.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinptc.top.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1249,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinptc.top.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1249,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinptc.top.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1249,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinptc.top.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinptc.top.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3277": {
+    "timestamp": "2025-05-22T10:25:06.319938Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/297b81fb-ef4a-4972-ab72-432fa433632c",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1523,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinrevolution.org.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinrevolution.org.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1523,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinrevolution.org.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1523,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinrevolution.org.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1523,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinrevolution.org.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinrevolution.org.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3278": {
+    "timestamp": "2025-05-22T10:25:28.302552Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/a4123ff0-70f4-4b85-a984-78e2f4ba5db6",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1278,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinrigs.org.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinrigs.org.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1278,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinrigs.org.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1278,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinrigs.org.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1278,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinrigs.org.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinrigs.org.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3279": {
+    "timestamp": "2025-05-22T10:25:50.130866Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/78fe0e97-dff8-41fd-ae1e-58b2570af8b8",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1559,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinscrypt.org.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinscrypt.org.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1559,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinscrypt.org.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1559,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitcoinscrypt.org.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1559,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitcoinscrypt.org.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitcoinscrypt.org.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3280": {
+    "timestamp": "2025-05-22T10:26:11.597656Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/54ed19d4-961a-4a41-9968-35582b828986",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1908,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitforex.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitforex.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1908,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitforex.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1908,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitforex.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1908,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitforex.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitforex.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3281": {
+    "timestamp": "2025-05-22T10:26:27.548033Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/7152fe80-236c-40cb-81fa-c06cb1841dbc",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1510,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitit.io.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitit.io.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1510,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitit.io.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1510,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitit.io.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1510,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitit.io.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitit.io.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3282": {
+    "timestamp": "2025-05-22T10:26:43.437546Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/849c5a4c-7b76-4022-906f-7fc462a1212f",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1796,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitpanda.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1796,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitpanda.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitpanda.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1796,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bitpanda.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bitpanda.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1796,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bitpanda.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3283": {
+    "timestamp": "2025-05-22T10:26:59.344129Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/368f96e2-76e4-45cb-9a92-d64d3da1e60c",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1290,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bittylicious.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bittylicious.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1290,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bittylicious.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1290,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "bittylicious.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1290,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "bittylicious.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "bittylicious.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3284": {
+    "timestamp": "2025-05-22T10:27:15.689026Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/2544f369-d1fa-4ff2-a6da-158dfb0ad7ec",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1605,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "btc.digbtc.net.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "btc.digbtc.net.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1605,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "btc.digbtc.net.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1605,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "btc.digbtc.net.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1605,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "btc.digbtc.net.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "btc.digbtc.net.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3285": {
+    "timestamp": "2025-05-22T10:27:35.436490Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/649f9233-cf92-45a2-9991-1dec3dd04bf9",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1790,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "btc2.cryptominer.net.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "btc2.cryptominer.net.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1790,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "btc2.cryptominer.net.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1790,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "btc2.cryptominer.net.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1790,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "btc2.cryptominer.net.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "btc2.cryptominer.net.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3286": {
+    "timestamp": "2025-05-22T10:27:52.247016Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d2687e30-9da6-4950-96ab-03af6037454e",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1823,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "btcguild.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "btcguild.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1823,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "btcguild.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1823,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "btcguild.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1823,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "btcguild.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "btcguild.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3287": {
+    "timestamp": "2025-05-22T10:28:08.080866Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/14649243-8a95-4726-9669-568766f20c90",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1433,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "btcmine.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "btcmine.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1433,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "btcmine.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1433,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "btcmine.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1433,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "btcmine.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "btcmine.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3288": {
+    "timestamp": "2025-05-22T10:28:28.053270Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/2f975109-2b8f-4ebc-8bda-6b4cb1e8ab8c",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1242,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "butterflylabs.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "butterflylabs.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1242,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "butterflylabs.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1242,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "butterflylabs.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1242,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "butterflylabs.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "butterflylabs.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3289": {
+    "timestamp": "2025-05-22T10:28:46.682091Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/0f86e484-4c4a-49e7-a921-7b2c23f031d2",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1591,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "camelbtc.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "camelbtc.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1591,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "camelbtc.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1591,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "camelbtc.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1591,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "camelbtc.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "camelbtc.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3290": {
+    "timestamp": "2025-05-22T10:29:19.876601Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/824d2369-05e2-4404-adc3-a49e3faf3894",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1601,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "centogx.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1601,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "centogx.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3291": {
+    "timestamp": "2025-05-22T10:29:35.593601Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/ac05e2c7-5854-437a-9152-81b8edede0fe",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1278,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "chiliz.net.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "chiliz.net.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1278,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "chiliz.net.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1278,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "chiliz.net.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1278,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "chiliz.net.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "chiliz.net.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3292": {
+    "timestamp": "2025-05-22T10:30:09.471849Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/ac1cc9eb-53aa-437a-90d9-bbd91e091263",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1723,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coin-base.info.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1723,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coin-base.info.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3293": {
+    "timestamp": "2025-05-22T10:30:25.402918Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/605e3884-1c8e-4d38-b8d6-10548b66c064",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1752,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "coinbase.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "coinbase.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1752,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coinbase.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1752,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coinbase.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1752,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "coinbase.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "coinbase.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3294": {
+    "timestamp": "2025-05-22T10:30:42.500775Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5badaabf-6310-4cde-a0b7-8d98f8545a54",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1923,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "coinfaucet.eu.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "coinfaucet.eu.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1923,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coinfaucet.eu.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1923,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coinfaucet.eu.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1923,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "coinfaucet.eu.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "coinfaucet.eu.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3295": {
+    "timestamp": "2025-05-22T10:31:01.980029Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4287ece7-67b7-4e29-84eb-44eead4cf4b1",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1349,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "coinmama.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "coinmama.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1349,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coinmama.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1349,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coinmama.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1349,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "coinmama.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "coinmama.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3296": {
+    "timestamp": "2025-05-22T10:31:35.777203Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/7ab60754-38e1-4d96-bec9-f1fcee9caf53",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1461,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coinmarketcap.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1461,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coinmarketcap.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3297": {
+    "timestamp": "2025-05-22T10:31:54.621491Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/126ca4da-dcd3-472f-a3c2-3147be9caf9b",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1908,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "coinotron.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "coinotron.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1908,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coinotron.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1908,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coinotron.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1908,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "coinotron.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "coinotron.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3298": {
+    "timestamp": "2025-05-22T10:32:16.576079Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d4363589-7a54-4cb3-b426-29eaa321c1c7",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1937,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "cointweak.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "cointweak.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1937,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "cointweak.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1937,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "cointweak.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1937,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "cointweak.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "cointweak.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3299": {
+    "timestamp": "2025-05-22T10:32:35.008052Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/ac206285-39da-49b6-8fdc-580002b3c7a6",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1066,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "coinwarz.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "coinwarz.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1066,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coinwarz.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1066,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "coinwarz.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1066,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "coinwarz.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "coinwarz.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3300": {
+    "timestamp": "2025-05-22T10:33:08.927143Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/ede9dd8d-f68b-419a-bcd4-7917c0e3a1de",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1245,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "crptrade.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1245,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "crptrade.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3301": {
+    "timestamp": "2025-05-22T10:33:28.535738Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/8a9f4b15-1dd4-4784-80b7-c8e4269377e6",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1714,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "cryptocoinsnews.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "cryptocoinsnews.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1714,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "cryptocoinsnews.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1714,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "cryptocoinsnews.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1714,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "cryptocoinsnews.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "cryptocoinsnews.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3302": {
+    "timestamp": "2025-05-22T10:33:44.845766Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/f2c3ff1c-1532-43d1-9e7b-853641cecd03",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1692,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "cryptotab.farm.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "cryptotab.farm.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1692,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "cryptotab.farm.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1692,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "cryptotab.farm.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1692,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "cryptotab.farm.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "cryptotab.farm.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3303": {
+    "timestamp": "2025-05-22T10:34:00.292231Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/202b2542-64a1-44a5-8cc2-9477be9335c7",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1021,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "cryptowealthacademy.biz.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "cryptowealthacademy.biz.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1021,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "cryptowealthacademy.biz.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1021,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "cryptowealthacademy.biz.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1021,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "cryptowealthacademy.biz.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "cryptowealthacademy.biz.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3304": {
+    "timestamp": "2025-05-22T10:34:15.990889Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/979dfddd-86bd-4e1c-b7c5-c68fb1c1405e",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1867,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "digimonbtc.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "digimonbtc.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1867,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "digimonbtc.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1867,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "digimonbtc.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1867,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "digimonbtc.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "digimonbtc.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3305": {
+    "timestamp": "2025-05-22T10:34:31.880439Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/db8776fc-22b1-4724-92a5-3c9b785902b6",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1461,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "doge.hashfaster.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "doge.hashfaster.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1461,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "doge.hashfaster.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1461,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "doge.hashfaster.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1461,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "doge.hashfaster.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "doge.hashfaster.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3306": {
+    "timestamp": "2025-05-22T10:34:50.599737Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/dab4f886-731f-48fa-9531-32597458ff98",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1843,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "doge.jir.dk.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "doge.jir.dk.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1843,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "doge.jir.dk.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1843,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "doge.jir.dk.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1843,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "doge.jir.dk.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "doge.jir.dk.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3307": {
+    "timestamp": "2025-05-22T10:35:12.214101Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/65b1df4e-83f4-424c-abac-d727fa91d4a5",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1778,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "doge.poolerino.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "doge.poolerino.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1778,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "doge.poolerino.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1778,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "doge.poolerino.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1778,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "doge.poolerino.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "doge.poolerino.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3308": {
+    "timestamp": "2025-05-22T10:35:25.553161Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/b952e519-6407-4f3b-88dc-866ef6f2bfd3",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1811,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "doge.scryptpools.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "doge.scryptpools.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1811,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "doge.scryptpools.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1811,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "doge.scryptpools.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1811,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "doge.scryptpools.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "doge.scryptpools.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3309": {
+    "timestamp": "2025-05-22T10:35:41.473741Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/2f1ab22f-53ff-4eb2-8135-3ed4223f46c1",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1147,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "dwarfpool.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "dwarfpool.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1147,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "dwarfpool.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1147,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "dwarfpool.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1147,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "dwarfpool.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "dwarfpool.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3310": {
+    "timestamp": "2025-05-22T10:36:14.308582Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4ded2be2-426a-4465-aeeb-026d981ca960",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1352,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "eac.cryptominer.net.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1352,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "eac.cryptominer.net.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3311": {
+    "timestamp": "2025-05-22T10:36:47.481850Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/6a5029c7-748c-4b23-8737-bb1d3dde5854",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1311,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "eac.poolerino.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1311,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "eac.poolerino.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3312": {
+    "timestamp": "2025-05-22T10:37:06.110014Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d5f6c5a3-cf87-48a9-851d-5e7580fd40c2",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1685,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "east1.us.stratum.dedicatedpool.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "east1.us.stratum.dedicatedpool.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1685,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "east1.us.stratum.dedicatedpool.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1685,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "east1.us.stratum.dedicatedpool.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1685,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "east1.us.stratum.dedicatedpool.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "east1.us.stratum.dedicatedpool.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3313": {
+    "timestamp": "2025-05-22T10:37:24.815741Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/835777ab-42ae-4451-b70d-af7a3b43b18f",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1368,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "ec2-54-193-58-54.us-west-1.compute.amazonaws.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "ec2-54-193-58-54.us-west-1.compute.amazonaws.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1368,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "ec2-54-193-58-54.us-west-1.compute.amazonaws.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1368,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "ec2-54-193-58-54.us-west-1.compute.amazonaws.com.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query_sent": "true",
+            "received": {
+              "transaction_id": 1368,
+              "qr": 1,
+              "opcode": 0,
+              "aa": 0,
+              "tc": 0,
+              "rd": 1,
+              "ra": 0,
+              "z": 0,
+              "rcode": 0,
+              "questions": [
+                {
+                  "qname": "ec2-54-193-58-54.us-west-1.compute.amazonaws.com.",
+                  "qtype": 1,
+                  "qtype_name": "A",
+                  "qclass": 1
+                }
+              ],
+              "answers": [
+                {
+                  "rrname": "ec2-54-193-58-54.us-west-1.compute.amazonaws.com.",
+                  "type": 1,
+                  "type_name": "A",
+                  "rclass": 1,
+                  "ttl": 0,
+                  "rdata": "127.0.0.1",
+                  "rdlen": null
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3314": {
+    "timestamp": "2025-05-22T10:37:57.312569Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/dc8d5a6d-358a-471f-b136-74080dc54bd9",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1783,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "elitetrader.io.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1783,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "elitetrader.io.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3315": {
+    "timestamp": "2025-05-22T10:38:31.077358Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/2b5e7170-1ffd-4f55-b4f3-10053b2e2307",
+    "test_name": "dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1639,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "epargne-crypto.io.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "ctrl": null,
+          "event": "TIMEOUT",
+          "sync_dict": "NULL",
+          "signal_type": "ready_stop",
+          "signaling-event": "TIMEOUT"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query_sent": "true",
+            "received": "false"
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "dns_response_sent": "true",
+            "received": {
+              "transaction_id": 1639,
+              "rd": 1,
+              "questions": [
+                {
+                  "qname": "epargne-crypto.io.",
+                  "qtype": 1,
+                  "qclass": 1
+                }
+              ]
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  }
+}

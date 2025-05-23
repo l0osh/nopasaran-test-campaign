@@ -1,0 +1,2147 @@
+{
+  "3316": {
+    "timestamp": "2025-05-21T06:53:37.441841Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4b6573ec-5ac2-457b-b949-746ff9c6aaf0",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: ad2bitcoin.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: ad2bitcoin.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3317": {
+    "timestamp": "2025-05-21T06:53:53.347087Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/cf714958-501c-4a82-aa07-e9168e28f033",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 503 Service Unavailable\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 6836\r\nConnection: close\r\nP3P: CP=\"CAO PSA OUR\"\r\nExpires: Thu, 01 Jan 1970 00:00:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nPragma: no-cache\r\n\r\n<!DOCTYPE html>\r\n\r\n<html lang=\"en\">\r\n<head>\r\n    <base href=\"/login/\">\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=.85\">\r\n    <meta http-equiv=\"pragma\" content=\"no-cache\">\r\n    <title>Application Blocked</title>\r\n    <link rel=\"stylesheet\" href=\"css/latofonts.css\">\r\n    <style>\r\n        body {\r\n            background-color: #e8ebeb;\r\n            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n            font-size: 16px;\r\n            margin: 0;\r\n            color: #070808;\r\n        }\r\n\r\n        a:link {\r\n            color: #0993d1;\r\n        }\r\n\r\n        b,\r\n        strong {\r\n            font-weight: 500;\r\n        }\r\n\r\n        p {\r\n            line-height: 1.2em;\r\n        }\r\n\r\n        button {\r\n            overflow: visible;\r\n        }\r\n\r\n        button, input, optgroup, select, textarea {\r\n            color: inherit;\r\n            font: inherit;\r\n            margin: 0;\r\n        }\r\n\r\n        .center {\r\n            text-align: center;\r\n            margin-left: auto;\r\n            margin-right: auto;\r\n        }\r\n\r\n        #dError,\r\n        .msg {\r\n            color: #d94949;\r\n            margin: 20px 0;\r\n        }\r\n\r\n        fieldset .msg {\r\n            margin: 0;\r\n        }\r\n\r\n        #content {\r\n            padding-top: 100px;\r\n        }\r\n\r\n        #content img {\r\n            display: block;\r\n            margin: auto;\r\n        }\r\n\r\n        #content h1 {\r\n            font-style: normal;\r\n            font-weight: normal;\r\n            font-size: 36px;\r\n            line-height: 43px;\r\n            text-align: center;\r\n            letter-spacing: 0.1px;\r\n            color: #070808;\r\n            margin: 10px auto 8px;\r\n        }\r\n\r\n        #content > p {\r\n            text-align: center;\r\n            margin-left: auto;\r\n            margin-right: auto;\r\n            width: 640px;\r\n            font-size: 14px;\r\n            line-height: 20px;\r\n        }\r\n\r\n        .response {\r\n            background-color: #fff;\r\n            color: #5a636b;\r\n            margin: 24px auto 0;\r\n            padding: 20px;\r\n            font-size: 16px;\r\n            width: 800px;\r\n            border: 1px solid #c8cbce;\r\n            box-sizing: border-box;\r\n            border-radius: 8px;\r\n        }\r\n\r\n        .response p {\r\n            margin: 0 0 1em;\r\n        }\r\n\r\n        .response p:last-child {\r\n            margin: 0;\r\n        }\r\n\r\n        .response b {\r\n            color: #070808;\r\n        }\r\n\r\n        .response .msg b {\r\n            color: #d94949;\r\n        }\r\n\r\n        .response form td,\r\n        .response form input {\r\n            font-size: 1.1em;\r\n            font-weight: bold;\r\n        }\r\n\r\n        .loading {\r\n            margin: 2em auto 1em;\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n<div id=\"content\" class=\"container\">\r\n    <img src=\"data:image/png;base64,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\" alt=\"Error\">\r\n    <h1>Application Blocked</h1>\r\n    <div class=\"response\">\r\n        <p>The application you are trying to use has been blocked in accordance with company policy. Please contact your system administrator if you believe this is an error.</p>\r\n        <p><b>User:</b> 10.78.202.13</p>\r\n        <p><b>Application:</b> web-browsing</p>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n",
+          "event": "DONE",
+          "sync_received": "[Errno 104] Connection reset by peer",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "[Errno 104] Connection reset by peer",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 503 Service Unavailable\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 6836\r\nConnection: close\r\nP3P: CP=\"CAO PSA OUR\"\r\nExpires: Thu, 01 Jan 1970 00:00:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nPragma: no-cache\r\n\r\n<!DOCTYPE html>\r\n\r\n<html lang=\"en\">\r\n<head>\r\n    <base href=\"/login/\">\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=.85\">\r\n    <meta http-equiv=\"pragma\" content=\"no-cache\">\r\n    <title>Application Blocked</title>\r\n    <link rel=\"stylesheet\" href=\"css/latofonts.css\">\r\n    <style>\r\n        body {\r\n            background-color: #e8ebeb;\r\n            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n            font-size: 16px;\r\n            margin: 0;\r\n            color: #070808;\r\n        }\r\n\r\n        a:link {\r\n            color: #0993d1;\r\n        }\r\n\r\n        b,\r\n        strong {\r\n            font-weight: 500;\r\n        }\r\n\r\n        p {\r\n            line-height: 1.2em;\r\n        }\r\n\r\n        button {\r\n            overflow: visible;\r\n        }\r\n\r\n        button, input, optgroup, select, textarea {\r\n            color: inherit;\r\n            font: inherit;\r\n            margin: 0;\r\n        }\r\n\r\n        .center {\r\n            text-align: center;\r\n            margin-left: auto;\r\n            margin-right: auto;\r\n        }\r\n\r\n        #dError,\r\n        .msg {\r\n            color: #d94949;\r\n            margin: 20px 0;\r\n        }\r\n\r\n        fieldset .msg {\r\n            margin: 0;\r\n        }\r\n\r\n        #content {\r\n            padding-top: 100px;\r\n        }\r\n\r\n        #content img {\r\n            display: block;\r\n            margin: auto;\r\n        }\r\n\r\n        #content h1 {\r\n            font-style: normal;\r\n            font-weight: normal;\r\n            font-size: 36px;\r\n            line-height: 43px;\r\n            text-align: center;\r\n            letter-spacing: 0.1px;\r\n            color: #070808;\r\n            margin: 10px auto 8px;\r\n        }\r\n\r\n        #content > p {\r\n            text-align: center;\r\n            margin-left: auto;\r\n            margin-right: auto;\r\n            width: 640px;\r\n            font-size: 14px;\r\n            line-height: 20px;\r\n        }\r\n\r\n        .response {\r\n            background-color: #fff;\r\n            color: #5a636b;\r\n            margin: 24px auto 0;\r\n            padding: 20px;\r\n            font-size: 16px;\r\n            width: 800px;\r\n            border: 1px solid #c8cbce;\r\n            box-sizing: border-box;\r\n            border-radius: 8px;\r\n        }\r\n\r\n        .response p {\r\n            margin: 0 0 1em;\r\n        }\r\n\r\n        .response p:last-child {\r\n            margin: 0;\r\n        }\r\n\r\n        .response b {\r\n            color: #070808;\r\n        }\r\n\r\n        .response .msg b {\r\n            color: #d94949;\r\n        }\r\n\r\n        .response form td,\r\n        .response form input {\r\n            font-size: 1.1em;\r\n            font-weight: bold;\r\n        }\r\n\r\n        .loading {\r\n            margin: 2em auto 1em;\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n<div id=\"content\" class=\"container\">\r\n    <img src=\"data:image/png;base64,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\" alt=\"Error\">\r\n    <h1>Application Blocked</h1>\r\n    <div class=\"response\">\r\n        <p>The application you are trying to use has been blocked in accordance with company policy. Please contact your system administrator if you believe this is an error.</p>\r\n        <p><b>User:</b> 10.78.202.13</p>\r\n        <p><b>Application:</b> web-browsing</p>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3318": {
+    "timestamp": "2025-05-21T06:54:11.716525Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/8ebd1394-60ac-4fc9-b87b-901008743ccd",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: alt.litebonk.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: alt.litebonk.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3319": {
+    "timestamp": "2025-05-21T06:54:27.907780Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/3cf53dfc-966f-4af6-89a5-abb8adc97281",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: api-stratum.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: api-stratum.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3320": {
+    "timestamp": "2025-05-21T06:54:43.791971Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d92adc1c-af15-4bfc-9130-7b4504469844",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: api.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: api.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3321": {
+    "timestamp": "2025-05-21T06:54:57.863261Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/3eb5ff41-9e6d-4edd-8b36-cb3d94e8e549",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: api2.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: api2.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3322": {
+    "timestamp": "2025-05-21T06:55:13.665402Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c5d0be07-b19f-4c96-b9f2-adfc567a1c61",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: arsbitcoin.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: arsbitcoin.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3323": {
+    "timestamp": "2025-05-21T06:55:29.573839Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/a4726732-e5f3-4faa-a1d7-2e091c60398b",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 503 Service Unavailable\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 6836\r\nConnection: close\r\nP3P: CP=\"CAO PSA OUR\"\r\nExpires: Thu, 01 Jan 1970 00:00:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nPragma: no-cache\r\n\r\n<!DOCTYPE html>\r\n\r\n<html lang=\"en\">\r\n<head>\r\n    <base href=\"/login/\">\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=.85\">\r\n    <meta http-equiv=\"pragma\" content=\"no-cache\">\r\n    <title>Application Blocked</title>\r\n    <link rel=\"stylesheet\" href=\"css/latofonts.css\">\r\n    <style>\r\n        body {\r\n            background-color: #e8ebeb;\r\n            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n            font-size: 16px;\r\n            margin: 0;\r\n            color: #070808;\r\n        }\r\n\r\n        a:link {\r\n            color: #0993d1;\r\n        }\r\n\r\n        b,\r\n        strong {\r\n            font-weight: 500;\r\n        }\r\n\r\n        p {\r\n            line-height: 1.2em;\r\n        }\r\n\r\n        button {\r\n            overflow: visible;\r\n        }\r\n\r\n        button, input, optgroup, select, textarea {\r\n            color: inherit;\r\n            font: inherit;\r\n            margin: 0;\r\n        }\r\n\r\n        .center {\r\n            text-align: center;\r\n            margin-left: auto;\r\n            margin-right: auto;\r\n        }\r\n\r\n        #dError,\r\n        .msg {\r\n            color: #d94949;\r\n            margin: 20px 0;\r\n        }\r\n\r\n        fieldset .msg {\r\n            margin: 0;\r\n        }\r\n\r\n        #content {\r\n            padding-top: 100px;\r\n        }\r\n\r\n        #content img {\r\n            display: block;\r\n            margin: auto;\r\n        }\r\n\r\n        #content h1 {\r\n            font-style: normal;\r\n            font-weight: normal;\r\n            font-size: 36px;\r\n            line-height: 43px;\r\n            text-align: center;\r\n            letter-spacing: 0.1px;\r\n            color: #070808;\r\n            margin: 10px auto 8px;\r\n        }\r\n\r\n        #content > p {\r\n            text-align: center;\r\n            margin-left: auto;\r\n            margin-right: auto;\r\n            width: 640px;\r\n            font-size: 14px;\r\n            line-height: 20px;\r\n        }\r\n\r\n        .response {\r\n            background-color: #fff;\r\n            color: #5a636b;\r\n            margin: 24px auto 0;\r\n            padding: 20px;\r\n            font-size: 16px;\r\n            width: 800px;\r\n            border: 1px solid #c8cbce;\r\n            box-sizing: border-box;\r\n            border-radius: 8px;\r\n        }\r\n\r\n        .response p {\r\n            margin: 0 0 1em;\r\n        }\r\n\r\n        .response p:last-child {\r\n            margin: 0;\r\n        }\r\n\r\n        .response b {\r\n            color: #070808;\r\n        }\r\n\r\n        .response .msg b {\r\n            color: #d94949;\r\n        }\r\n\r\n        .response form td,\r\n        .response form input {\r\n            font-size: 1.1em;\r\n            font-weight: bold;\r\n        }\r\n\r\n        .loading {\r\n            margin: 2em auto 1em;\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n<div id=\"content\" class=\"container\">\r\n    <img src=\"data:image/png;base64,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\" alt=\"Error\">\r\n    <h1>Application Blocked</h1>\r\n    <div class=\"response\">\r\n        <p>The application you are trying to use has been blocked in accordance with company policy. Please contact your system administrator if you believe this is an error.</p>\r\n        <p><b>User:</b> 10.78.202.13</p>\r\n        <p><b>Application:</b> web-browsing</p>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n",
+          "event": "DONE",
+          "sync_received": "[Errno 104] Connection reset by peer",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "[Errno 104] Connection reset by peer",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 503 Service Unavailable\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 6836\r\nConnection: close\r\nP3P: CP=\"CAO PSA OUR\"\r\nExpires: Thu, 01 Jan 1970 00:00:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nPragma: no-cache\r\n\r\n<!DOCTYPE html>\r\n\r\n<html lang=\"en\">\r\n<head>\r\n    <base href=\"/login/\">\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=.85\">\r\n    <meta http-equiv=\"pragma\" content=\"no-cache\">\r\n    <title>Application Blocked</title>\r\n    <link rel=\"stylesheet\" href=\"css/latofonts.css\">\r\n    <style>\r\n        body {\r\n            background-color: #e8ebeb;\r\n            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n            font-size: 16px;\r\n            margin: 0;\r\n            color: #070808;\r\n        }\r\n\r\n        a:link {\r\n            color: #0993d1;\r\n        }\r\n\r\n        b,\r\n        strong {\r\n            font-weight: 500;\r\n        }\r\n\r\n        p {\r\n            line-height: 1.2em;\r\n        }\r\n\r\n        button {\r\n            overflow: visible;\r\n        }\r\n\r\n        button, input, optgroup, select, textarea {\r\n            color: inherit;\r\n            font: inherit;\r\n            margin: 0;\r\n        }\r\n\r\n        .center {\r\n            text-align: center;\r\n            margin-left: auto;\r\n            margin-right: auto;\r\n        }\r\n\r\n        #dError,\r\n        .msg {\r\n            color: #d94949;\r\n            margin: 20px 0;\r\n        }\r\n\r\n        fieldset .msg {\r\n            margin: 0;\r\n        }\r\n\r\n        #content {\r\n            padding-top: 100px;\r\n        }\r\n\r\n        #content img {\r\n            display: block;\r\n            margin: auto;\r\n        }\r\n\r\n        #content h1 {\r\n            font-style: normal;\r\n            font-weight: normal;\r\n            font-size: 36px;\r\n            line-height: 43px;\r\n            text-align: center;\r\n            letter-spacing: 0.1px;\r\n            color: #070808;\r\n            margin: 10px auto 8px;\r\n        }\r\n\r\n        #content > p {\r\n            text-align: center;\r\n            margin-left: auto;\r\n            margin-right: auto;\r\n            width: 640px;\r\n            font-size: 14px;\r\n            line-height: 20px;\r\n        }\r\n\r\n        .response {\r\n            background-color: #fff;\r\n            color: #5a636b;\r\n            margin: 24px auto 0;\r\n            padding: 20px;\r\n            font-size: 16px;\r\n            width: 800px;\r\n            border: 1px solid #c8cbce;\r\n            box-sizing: border-box;\r\n            border-radius: 8px;\r\n        }\r\n\r\n        .response p {\r\n            margin: 0 0 1em;\r\n        }\r\n\r\n        .response p:last-child {\r\n            margin: 0;\r\n        }\r\n\r\n        .response b {\r\n            color: #070808;\r\n        }\r\n\r\n        .response .msg b {\r\n            color: #d94949;\r\n        }\r\n\r\n        .response form td,\r\n        .response form input {\r\n            font-size: 1.1em;\r\n            font-weight: bold;\r\n        }\r\n\r\n        .loading {\r\n            margin: 2em auto 1em;\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n<div id=\"content\" class=\"container\">\r\n    <img src=\"data:image/png;base64,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\" alt=\"Error\">\r\n    <h1>Application Blocked</h1>\r\n    <div class=\"response\">\r\n        <p>The application you are trying to use has been blocked in accordance with company policy. Please contact your system administrator if you believe this is an error.</p>\r\n        <p><b>User:</b> 10.78.202.13</p>\r\n        <p><b>Application:</b> web-browsing</p>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3324": {
+    "timestamp": "2025-05-21T06:55:45.439229Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/09d9d1f6-b480-4826-b211-b3fd8166caad",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: autosurfdusoleil.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: autosurfdusoleil.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3325": {
+    "timestamp": "2025-05-21T06:56:01.235301Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/6cae09d6-eca9-4c8a-a39c-ca9f127bd6bb",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bfgminer.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bfgminer.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3326": {
+    "timestamp": "2025-05-21T06:56:15.320048Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/9ce3746a-685a-43ca-885f-1c24b87691a1",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bibox.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bibox.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3327": {
+    "timestamp": "2025-05-21T06:56:30.780515Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/bc142e19-3235-41ca-afb1-c821e80a139b",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bigzone.xyz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bigzone.xyz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3328": {
+    "timestamp": "2025-05-21T06:56:44.850108Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/f1100c04-563b-4930-90c7-10549c30de18",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: binance.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: binance.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3329": {
+    "timestamp": "2025-05-21T06:57:00.700964Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4223e20f-fbd1-4789-bedb-0a5a89fecc36",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcanna.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcanna.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3330": {
+    "timestamp": "2025-05-21T06:57:16.491729Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/960838ef-1ac5-4297-883d-f7267dda34a0",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitclockers.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitclockers.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3331": {
+    "timestamp": "2025-05-21T06:57:33.375685Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/254d1130-3b2b-4913-83c7-47c399d0f51d",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoin-champion.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoin-champion.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3332": {
+    "timestamp": "2025-05-21T06:57:49.291906Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c8140be1-7f06-48d6-a8ee-c0ddd2d4c8c5",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoin-patrimoine.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoin-patrimoine.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3333": {
+    "timestamp": "2025-05-21T06:58:02.847606Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/39b1b5a6-0fac-4128-ad83-3449bba7e4f7",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoin-server.de\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoin-server.de\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3334": {
+    "timestamp": "2025-05-21T06:58:15.902274Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/44a9f376-003d-4cac-a932-5918a7a90c85",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoin-storm.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoin-storm.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3335": {
+    "timestamp": "2025-05-21T06:58:31.221173Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/0e3d2bda-ea24-42b6-99d2-5b32b614e83c",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoin.de\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoin.de\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3336": {
+    "timestamp": "2025-05-21T06:58:46.967791Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/2a43c722-f0ba-4d05-a21d-156329e74395",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoin.it\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoin.it\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3337": {
+    "timestamp": "2025-05-21T06:59:00.613867Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/02c0757f-c041-4133-8fea-bb90d6ab3cbc",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 503 Service Unavailable\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 7998\r\nConnection: close\r\nP3P: CP=\"CAO PSA OUR\"\r\nExpires: Thu, 01 Jan 1970 00:00:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nPragma: no-cache\r\n\r\n\ufeff<!DOCTYPE html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n\r\n\t<head>\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t\t<title>The Website is Blocked</title>\r\n\t\t<style type=\"text/css\">\r\n\t\thtml,body{min-height:100%; height:100%;}\r\n        #wifiBlockedWrapper{background:#fff; min-height:100%;}\r\n\t\tbody {\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/bg.png');\r\n            background-repeat: repeat-x;\r\n            background-color: #A8B7D6;\r\n            width: 100%;\r\n            text-align: center !important;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n            color: #4c4c4c;\r\n            margin: 0px;\r\n        }\r\n\t\t\r\n\r\n        .boxleft {\r\n            width: 10px;\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/LeftRepeat.png');\r\n            background-repeat: repeat-y;\r\n        }\r\n\r\n        .boxright {\r\n            width: 10px;\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/RightRepeat.png');\r\n            background-repeat: repeat-y;\r\n            background-position: right;\r\n\r\n        }\r\n\r\n        .wraper {\r\n            text-align: center !important;\r\n        }\r\n\r\n        .roottbale {\r\n            text-align: center;\r\n\r\n        }\r\n\r\n        .header {\r\n            width: 100%;\r\n            background-repeat: no-repeat;\r\n        }\r\n\r\n        .stopsign {\r\n            text-align: center;\r\n            vertical-align: bottom;\r\n        }\r\n\r\n        .leftheading,\r\n        .rightheading {\r\n\r\n            width: 50%;\r\n            font-weight: bold;\r\n            padding-bottom: 80px;\r\n\r\n        }\r\n\r\n        .leftheading {\r\n            text-align: left;\r\n            font-size: 46px;\r\n        }\r\n\r\n        .rightheading {\r\n            text-align: right;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n            font-size: 50px;\r\n        }\r\n\r\n        .leftcontent,\r\n        .rightcontent {\r\n            font-size: 30px;\r\n            padding-bottom: 20px;\r\n        }\r\n\r\n        .leftcontent {\r\n            text-align: left;\r\n\r\n        }\r\n\r\n        .rightcontent {\r\n            text-align: right;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n        }\r\n\r\n        .leftcontent a,\r\n        .leftcontent a:visited,\r\n        .leftcontent a:hover,\r\n        .rightcontent a,\r\n        .rightcontent a:visited,\r\n        .rightcontent a:hover {\r\n            color: #00b59d;\r\n            text-decoration: none;\r\n        }\r\n\r\n        .leftcontent a:hover,\r\n        .rightcontent a:hover {\r\n            text-decoration: underline;\r\n        }\r\n\r\n        .bodycontent {\r\n            width: 962px;\r\n            background-color: white;\r\n            padding: 20px;\r\n        }\r\n\t\t\r\n\t\t\r\n\t\t</style>\r\n\t</head>\r\n\r\n\t<body>\r\n\t\t<div id=\"blockedWrapper\">\r\n\t\t\t<div class=\"wraper\">\r\n\t\t\t\t<table class=\"roottbale\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"982\">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<table class=\"header\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"stopsign\">\r\n\t\t\t\t\t\t\t\t\t\t\t<img alt=\"Stop symbol\"\r\n                                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/StopSign.png\" />\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<img\r\n                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/TopSlice.png\" alt=\"\" style=\"float:left;\" />\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td class=\"boxleft\">&nbsp;</td>\r\n\t\t\t\t\t\t<td class=\"bodycontent\">\r\n\t\t\t\t\t\t\t<table width=\"100%\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td class=\"leftheading\">The Website is Blocked</td>\r\n\t\t\t\t\t\t\t\t\t<td class=\"rightheading\">\r\n                                \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0645\u0637\u0644\u0648\u0628 \u0645\u062d\u0638\u0648\u0631\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td class=\"leftcontent\">If you need to access this site for work reasons, please <a\r\n                                    href=\"https://urlfilter.kaust.edu.sa\"\r\n                                    target=\"_blank\">click here</a>.</td>\r\n\t\t\t\t\t\t\t\t\t<td class=\"rightcontent\">\r\n                                \u0625\u0630\u0627 \u0643\u0646\u062a \u0628\u062d\u0627\u062c\u0629 \u0625\u0644\u0649 \u062a\u0635\u0641\u062d \u0647\u0630\u0627 \u0627\u0644\u0645\u0648\u0642\u0639 \u0644\u0623\u0633\u0628\u0627\u0628 \u062a\u062a\u0639\u0644\u0642 \u0628\u0639\u0645\u0644\u0643 \u0627\u0644\u0631\u062c\u0627\u0621 <a\r\n                                    href=\"https://urlfilter.kaust.edu.sa\">\u0627\u0644\u0636\u063a\u0637 \u0647\u0646\u0627</a>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td class=\"boxright\">&nbsp;</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<img\r\n                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/BottomSlice.png\"\r\n                        alt=\"\" />\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</table>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div id=\"wifiBlockedWrapper\">\r\n\t\t\t<table style=\"height: 424px; margin-left: auto; margin-right: auto;\" width=\"721\">\r\n\t\t\t\t<tbody>\r\n\t\t\t\t\t<tr style=\"height: 57px;\">\r\n\t\t\t\t\t\t<td style=\"width: 711.333px; height: 57px;\" colspan=\"4\">\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<img src=\"https://kaust.edu.sa/_catalogs/masterpage/KAUST/assets/images/kaust-logo.svg\" alt=\"\" width=\"103\" height=\"100\" />\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 16px;\">&nbsp;</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 146px;\">\r\n\t\t\t\t\t\t<td style=\"width: 344px; height: 146px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">Access to this link is not permitted through </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">KAUST-Guest WiFi</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 361.333px; height: 146px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">   \u064a\u062a\u0639\u0630\u0631 \u062a\u0635\u0641\u062d \u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0634\u0628\u0643\u0647 KAUST-Guest WiFi </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 69px;\">\r\n\t\t\t\t\t\t<td style=\"width: 344px; height: 69px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">If you need access to this website while&nbsp;</span>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">connected to </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">KAUST-Guest WiFi</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">Please&nbsp;<a href=\"https://apps.kaust.edu.sa/sites/websense/Pages/register.aspx\">click here</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 361.333px; text-align: center; height: 69px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">&nbsp;</h4>\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">&nbsp;\u0627\u0630\u0627 \u0643\u0646\u062a \u0628\u062d\u0627\u062c\u0647 \u0627\u0644\u0649 \u0627\u0644\u0648\u0635\u0648\u0644 \u0627\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">\u064a\u0631\u062c\u0649 <a href=\"https://apps.kaust.edu.sa/sites/websense/Pages/register.aspx\">\u0627\u0644\u0636\u063a\u0637 \u0647\u0646\u0627</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: right;\">&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 57px;\">\r\n\t\t\t\t\t\t<td style=\"width: 148.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 189.333px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 196.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 158.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</tbody>\r\n\t\t\t</table>\r\n\t\t</div>\r\n\t\t<script type=\"text/javascript\">\r\n\t\t\tif(\"parked\" == \"KAUST-Domain\"){\r\n\t\t\t\tdocument.getElementById(\"wifiBlockedWrapper\").style.display = \"block\";\r\n\t\t\t\tdocument.getElementById(\"blockedWrapper\").style.display = \"none\";\r\n\t\t\t} else {\r\n\t\t\t\tdocument.getElementById(\"wifiBlockedWrapper\").style.display = \"none\";\r\n\t\t\t\tdocument.getElementById(\"blockedWrapper\").style.display = \"block\";\r\n\t\t\t}\r\n\t\t</script>\r\n\t</body>\r\n\r\n</html>",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoincode.store\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoincode.store\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 503 Service Unavailable\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 7998\r\nConnection: close\r\nP3P: CP=\"CAO PSA OUR\"\r\nExpires: Thu, 01 Jan 1970 00:00:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nPragma: no-cache\r\n\r\n\ufeff<!DOCTYPE html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n\r\n\t<head>\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t\t<title>The Website is Blocked</title>\r\n\t\t<style type=\"text/css\">\r\n\t\thtml,body{min-height:100%; height:100%;}\r\n        #wifiBlockedWrapper{background:#fff; min-height:100%;}\r\n\t\tbody {\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/bg.png');\r\n            background-repeat: repeat-x;\r\n            background-color: #A8B7D6;\r\n            width: 100%;\r\n            text-align: center !important;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n            color: #4c4c4c;\r\n            margin: 0px;\r\n        }\r\n\t\t\r\n\r\n        .boxleft {\r\n            width: 10px;\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/LeftRepeat.png');\r\n            background-repeat: repeat-y;\r\n        }\r\n\r\n        .boxright {\r\n            width: 10px;\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/RightRepeat.png');\r\n            background-repeat: repeat-y;\r\n            background-position: right;\r\n\r\n        }\r\n\r\n        .wraper {\r\n            text-align: center !important;\r\n        }\r\n\r\n        .roottbale {\r\n            text-align: center;\r\n\r\n        }\r\n\r\n        .header {\r\n            width: 100%;\r\n            background-repeat: no-repeat;\r\n        }\r\n\r\n        .stopsign {\r\n            text-align: center;\r\n            vertical-align: bottom;\r\n        }\r\n\r\n        .leftheading,\r\n        .rightheading {\r\n\r\n            width: 50%;\r\n            font-weight: bold;\r\n            padding-bottom: 80px;\r\n\r\n        }\r\n\r\n        .leftheading {\r\n            text-align: left;\r\n            font-size: 46px;\r\n        }\r\n\r\n        .rightheading {\r\n            text-align: right;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n            font-size: 50px;\r\n        }\r\n\r\n        .leftcontent,\r\n        .rightcontent {\r\n            font-size: 30px;\r\n            padding-bottom: 20px;\r\n        }\r\n\r\n        .leftcontent {\r\n            text-align: left;\r\n\r\n        }\r\n\r\n        .rightcontent {\r\n            text-align: right;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n        }\r\n\r\n        .leftcontent a,\r\n        .leftcontent a:visited,\r\n        .leftcontent a:hover,\r\n        .rightcontent a,\r\n        .rightcontent a:visited,\r\n        .rightcontent a:hover {\r\n            color: #00b59d;\r\n            text-decoration: none;\r\n        }\r\n\r\n        .leftcontent a:hover,\r\n        .rightcontent a:hover {\r\n            text-decoration: underline;\r\n        }\r\n\r\n        .bodycontent {\r\n            width: 962px;\r\n            background-color: white;\r\n            padding: 20px;\r\n        }\r\n\t\t\r\n\t\t\r\n\t\t</style>\r\n\t</head>\r\n\r\n\t<body>\r\n\t\t<div id=\"blockedWrapper\">\r\n\t\t\t<div class=\"wraper\">\r\n\t\t\t\t<table class=\"roottbale\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"982\">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<table class=\"header\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"stopsign\">\r\n\t\t\t\t\t\t\t\t\t\t\t<img alt=\"Stop symbol\"\r\n                                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/StopSign.png\" />\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<img\r\n                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/TopSlice.png\" alt=\"\" style=\"float:left;\" />\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td class=\"boxleft\">&nbsp;</td>\r\n\t\t\t\t\t\t<td class=\"bodycontent\">\r\n\t\t\t\t\t\t\t<table width=\"100%\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td class=\"leftheading\">The Website is Blocked</td>\r\n\t\t\t\t\t\t\t\t\t<td class=\"rightheading\">\r\n                                \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0645\u0637\u0644\u0648\u0628 \u0645\u062d\u0638\u0648\u0631\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td class=\"leftcontent\">If you need to access this site for work reasons, please <a\r\n                                    href=\"https://urlfilter.kaust.edu.sa\"\r\n                                    target=\"_blank\">click here</a>.</td>\r\n\t\t\t\t\t\t\t\t\t<td class=\"rightcontent\">\r\n                                \u0625\u0630\u0627 \u0643\u0646\u062a \u0628\u062d\u0627\u062c\u0629 \u0625\u0644\u0649 \u062a\u0635\u0641\u062d \u0647\u0630\u0627 \u0627\u0644\u0645\u0648\u0642\u0639 \u0644\u0623\u0633\u0628\u0627\u0628 \u062a\u062a\u0639\u0644\u0642 \u0628\u0639\u0645\u0644\u0643 \u0627\u0644\u0631\u062c\u0627\u0621 <a\r\n                                    href=\"https://urlfilter.kaust.edu.sa\">\u0627\u0644\u0636\u063a\u0637 \u0647\u0646\u0627</a>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td class=\"boxright\">&nbsp;</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<img\r\n                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/BottomSlice.png\"\r\n                        alt=\"\" />\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</table>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div id=\"wifiBlockedWrapper\">\r\n\t\t\t<table style=\"height: 424px; margin-left: auto; margin-right: auto;\" width=\"721\">\r\n\t\t\t\t<tbody>\r\n\t\t\t\t\t<tr style=\"height: 57px;\">\r\n\t\t\t\t\t\t<td style=\"width: 711.333px; height: 57px;\" colspan=\"4\">\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<img src=\"https://kaust.edu.sa/_catalogs/masterpage/KAUST/assets/images/kaust-logo.svg\" alt=\"\" width=\"103\" height=\"100\" />\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 16px;\">&nbsp;</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 146px;\">\r\n\t\t\t\t\t\t<td style=\"width: 344px; height: 146px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">Access to this link is not permitted through </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">KAUST-Guest WiFi</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 361.333px; height: 146px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">   \u064a\u062a\u0639\u0630\u0631 \u062a\u0635\u0641\u062d \u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0634\u0628\u0643\u0647 KAUST-Guest WiFi </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 69px;\">\r\n\t\t\t\t\t\t<td style=\"width: 344px; height: 69px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">If you need access to this website while&nbsp;</span>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">connected to </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">KAUST-Guest WiFi</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">Please&nbsp;<a href=\"https://apps.kaust.edu.sa/sites/websense/Pages/register.aspx\">click here</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 361.333px; text-align: center; height: 69px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">&nbsp;</h4>\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">&nbsp;\u0627\u0630\u0627 \u0643\u0646\u062a \u0628\u062d\u0627\u062c\u0647 \u0627\u0644\u0649 \u0627\u0644\u0648\u0635\u0648\u0644 \u0627\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">\u064a\u0631\u062c\u0649 <a href=\"https://apps.kaust.edu.sa/sites/websense/Pages/register.aspx\">\u0627\u0644\u0636\u063a\u0637 \u0647\u0646\u0627</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: right;\">&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 57px;\">\r\n\t\t\t\t\t\t<td style=\"width: 148.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 189.333px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 196.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 158.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</tbody>\r\n\t\t\t</table>\r\n\t\t</div>\r\n\t\t<script type=\"text/javascript\">\r\n\t\t\tif(\"parked\" == \"KAUST-Domain\"){\r\n\t\t\t\tdocument.getElementById(\"wifiBlockedWrapper\").style.display = \"block\";\r\n\t\t\t\tdocument.getElementById(\"blockedWrapper\").style.display = \"none\";\r\n\t\t\t} else {\r\n\t\t\t\tdocument.getElementById(\"wifiBlockedWrapper\").style.display = \"none\";\r\n\t\t\t\tdocument.getElementById(\"blockedWrapper\").style.display = \"block\";\r\n\t\t\t}\r\n\t\t</script>\r\n\t</body>\r\n\r\n</html>",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3338": {
+    "timestamp": "2025-05-21T06:59:17.100962Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e3ea971b-1df6-41cd-9aca-dcbd6c7e1cac",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoinera.app\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoinera.app\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3339": {
+    "timestamp": "2025-05-21T06:59:32.915651Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/85ed7804-65a6-4ed1-8860-9f6a734c841f",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoinmonkey.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoinmonkey.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3340": {
+    "timestamp": "2025-05-21T06:59:48.843748Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/b9bb0f62-6a4b-4edf-b95b-6e73f4927fc3",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoinpool.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoinpool.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3341": {
+    "timestamp": "2025-05-21T07:00:05.193440Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/0c882368-3ec4-4afe-8a31-c2808ce7bb4c",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 503 Service Unavailable\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 8000\r\nConnection: close\r\nP3P: CP=\"CAO PSA OUR\"\r\nExpires: Thu, 01 Jan 1970 00:00:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nPragma: no-cache\r\n\r\n\ufeff<!DOCTYPE html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n\r\n\t<head>\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t\t<title>The Website is Blocked</title>\r\n\t\t<style type=\"text/css\">\r\n\t\thtml,body{min-height:100%; height:100%;}\r\n        #wifiBlockedWrapper{background:#fff; min-height:100%;}\r\n\t\tbody {\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/bg.png');\r\n            background-repeat: repeat-x;\r\n            background-color: #A8B7D6;\r\n            width: 100%;\r\n            text-align: center !important;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n            color: #4c4c4c;\r\n            margin: 0px;\r\n        }\r\n\t\t\r\n\r\n        .boxleft {\r\n            width: 10px;\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/LeftRepeat.png');\r\n            background-repeat: repeat-y;\r\n        }\r\n\r\n        .boxright {\r\n            width: 10px;\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/RightRepeat.png');\r\n            background-repeat: repeat-y;\r\n            background-position: right;\r\n\r\n        }\r\n\r\n        .wraper {\r\n            text-align: center !important;\r\n        }\r\n\r\n        .roottbale {\r\n            text-align: center;\r\n\r\n        }\r\n\r\n        .header {\r\n            width: 100%;\r\n            background-repeat: no-repeat;\r\n        }\r\n\r\n        .stopsign {\r\n            text-align: center;\r\n            vertical-align: bottom;\r\n        }\r\n\r\n        .leftheading,\r\n        .rightheading {\r\n\r\n            width: 50%;\r\n            font-weight: bold;\r\n            padding-bottom: 80px;\r\n\r\n        }\r\n\r\n        .leftheading {\r\n            text-align: left;\r\n            font-size: 46px;\r\n        }\r\n\r\n        .rightheading {\r\n            text-align: right;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n            font-size: 50px;\r\n        }\r\n\r\n        .leftcontent,\r\n        .rightcontent {\r\n            font-size: 30px;\r\n            padding-bottom: 20px;\r\n        }\r\n\r\n        .leftcontent {\r\n            text-align: left;\r\n\r\n        }\r\n\r\n        .rightcontent {\r\n            text-align: right;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n        }\r\n\r\n        .leftcontent a,\r\n        .leftcontent a:visited,\r\n        .leftcontent a:hover,\r\n        .rightcontent a,\r\n        .rightcontent a:visited,\r\n        .rightcontent a:hover {\r\n            color: #00b59d;\r\n            text-decoration: none;\r\n        }\r\n\r\n        .leftcontent a:hover,\r\n        .rightcontent a:hover {\r\n            text-decoration: underline;\r\n        }\r\n\r\n        .bodycontent {\r\n            width: 962px;\r\n            background-color: white;\r\n            padding: 20px;\r\n        }\r\n\t\t\r\n\t\t\r\n\t\t</style>\r\n\t</head>\r\n\r\n\t<body>\r\n\t\t<div id=\"blockedWrapper\">\r\n\t\t\t<div class=\"wraper\">\r\n\t\t\t\t<table class=\"roottbale\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"982\">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<table class=\"header\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"stopsign\">\r\n\t\t\t\t\t\t\t\t\t\t\t<img alt=\"Stop symbol\"\r\n                                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/StopSign.png\" />\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<img\r\n                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/TopSlice.png\" alt=\"\" style=\"float:left;\" />\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td class=\"boxleft\">&nbsp;</td>\r\n\t\t\t\t\t\t<td class=\"bodycontent\">\r\n\t\t\t\t\t\t\t<table width=\"100%\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td class=\"leftheading\">The Website is Blocked</td>\r\n\t\t\t\t\t\t\t\t\t<td class=\"rightheading\">\r\n                                \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0645\u0637\u0644\u0648\u0628 \u0645\u062d\u0638\u0648\u0631\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td class=\"leftcontent\">If you need to access this site for work reasons, please <a\r\n                                    href=\"https://urlfilter.kaust.edu.sa\"\r\n                                    target=\"_blank\">click here</a>.</td>\r\n\t\t\t\t\t\t\t\t\t<td class=\"rightcontent\">\r\n                                \u0625\u0630\u0627 \u0643\u0646\u062a \u0628\u062d\u0627\u062c\u0629 \u0625\u0644\u0649 \u062a\u0635\u0641\u062d \u0647\u0630\u0627 \u0627\u0644\u0645\u0648\u0642\u0639 \u0644\u0623\u0633\u0628\u0627\u0628 \u062a\u062a\u0639\u0644\u0642 \u0628\u0639\u0645\u0644\u0643 \u0627\u0644\u0631\u062c\u0627\u0621 <a\r\n                                    href=\"https://urlfilter.kaust.edu.sa\">\u0627\u0644\u0636\u063a\u0637 \u0647\u0646\u0627</a>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td class=\"boxright\">&nbsp;</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<img\r\n                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/BottomSlice.png\"\r\n                        alt=\"\" />\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</table>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div id=\"wifiBlockedWrapper\">\r\n\t\t\t<table style=\"height: 424px; margin-left: auto; margin-right: auto;\" width=\"721\">\r\n\t\t\t\t<tbody>\r\n\t\t\t\t\t<tr style=\"height: 57px;\">\r\n\t\t\t\t\t\t<td style=\"width: 711.333px; height: 57px;\" colspan=\"4\">\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<img src=\"https://kaust.edu.sa/_catalogs/masterpage/KAUST/assets/images/kaust-logo.svg\" alt=\"\" width=\"103\" height=\"100\" />\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 16px;\">&nbsp;</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 146px;\">\r\n\t\t\t\t\t\t<td style=\"width: 344px; height: 146px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">Access to this link is not permitted through </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">KAUST-Guest WiFi</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 361.333px; height: 146px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">   \u064a\u062a\u0639\u0630\u0631 \u062a\u0635\u0641\u062d \u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0634\u0628\u0643\u0647 KAUST-Guest WiFi </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 69px;\">\r\n\t\t\t\t\t\t<td style=\"width: 344px; height: 69px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">If you need access to this website while&nbsp;</span>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">connected to </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">KAUST-Guest WiFi</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">Please&nbsp;<a href=\"https://apps.kaust.edu.sa/sites/websense/Pages/register.aspx\">click here</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 361.333px; text-align: center; height: 69px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">&nbsp;</h4>\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">&nbsp;\u0627\u0630\u0627 \u0643\u0646\u062a \u0628\u062d\u0627\u062c\u0647 \u0627\u0644\u0649 \u0627\u0644\u0648\u0635\u0648\u0644 \u0627\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">\u064a\u0631\u062c\u0649 <a href=\"https://apps.kaust.edu.sa/sites/websense/Pages/register.aspx\">\u0627\u0644\u0636\u063a\u0637 \u0647\u0646\u0627</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: right;\">&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 57px;\">\r\n\t\t\t\t\t\t<td style=\"width: 148.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 189.333px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 196.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 158.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</tbody>\r\n\t\t\t</table>\r\n\t\t</div>\r\n\t\t<script type=\"text/javascript\">\r\n\t\t\tif(\"gambling\" == \"KAUST-Domain\"){\r\n\t\t\t\tdocument.getElementById(\"wifiBlockedWrapper\").style.display = \"block\";\r\n\t\t\t\tdocument.getElementById(\"blockedWrapper\").style.display = \"none\";\r\n\t\t\t} else {\r\n\t\t\t\tdocument.getElementById(\"wifiBlockedWrapper\").style.display = \"none\";\r\n\t\t\t\tdocument.getElementById(\"blockedWrapper\").style.display = \"block\";\r\n\t\t\t}\r\n\t\t</script>\r\n\t</body>\r\n\r\n</html>",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoinptc.top\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoinptc.top\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 503 Service Unavailable\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 8000\r\nConnection: close\r\nP3P: CP=\"CAO PSA OUR\"\r\nExpires: Thu, 01 Jan 1970 00:00:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nPragma: no-cache\r\n\r\n\ufeff<!DOCTYPE html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n\r\n\t<head>\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t\t<title>The Website is Blocked</title>\r\n\t\t<style type=\"text/css\">\r\n\t\thtml,body{min-height:100%; height:100%;}\r\n        #wifiBlockedWrapper{background:#fff; min-height:100%;}\r\n\t\tbody {\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/bg.png');\r\n            background-repeat: repeat-x;\r\n            background-color: #A8B7D6;\r\n            width: 100%;\r\n            text-align: center !important;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n            color: #4c4c4c;\r\n            margin: 0px;\r\n        }\r\n\t\t\r\n\r\n        .boxleft {\r\n            width: 10px;\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/LeftRepeat.png');\r\n            background-repeat: repeat-y;\r\n        }\r\n\r\n        .boxright {\r\n            width: 10px;\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/RightRepeat.png');\r\n            background-repeat: repeat-y;\r\n            background-position: right;\r\n\r\n        }\r\n\r\n        .wraper {\r\n            text-align: center !important;\r\n        }\r\n\r\n        .roottbale {\r\n            text-align: center;\r\n\r\n        }\r\n\r\n        .header {\r\n            width: 100%;\r\n            background-repeat: no-repeat;\r\n        }\r\n\r\n        .stopsign {\r\n            text-align: center;\r\n            vertical-align: bottom;\r\n        }\r\n\r\n        .leftheading,\r\n        .rightheading {\r\n\r\n            width: 50%;\r\n            font-weight: bold;\r\n            padding-bottom: 80px;\r\n\r\n        }\r\n\r\n        .leftheading {\r\n            text-align: left;\r\n            font-size: 46px;\r\n        }\r\n\r\n        .rightheading {\r\n            text-align: right;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n            font-size: 50px;\r\n        }\r\n\r\n        .leftcontent,\r\n        .rightcontent {\r\n            font-size: 30px;\r\n            padding-bottom: 20px;\r\n        }\r\n\r\n        .leftcontent {\r\n            text-align: left;\r\n\r\n        }\r\n\r\n        .rightcontent {\r\n            text-align: right;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n        }\r\n\r\n        .leftcontent a,\r\n        .leftcontent a:visited,\r\n        .leftcontent a:hover,\r\n        .rightcontent a,\r\n        .rightcontent a:visited,\r\n        .rightcontent a:hover {\r\n            color: #00b59d;\r\n            text-decoration: none;\r\n        }\r\n\r\n        .leftcontent a:hover,\r\n        .rightcontent a:hover {\r\n            text-decoration: underline;\r\n        }\r\n\r\n        .bodycontent {\r\n            width: 962px;\r\n            background-color: white;\r\n            padding: 20px;\r\n        }\r\n\t\t\r\n\t\t\r\n\t\t</style>\r\n\t</head>\r\n\r\n\t<body>\r\n\t\t<div id=\"blockedWrapper\">\r\n\t\t\t<div class=\"wraper\">\r\n\t\t\t\t<table class=\"roottbale\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"982\">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<table class=\"header\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"stopsign\">\r\n\t\t\t\t\t\t\t\t\t\t\t<img alt=\"Stop symbol\"\r\n                                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/StopSign.png\" />\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<img\r\n                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/TopSlice.png\" alt=\"\" style=\"float:left;\" />\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td class=\"boxleft\">&nbsp;</td>\r\n\t\t\t\t\t\t<td class=\"bodycontent\">\r\n\t\t\t\t\t\t\t<table width=\"100%\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td class=\"leftheading\">The Website is Blocked</td>\r\n\t\t\t\t\t\t\t\t\t<td class=\"rightheading\">\r\n                                \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0645\u0637\u0644\u0648\u0628 \u0645\u062d\u0638\u0648\u0631\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td class=\"leftcontent\">If you need to access this site for work reasons, please <a\r\n                                    href=\"https://urlfilter.kaust.edu.sa\"\r\n                                    target=\"_blank\">click here</a>.</td>\r\n\t\t\t\t\t\t\t\t\t<td class=\"rightcontent\">\r\n                                \u0625\u0630\u0627 \u0643\u0646\u062a \u0628\u062d\u0627\u062c\u0629 \u0625\u0644\u0649 \u062a\u0635\u0641\u062d \u0647\u0630\u0627 \u0627\u0644\u0645\u0648\u0642\u0639 \u0644\u0623\u0633\u0628\u0627\u0628 \u062a\u062a\u0639\u0644\u0642 \u0628\u0639\u0645\u0644\u0643 \u0627\u0644\u0631\u062c\u0627\u0621 <a\r\n                                    href=\"https://urlfilter.kaust.edu.sa\">\u0627\u0644\u0636\u063a\u0637 \u0647\u0646\u0627</a>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td class=\"boxright\">&nbsp;</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<img\r\n                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/BottomSlice.png\"\r\n                        alt=\"\" />\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</table>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div id=\"wifiBlockedWrapper\">\r\n\t\t\t<table style=\"height: 424px; margin-left: auto; margin-right: auto;\" width=\"721\">\r\n\t\t\t\t<tbody>\r\n\t\t\t\t\t<tr style=\"height: 57px;\">\r\n\t\t\t\t\t\t<td style=\"width: 711.333px; height: 57px;\" colspan=\"4\">\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<img src=\"https://kaust.edu.sa/_catalogs/masterpage/KAUST/assets/images/kaust-logo.svg\" alt=\"\" width=\"103\" height=\"100\" />\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 16px;\">&nbsp;</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 146px;\">\r\n\t\t\t\t\t\t<td style=\"width: 344px; height: 146px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">Access to this link is not permitted through </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">KAUST-Guest WiFi</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 361.333px; height: 146px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">   \u064a\u062a\u0639\u0630\u0631 \u062a\u0635\u0641\u062d \u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0634\u0628\u0643\u0647 KAUST-Guest WiFi </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 69px;\">\r\n\t\t\t\t\t\t<td style=\"width: 344px; height: 69px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">If you need access to this website while&nbsp;</span>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">connected to </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">KAUST-Guest WiFi</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">Please&nbsp;<a href=\"https://apps.kaust.edu.sa/sites/websense/Pages/register.aspx\">click here</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 361.333px; text-align: center; height: 69px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">&nbsp;</h4>\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">&nbsp;\u0627\u0630\u0627 \u0643\u0646\u062a \u0628\u062d\u0627\u062c\u0647 \u0627\u0644\u0649 \u0627\u0644\u0648\u0635\u0648\u0644 \u0627\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">\u064a\u0631\u062c\u0649 <a href=\"https://apps.kaust.edu.sa/sites/websense/Pages/register.aspx\">\u0627\u0644\u0636\u063a\u0637 \u0647\u0646\u0627</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: right;\">&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 57px;\">\r\n\t\t\t\t\t\t<td style=\"width: 148.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 189.333px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 196.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 158.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</tbody>\r\n\t\t\t</table>\r\n\t\t</div>\r\n\t\t<script type=\"text/javascript\">\r\n\t\t\tif(\"gambling\" == \"KAUST-Domain\"){\r\n\t\t\t\tdocument.getElementById(\"wifiBlockedWrapper\").style.display = \"block\";\r\n\t\t\t\tdocument.getElementById(\"blockedWrapper\").style.display = \"none\";\r\n\t\t\t} else {\r\n\t\t\t\tdocument.getElementById(\"wifiBlockedWrapper\").style.display = \"none\";\r\n\t\t\t\tdocument.getElementById(\"blockedWrapper\").style.display = \"block\";\r\n\t\t\t}\r\n\t\t</script>\r\n\t</body>\r\n\r\n</html>",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3342": {
+    "timestamp": "2025-05-21T07:00:20.713999Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/0d8e5f1e-9017-4212-bd3c-b641258f0405",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoinrevolution.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoinrevolution.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3343": {
+    "timestamp": "2025-05-21T07:00:33.924317Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/6397d65c-636c-4f14-8bb7-4b4a5fc13bec",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoinrigs.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoinrigs.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3344": {
+    "timestamp": "2025-05-21T07:00:47.300838Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/f3dfc34b-0ff3-47d3-8c13-815548f71c7d",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcoinscrypt.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcoinscrypt.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3345": {
+    "timestamp": "2025-05-21T07:01:03.135915Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/09df11f8-0337-44eb-b056-d5fb4b28d029",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitforex.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitforex.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3346": {
+    "timestamp": "2025-05-21T07:01:18.917417Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/7ca81063-d56d-4999-ade5-52716d1ccc63",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitit.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitit.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3347": {
+    "timestamp": "2025-05-21T07:01:35.803647Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e5f65474-76ba-4cc4-b83f-4912d575e172",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitpanda.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitpanda.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3348": {
+    "timestamp": "2025-05-21T07:01:48.873869Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/73bd17a8-e5ea-432c-aca4-a8ec40d32aef",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bittylicious.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bittylicious.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3349": {
+    "timestamp": "2025-05-21T07:02:04.351703Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/330fa2f6-c5e7-4d8b-a4c8-89ed8df44124",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: btc.digbtc.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: btc.digbtc.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3350": {
+    "timestamp": "2025-05-21T07:02:19.913631Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/78779e25-70a8-40c8-97a1-a184fc655178",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: btc2.cryptominer.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: btc2.cryptominer.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3351": {
+    "timestamp": "2025-05-21T07:02:36.118045Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4b6a07c5-3fb0-45bb-8f3e-0a49ad1e0bdc",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: btcguild.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: btcguild.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3352": {
+    "timestamp": "2025-05-21T07:02:51.730594Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/fd555b92-44eb-4e5d-b668-7dcf0b275860",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: btcmine.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: btcmine.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3353": {
+    "timestamp": "2025-05-21T07:03:07.538925Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/84b198a3-0041-4021-9d8a-edb1550238c8",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: butterflylabs.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: butterflylabs.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3354": {
+    "timestamp": "2025-05-21T07:03:20.585061Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/a6e7d5d2-02e3-4242-86dd-aa04621e728f",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: camelbtc.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: camelbtc.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3355": {
+    "timestamp": "2025-05-21T07:03:34.413373Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/3516bf43-2a96-43c1-ab7c-b5f436a9e3d7",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 503 Service Unavailable\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 7998\r\nConnection: close\r\nP3P: CP=\"CAO PSA OUR\"\r\nExpires: Thu, 01 Jan 1970 00:00:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nPragma: no-cache\r\n\r\n\ufeff<!DOCTYPE html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n\r\n\t<head>\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t\t<title>The Website is Blocked</title>\r\n\t\t<style type=\"text/css\">\r\n\t\thtml,body{min-height:100%; height:100%;}\r\n        #wifiBlockedWrapper{background:#fff; min-height:100%;}\r\n\t\tbody {\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/bg.png');\r\n            background-repeat: repeat-x;\r\n            background-color: #A8B7D6;\r\n            width: 100%;\r\n            text-align: center !important;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n            color: #4c4c4c;\r\n            margin: 0px;\r\n        }\r\n\t\t\r\n\r\n        .boxleft {\r\n            width: 10px;\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/LeftRepeat.png');\r\n            background-repeat: repeat-y;\r\n        }\r\n\r\n        .boxright {\r\n            width: 10px;\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/RightRepeat.png');\r\n            background-repeat: repeat-y;\r\n            background-position: right;\r\n\r\n        }\r\n\r\n        .wraper {\r\n            text-align: center !important;\r\n        }\r\n\r\n        .roottbale {\r\n            text-align: center;\r\n\r\n        }\r\n\r\n        .header {\r\n            width: 100%;\r\n            background-repeat: no-repeat;\r\n        }\r\n\r\n        .stopsign {\r\n            text-align: center;\r\n            vertical-align: bottom;\r\n        }\r\n\r\n        .leftheading,\r\n        .rightheading {\r\n\r\n            width: 50%;\r\n            font-weight: bold;\r\n            padding-bottom: 80px;\r\n\r\n        }\r\n\r\n        .leftheading {\r\n            text-align: left;\r\n            font-size: 46px;\r\n        }\r\n\r\n        .rightheading {\r\n            text-align: right;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n            font-size: 50px;\r\n        }\r\n\r\n        .leftcontent,\r\n        .rightcontent {\r\n            font-size: 30px;\r\n            padding-bottom: 20px;\r\n        }\r\n\r\n        .leftcontent {\r\n            text-align: left;\r\n\r\n        }\r\n\r\n        .rightcontent {\r\n            text-align: right;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n        }\r\n\r\n        .leftcontent a,\r\n        .leftcontent a:visited,\r\n        .leftcontent a:hover,\r\n        .rightcontent a,\r\n        .rightcontent a:visited,\r\n        .rightcontent a:hover {\r\n            color: #00b59d;\r\n            text-decoration: none;\r\n        }\r\n\r\n        .leftcontent a:hover,\r\n        .rightcontent a:hover {\r\n            text-decoration: underline;\r\n        }\r\n\r\n        .bodycontent {\r\n            width: 962px;\r\n            background-color: white;\r\n            padding: 20px;\r\n        }\r\n\t\t\r\n\t\t\r\n\t\t</style>\r\n\t</head>\r\n\r\n\t<body>\r\n\t\t<div id=\"blockedWrapper\">\r\n\t\t\t<div class=\"wraper\">\r\n\t\t\t\t<table class=\"roottbale\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"982\">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<table class=\"header\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"stopsign\">\r\n\t\t\t\t\t\t\t\t\t\t\t<img alt=\"Stop symbol\"\r\n                                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/StopSign.png\" />\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<img\r\n                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/TopSlice.png\" alt=\"\" style=\"float:left;\" />\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td class=\"boxleft\">&nbsp;</td>\r\n\t\t\t\t\t\t<td class=\"bodycontent\">\r\n\t\t\t\t\t\t\t<table width=\"100%\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td class=\"leftheading\">The Website is Blocked</td>\r\n\t\t\t\t\t\t\t\t\t<td class=\"rightheading\">\r\n                                \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0645\u0637\u0644\u0648\u0628 \u0645\u062d\u0638\u0648\u0631\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td class=\"leftcontent\">If you need to access this site for work reasons, please <a\r\n                                    href=\"https://urlfilter.kaust.edu.sa\"\r\n                                    target=\"_blank\">click here</a>.</td>\r\n\t\t\t\t\t\t\t\t\t<td class=\"rightcontent\">\r\n                                \u0625\u0630\u0627 \u0643\u0646\u062a \u0628\u062d\u0627\u062c\u0629 \u0625\u0644\u0649 \u062a\u0635\u0641\u062d \u0647\u0630\u0627 \u0627\u0644\u0645\u0648\u0642\u0639 \u0644\u0623\u0633\u0628\u0627\u0628 \u062a\u062a\u0639\u0644\u0642 \u0628\u0639\u0645\u0644\u0643 \u0627\u0644\u0631\u062c\u0627\u0621 <a\r\n                                    href=\"https://urlfilter.kaust.edu.sa\">\u0627\u0644\u0636\u063a\u0637 \u0647\u0646\u0627</a>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td class=\"boxright\">&nbsp;</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<img\r\n                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/BottomSlice.png\"\r\n                        alt=\"\" />\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</table>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div id=\"wifiBlockedWrapper\">\r\n\t\t\t<table style=\"height: 424px; margin-left: auto; margin-right: auto;\" width=\"721\">\r\n\t\t\t\t<tbody>\r\n\t\t\t\t\t<tr style=\"height: 57px;\">\r\n\t\t\t\t\t\t<td style=\"width: 711.333px; height: 57px;\" colspan=\"4\">\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<img src=\"https://kaust.edu.sa/_catalogs/masterpage/KAUST/assets/images/kaust-logo.svg\" alt=\"\" width=\"103\" height=\"100\" />\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 16px;\">&nbsp;</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 146px;\">\r\n\t\t\t\t\t\t<td style=\"width: 344px; height: 146px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">Access to this link is not permitted through </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">KAUST-Guest WiFi</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 361.333px; height: 146px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">   \u064a\u062a\u0639\u0630\u0631 \u062a\u0635\u0641\u062d \u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0634\u0628\u0643\u0647 KAUST-Guest WiFi </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 69px;\">\r\n\t\t\t\t\t\t<td style=\"width: 344px; height: 69px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">If you need access to this website while&nbsp;</span>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">connected to </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">KAUST-Guest WiFi</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">Please&nbsp;<a href=\"https://apps.kaust.edu.sa/sites/websense/Pages/register.aspx\">click here</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 361.333px; text-align: center; height: 69px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">&nbsp;</h4>\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">&nbsp;\u0627\u0630\u0627 \u0643\u0646\u062a \u0628\u062d\u0627\u062c\u0647 \u0627\u0644\u0649 \u0627\u0644\u0648\u0635\u0648\u0644 \u0627\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">\u064a\u0631\u062c\u0649 <a href=\"https://apps.kaust.edu.sa/sites/websense/Pages/register.aspx\">\u0627\u0644\u0636\u063a\u0637 \u0647\u0646\u0627</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: right;\">&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 57px;\">\r\n\t\t\t\t\t\t<td style=\"width: 148.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 189.333px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 196.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 158.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</tbody>\r\n\t\t\t</table>\r\n\t\t</div>\r\n\t\t<script type=\"text/javascript\">\r\n\t\t\tif(\"parked\" == \"KAUST-Domain\"){\r\n\t\t\t\tdocument.getElementById(\"wifiBlockedWrapper\").style.display = \"block\";\r\n\t\t\t\tdocument.getElementById(\"blockedWrapper\").style.display = \"none\";\r\n\t\t\t} else {\r\n\t\t\t\tdocument.getElementById(\"wifiBlockedWrapper\").style.display = \"none\";\r\n\t\t\t\tdocument.getElementById(\"blockedWrapper\").style.display = \"block\";\r\n\t\t\t}\r\n\t\t</script>\r\n\t</body>\r\n\r\n</html>",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: centogx.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: centogx.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 503 Service Unavailable\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 7998\r\nConnection: close\r\nP3P: CP=\"CAO PSA OUR\"\r\nExpires: Thu, 01 Jan 1970 00:00:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nPragma: no-cache\r\n\r\n\ufeff<!DOCTYPE html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n\r\n\t<head>\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t\t<title>The Website is Blocked</title>\r\n\t\t<style type=\"text/css\">\r\n\t\thtml,body{min-height:100%; height:100%;}\r\n        #wifiBlockedWrapper{background:#fff; min-height:100%;}\r\n\t\tbody {\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/bg.png');\r\n            background-repeat: repeat-x;\r\n            background-color: #A8B7D6;\r\n            width: 100%;\r\n            text-align: center !important;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n            color: #4c4c4c;\r\n            margin: 0px;\r\n        }\r\n\t\t\r\n\r\n        .boxleft {\r\n            width: 10px;\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/LeftRepeat.png');\r\n            background-repeat: repeat-y;\r\n        }\r\n\r\n        .boxright {\r\n            width: 10px;\r\n            background-image: url('https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/RightRepeat.png');\r\n            background-repeat: repeat-y;\r\n            background-position: right;\r\n\r\n        }\r\n\r\n        .wraper {\r\n            text-align: center !important;\r\n        }\r\n\r\n        .roottbale {\r\n            text-align: center;\r\n\r\n        }\r\n\r\n        .header {\r\n            width: 100%;\r\n            background-repeat: no-repeat;\r\n        }\r\n\r\n        .stopsign {\r\n            text-align: center;\r\n            vertical-align: bottom;\r\n        }\r\n\r\n        .leftheading,\r\n        .rightheading {\r\n\r\n            width: 50%;\r\n            font-weight: bold;\r\n            padding-bottom: 80px;\r\n\r\n        }\r\n\r\n        .leftheading {\r\n            text-align: left;\r\n            font-size: 46px;\r\n        }\r\n\r\n        .rightheading {\r\n            text-align: right;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n            font-size: 50px;\r\n        }\r\n\r\n        .leftcontent,\r\n        .rightcontent {\r\n            font-size: 30px;\r\n            padding-bottom: 20px;\r\n        }\r\n\r\n        .leftcontent {\r\n            text-align: left;\r\n\r\n        }\r\n\r\n        .rightcontent {\r\n            text-align: right;\r\n            font-family: Arial, Helvetica, sans-serif;\r\n        }\r\n\r\n        .leftcontent a,\r\n        .leftcontent a:visited,\r\n        .leftcontent a:hover,\r\n        .rightcontent a,\r\n        .rightcontent a:visited,\r\n        .rightcontent a:hover {\r\n            color: #00b59d;\r\n            text-decoration: none;\r\n        }\r\n\r\n        .leftcontent a:hover,\r\n        .rightcontent a:hover {\r\n            text-decoration: underline;\r\n        }\r\n\r\n        .bodycontent {\r\n            width: 962px;\r\n            background-color: white;\r\n            padding: 20px;\r\n        }\r\n\t\t\r\n\t\t\r\n\t\t</style>\r\n\t</head>\r\n\r\n\t<body>\r\n\t\t<div id=\"blockedWrapper\">\r\n\t\t\t<div class=\"wraper\">\r\n\t\t\t\t<table class=\"roottbale\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"982\">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<table class=\"header\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"stopsign\">\r\n\t\t\t\t\t\t\t\t\t\t\t<img alt=\"Stop symbol\"\r\n                                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/StopSign.png\" />\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<img\r\n                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/TopSlice.png\" alt=\"\" style=\"float:left;\" />\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td class=\"boxleft\">&nbsp;</td>\r\n\t\t\t\t\t\t<td class=\"bodycontent\">\r\n\t\t\t\t\t\t\t<table width=\"100%\">\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td class=\"leftheading\">The Website is Blocked</td>\r\n\t\t\t\t\t\t\t\t\t<td class=\"rightheading\">\r\n                                \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0645\u0637\u0644\u0648\u0628 \u0645\u062d\u0638\u0648\u0631\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td class=\"leftcontent\">If you need to access this site for work reasons, please <a\r\n                                    href=\"https://urlfilter.kaust.edu.sa\"\r\n                                    target=\"_blank\">click here</a>.</td>\r\n\t\t\t\t\t\t\t\t\t<td class=\"rightcontent\">\r\n                                \u0625\u0630\u0627 \u0643\u0646\u062a \u0628\u062d\u0627\u062c\u0629 \u0625\u0644\u0649 \u062a\u0635\u0641\u062d \u0647\u0630\u0627 \u0627\u0644\u0645\u0648\u0642\u0639 \u0644\u0623\u0633\u0628\u0627\u0628 \u062a\u062a\u0639\u0644\u0642 \u0628\u0639\u0645\u0644\u0643 \u0627\u0644\u0631\u062c\u0627\u0621 <a\r\n                                    href=\"https://urlfilter.kaust.edu.sa\">\u0627\u0644\u0636\u063a\u0637 \u0647\u0646\u0627</a>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td class=\"boxright\">&nbsp;</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t<td colspan=\"3\">\r\n\t\t\t\t\t\t\t<img\r\n                        src=\"https://spapps.kaust.edu.sa/sites/InfoSec/PublishingImages/Websence/BottomSlice.png\"\r\n                        alt=\"\" />\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</table>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div id=\"wifiBlockedWrapper\">\r\n\t\t\t<table style=\"height: 424px; margin-left: auto; margin-right: auto;\" width=\"721\">\r\n\t\t\t\t<tbody>\r\n\t\t\t\t\t<tr style=\"height: 57px;\">\r\n\t\t\t\t\t\t<td style=\"width: 711.333px; height: 57px;\" colspan=\"4\">\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<img src=\"https://kaust.edu.sa/_catalogs/masterpage/KAUST/assets/images/kaust-logo.svg\" alt=\"\" width=\"103\" height=\"100\" />\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 16px;\">&nbsp;</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 146px;\">\r\n\t\t\t\t\t\t<td style=\"width: 344px; height: 146px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">Access to this link is not permitted through </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">KAUST-Guest WiFi</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 361.333px; height: 146px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">   \u064a\u062a\u0639\u0630\u0631 \u062a\u0635\u0641\u062d \u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0634\u0628\u0643\u0647 KAUST-Guest WiFi </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 69px;\">\r\n\t\t\t\t\t\t<td style=\"width: 344px; height: 69px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">If you need access to this website while&nbsp;</span>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">connected to </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">KAUST-Guest WiFi</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">Please&nbsp;<a href=\"https://apps.kaust.edu.sa/sites/websense/Pages/register.aspx\">click here</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 361.333px; text-align: center; height: 69px;\" colspan=\"2\">\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">&nbsp;</h4>\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 28px;\">&nbsp;\u0627\u0630\u0627 \u0643\u0646\u062a \u0628\u062d\u0627\u062c\u0647 \u0627\u0644\u0649 \u0627\u0644\u0648\u0635\u0648\u0644 \u0627\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 </span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4>\r\n\t\t\t\t\t\t\t\t<span style=\"font-size: 24px;\">\u064a\u0631\u062c\u0649 <a href=\"https://apps.kaust.edu.sa/sites/websense/Pages/register.aspx\">\u0627\u0644\u0636\u063a\u0637 \u0647\u0646\u0627</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<h4 style=\"text-align: right;\">&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t\t<tr style=\"text-align: center; height: 57px;\">\r\n\t\t\t\t\t\t<td style=\"width: 148.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 189.333px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 196.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t<td style=\"width: 158.667px; height: 57px;\">\r\n\t\t\t\t\t\t\t<h4>&nbsp;</h4>\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t\t</tbody>\r\n\t\t\t</table>\r\n\t\t</div>\r\n\t\t<script type=\"text/javascript\">\r\n\t\t\tif(\"parked\" == \"KAUST-Domain\"){\r\n\t\t\t\tdocument.getElementById(\"wifiBlockedWrapper\").style.display = \"block\";\r\n\t\t\t\tdocument.getElementById(\"blockedWrapper\").style.display = \"none\";\r\n\t\t\t} else {\r\n\t\t\t\tdocument.getElementById(\"wifiBlockedWrapper\").style.display = \"none\";\r\n\t\t\t\tdocument.getElementById(\"blockedWrapper\").style.display = \"block\";\r\n\t\t\t}\r\n\t\t</script>\r\n\t</body>\r\n\r\n</html>",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3356": {
+    "timestamp": "2025-05-21T07:03:50.252594Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/9b78289f-8f0f-4505-8f75-cce8d1834a71",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: chiliz.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: chiliz.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3357": {
+    "timestamp": "2025-05-21T07:04:03.605227Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/65984cf4-2f28-4130-a4cd-b8e63ae2c228",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: coin-base.info\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: coin-base.info\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3358": {
+    "timestamp": "2025-05-21T07:04:18.831539Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/64ad7e37-4f8d-49e6-b966-515a2d6734cb",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: coinbase.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: coinbase.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3359": {
+    "timestamp": "2025-05-21T07:04:31.963166Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/a6f76556-d1cd-4037-87b2-841feb8746b8",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: coinfaucet.eu\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: coinfaucet.eu\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3360": {
+    "timestamp": "2025-05-21T07:04:47.890914Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/f8c49a74-d346-4bd3-8261-8ef315c52e38",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: coinmama.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: coinmama.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3361": {
+    "timestamp": "2025-05-21T07:05:03.800105Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5200ce2c-7ddb-42a1-8fa2-0bddeae10818",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: coinmarketcap.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: coinmarketcap.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3362": {
+    "timestamp": "2025-05-21T07:05:19.683164Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/56a742b8-aad7-4933-9700-0a2381b7bc53",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: coinotron.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: coinotron.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3363": {
+    "timestamp": "2025-05-21T07:05:33.763307Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/faa318cd-713b-4377-b465-3262fd04595b",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: cointweak.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: cointweak.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3364": {
+    "timestamp": "2025-05-21T07:05:49.761124Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/84afed5a-0ab5-422a-9f5f-be7c42a5b98b",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: coinwarz.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: coinwarz.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3365": {
+    "timestamp": "2025-05-21T07:06:06.676310Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/7de5904a-ebcb-42b8-a1f4-bc73e668357d",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: crptrade.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: crptrade.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3366": {
+    "timestamp": "2025-05-21T07:06:22.158769Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/a428e8c2-414c-4d98-86aa-433e40d034a5",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: cryptocoinsnews.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: cryptocoinsnews.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3367": {
+    "timestamp": "2025-05-21T07:06:38.589452Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/ec892bfc-6bf3-40c8-9d98-1f80288d2f8a",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: cryptotab.farm\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: cryptotab.farm\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3368": {
+    "timestamp": "2025-05-21T07:06:55.539827Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d906b2f6-dfdc-4b76-9da2-d59d43803e6c",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: cryptowealthacademy.biz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: cryptowealthacademy.biz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3369": {
+    "timestamp": "2025-05-21T07:07:11.397588Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/6882fddb-6c1e-4f7b-8115-47a8bd174435",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: digimonbtc.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: digimonbtc.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3370": {
+    "timestamp": "2025-05-21T07:07:26.938066Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/769a1d19-8665-4351-9961-dd5e29e4fb01",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: doge.hashfaster.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: doge.hashfaster.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3371": {
+    "timestamp": "2025-05-21T07:07:40.952772Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/6c665e40-6810-45fc-a799-0bf21dd33418",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: doge.jir.dk\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: doge.jir.dk\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3372": {
+    "timestamp": "2025-05-21T07:07:56.772288Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e5d841dc-7e92-496a-b44d-ce8bcfd6a51a",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: doge.poolerino.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: doge.poolerino.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3373": {
+    "timestamp": "2025-05-21T07:08:12.801682Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/ffb11394-b91e-437d-b493-4f34a5fc1d27",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: doge.scryptpools.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: doge.scryptpools.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3374": {
+    "timestamp": "2025-05-21T07:08:28.603102Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/7b7f1951-28c5-4a4c-95ea-9d9a47a0b512",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: dwarfpool.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: dwarfpool.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3375": {
+    "timestamp": "2025-05-21T07:08:44.649720Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d860ca1e-8383-438c-80c5-e072dfca6631",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: eac.cryptominer.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: eac.cryptominer.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3376": {
+    "timestamp": "2025-05-21T07:09:00.394328Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/8fd5bbee-6399-4741-b7a3-38d573cf7022",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: eac.poolerino.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: eac.poolerino.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3377": {
+    "timestamp": "2025-05-21T07:09:16.520167Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5f0a081f-8c68-4417-80a2-915455aaae68",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: east1.us.stratum.dedicatedpool.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: east1.us.stratum.dedicatedpool.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3378": {
+    "timestamp": "2025-05-21T07:09:30.642280Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e1f6046f-d1de-4789-bbb0-a389370f207f",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: ec2-54-193-58-54.us-west-1.compute.amazonaws.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: ec2-54-193-58-54.us-west-1.compute.amazonaws.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3379": {
+    "timestamp": "2025-05-21T07:09:46.191373Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/43c1aeed-40e9-4978-b488-c599bc125f45",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: elitetrader.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: elitetrader.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3380": {
+    "timestamp": "2025-05-21T07:10:00.261432Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/686938b3-99b1-437e-9b96-6efb554aa290",
+    "test_name": "http_1_conformance",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: epargne-crypto.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: epargne-crypto.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  }
+}

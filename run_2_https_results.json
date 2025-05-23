@@ -1,0 +1,2147 @@
+{
+  "3381": {
+    "timestamp": "2025-05-21T04:28:32.603527Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4f943411-b3c5-4554-824b-5f70039f836d",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: ad2bitcoin.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: ad2bitcoin.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3382": {
+    "timestamp": "2025-05-21T04:28:48.419129Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5362cea5-dcb4-45fc-a097-499e1e1f5f33",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3383": {
+    "timestamp": "2025-05-21T04:29:01.680618Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/8c7cb55c-fc38-43ca-b286-0db8fb46ee04",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: alt.litebonk.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: alt.litebonk.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3384": {
+    "timestamp": "2025-05-21T04:29:18.508719Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/3d294952-41fa-4ae0-b0ec-83259a2d1aae",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: api-stratum.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: api-stratum.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3385": {
+    "timestamp": "2025-05-21T04:29:34.360966Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/1db94edc-ea84-4d66-a9ca-230a00eda183",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: api.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: api.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3386": {
+    "timestamp": "2025-05-21T04:29:50.097382Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e804ef70-b6c7-441c-b036-03fb65a0f344",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: api2.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: api2.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3387": {
+    "timestamp": "2025-05-21T04:30:05.918521Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/88625536-02d7-4acc-994e-d5cd9bfe963a",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3388": {
+    "timestamp": "2025-05-21T04:30:21.993322Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/ca130830-c014-4c16-986e-7482ee9546f8",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3389": {
+    "timestamp": "2025-05-21T04:30:38.945874Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/8d887e4f-af02-460a-a1c9-efc4c612b851",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3390": {
+    "timestamp": "2025-05-21T04:30:55.811993Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5ec12c30-b791-4483-abab-665b302d3fb5",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bfgminer.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bfgminer.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3391": {
+    "timestamp": "2025-05-21T04:31:11.614367Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/b7e4e358-15dc-4f18-9e24-0975bc52c4c1",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bibox.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bibox.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3392": {
+    "timestamp": "2025-05-21T04:31:27.458455Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/a9f2fd38-ac85-4b5b-9abc-78d732c2b3bb",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bigzone.xyz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bigzone.xyz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3393": {
+    "timestamp": "2025-05-21T04:31:44.385815Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/83cd439c-3e47-444f-9fbf-14cb264f8c08",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: binance.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: binance.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3394": {
+    "timestamp": "2025-05-21T04:31:58.383650Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/84b7b472-3014-42e8-b827-e39c5c1f228d",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitcanna.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitcanna.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3395": {
+    "timestamp": "2025-05-21T04:32:15.266844Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/a46c04bc-dca9-4fba-b5da-1b303db340dc",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitclockers.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitclockers.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3396": {
+    "timestamp": "2025-05-21T04:32:31.219089Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/70d25bec-bfba-4b92-a7fc-9a9e9ea8b070",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitcoin-champion.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitcoin-champion.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3397": {
+    "timestamp": "2025-05-21T04:32:47.624934Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/15f028cc-c028-445e-b06f-81cf3bab00d0",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitcoin-patrimoine.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitcoin-patrimoine.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3398": {
+    "timestamp": "2025-05-21T04:33:04.514457Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/302d9494-36df-46e0-993d-33c1eb2d427d",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitcoin-server.de\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitcoin-server.de\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3399": {
+    "timestamp": "2025-05-21T04:33:20.979101Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/45ebe7b4-945a-497b-8a2e-94af85d777a5",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3400": {
+    "timestamp": "2025-05-21T04:33:36.886278Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/8ba6fe56-784b-474d-8a38-3d2bf71cc28c",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitcoin.de\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitcoin.de\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3401": {
+    "timestamp": "2025-05-21T04:33:52.657721Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/038b2c52-b77c-47f3-968a-30e299e61edb",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitcoin.it\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitcoin.it\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3402": {
+    "timestamp": "2025-05-21T04:34:08.462444Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/8a7e071c-8707-4ee2-88f3-d3be544a84df",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3403": {
+    "timestamp": "2025-05-21T04:34:24.233400Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c29b7868-fb8e-4b31-b201-3929df7539d7",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitcoinera.app\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitcoinera.app\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3404": {
+    "timestamp": "2025-05-21T04:34:39.948426Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/7c8b083a-2ac0-458f-a043-babd507dba7c",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitcoinmonkey.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitcoinmonkey.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3405": {
+    "timestamp": "2025-05-21T04:34:56.844345Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/1e4e3215-6949-4e2a-b10d-1e113abf7b3e",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitcoinpool.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitcoinpool.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3406": {
+    "timestamp": "2025-05-21T04:35:10.760174Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/317425b2-7916-4f65-82b1-6d5d78f7898d",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3407": {
+    "timestamp": "2025-05-21T04:35:26.585998Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e62464f2-e0d4-41b4-b06e-e4b870b58d09",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HEAD / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, x-gzip, deflate\r\nHost: www.qmailer.net\r\nConnection: keep-alive\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HEAD / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, x-gzip, deflate\r\nHost: www.qmailer.net\r\nConnection: keep-alive\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3408": {
+    "timestamp": "2025-05-21T04:35:42.486219Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/ca85a108-c6e2-4f64-8fdd-062bd1b4c421",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitcoinrigs.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitcoinrigs.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3409": {
+    "timestamp": "2025-05-21T04:35:58.281366Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/496fd6a3-e978-49dd-8498-b07519d92d6d",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitcoinscrypt.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitcoinscrypt.org\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3410": {
+    "timestamp": "2025-05-21T04:36:14.091644Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/43a01fc4-d3f8-4094-bf58-36c8308040ce",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitforex.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitforex.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3411": {
+    "timestamp": "2025-05-21T04:36:30.904918Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/592af9b4-b94e-4545-9f89-9cf19eeca6b1",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitit.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitit.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3412": {
+    "timestamp": "2025-05-21T04:36:47.898509Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/efd3f480-2c5c-488f-9402-9d77be6202a1",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bitpanda.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bitpanda.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3413": {
+    "timestamp": "2025-05-21T04:37:03.717695Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/f59636e9-c0da-420d-8fbf-a45f14bc6c1e",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: bittylicious.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: bittylicious.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3414": {
+    "timestamp": "2025-05-21T04:37:17.740328Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/03292cc3-c123-4dc6-9d7e-6ec88c3f85fc",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: btc.digbtc.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: btc.digbtc.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3415": {
+    "timestamp": "2025-05-21T04:37:33.313850Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/cda7efc3-63f4-4abd-9c5d-6b2b6b3cb4e2",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: btc2.cryptominer.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: btc2.cryptominer.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3416": {
+    "timestamp": "2025-05-21T04:37:46.622432Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e05f081c-7bbb-4954-9f0f-9ec4d6ba8463",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: btcguild.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: btcguild.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3417": {
+    "timestamp": "2025-05-21T04:38:02.454129Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4e1f30e8-e0ac-4e7f-8684-28c60274fa52",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: btcmine.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: btcmine.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3418": {
+    "timestamp": "2025-05-21T04:38:16.968024Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/6ab7ef59-3320-45c6-8f00-55393f5cb463",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: butterflylabs.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: butterflylabs.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3419": {
+    "timestamp": "2025-05-21T04:38:32.115841Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/07b7b959-0671-4a5b-8031-1deb9a4dda5d",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: camelbtc.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: camelbtc.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3420": {
+    "timestamp": "2025-05-21T04:38:47.906691Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/269be63c-b249-4e54-b6d5-3894d438d6c4",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3421": {
+    "timestamp": "2025-05-21T04:39:03.419079Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/082b8179-0d93-4d05-8fd3-4847dc6bf4ee",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: chiliz.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: chiliz.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3422": {
+    "timestamp": "2025-05-21T04:39:19.400252Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/900315cf-ea04-4f38-aa19-107aaecb945f",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3423": {
+    "timestamp": "2025-05-21T04:39:35.199754Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/07d07b3a-cb17-4e1a-80bc-acdf6f9a1958",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: coinbase.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: coinbase.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3424": {
+    "timestamp": "2025-05-21T04:39:51.318949Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/98f78613-5314-4ef7-b085-e9dc7f7fe0c2",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: coinfaucet.eu\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: coinfaucet.eu\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3425": {
+    "timestamp": "2025-05-21T04:40:07.069175Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/29e87ba3-6745-4235-970d-7bf30e84e687",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: coinmama.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: coinmama.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3426": {
+    "timestamp": "2025-05-21T04:40:22.997953Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c591f440-a442-4465-a86c-95d4a46da0cd",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: coinmarketcap.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: coinmarketcap.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3427": {
+    "timestamp": "2025-05-21T04:40:38.740805Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e20e1bcb-bcd0-4169-af37-8e5fdad69fa7",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: coinotron.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: coinotron.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3428": {
+    "timestamp": "2025-05-21T04:40:52.948257Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/2e985b99-3558-4313-8c05-c731fb1afabd",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: cointweak.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: cointweak.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3429": {
+    "timestamp": "2025-05-21T04:41:10.098126Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5c722e2f-de1f-47f1-837a-953bfcc75e3e",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: coinwarz.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: coinwarz.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3430": {
+    "timestamp": "2025-05-21T04:41:24.542680Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c0d367fd-21b0-4245-8552-4deff8d88e2b",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: crptrade.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: crptrade.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3431": {
+    "timestamp": "2025-05-21T04:41:38.026707Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/1f955c02-da31-448a-be98-de01260f199c",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: cryptocoinsnews.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: cryptocoinsnews.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3432": {
+    "timestamp": "2025-05-21T04:41:53.674786Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/8adb68dd-bf34-408a-bdd8-522638715233",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: cryptotab.farm\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: cryptotab.farm\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3433": {
+    "timestamp": "2025-05-21T04:42:09.540301Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d483f97c-469c-4923-8799-ab085d16efe6",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: cryptowealthacademy.biz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: cryptowealthacademy.biz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3434": {
+    "timestamp": "2025-05-21T04:42:22.720116Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d950da99-8a71-4496-ac7d-031d5f2acbb3",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: digimonbtc.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: digimonbtc.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3435": {
+    "timestamp": "2025-05-21T04:42:38.660811Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/19d03e3f-bd08-4ce9-b0ae-0786340788c6",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: doge.hashfaster.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: doge.hashfaster.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3436": {
+    "timestamp": "2025-05-21T04:42:54.722184Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/1bea025c-0e04-4e90-a4e3-e5c0f7204966",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: doge.jir.dk\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: doge.jir.dk\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3437": {
+    "timestamp": "2025-05-21T04:43:10.870826Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/b95b7840-9557-4d50-9141-406eda8d6c82",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: doge.poolerino.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: doge.poolerino.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3438": {
+    "timestamp": "2025-05-21T04:43:28.201693Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/f3dd434c-aa80-4f2c-a672-68825e10bb4f",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: doge.scryptpools.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: doge.scryptpools.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3439": {
+    "timestamp": "2025-05-21T04:43:44.077303Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d11c68b8-6297-4e7c-a21a-dde6982cb235",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: dwarfpool.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: dwarfpool.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3440": {
+    "timestamp": "2025-05-21T04:43:59.807703Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/10fdff98-4266-4a2a-9f69-a08501c6d17f",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: eac.cryptominer.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: eac.cryptominer.net\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3441": {
+    "timestamp": "2025-05-21T04:44:13.959552Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4bc59960-e155-4688-b2a4-3076f90ca240",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: eac.poolerino.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: eac.poolerino.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3442": {
+    "timestamp": "2025-05-21T04:44:29.773344Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5dd25c34-e714-4a21-880b-1053fe2c952f",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: east1.us.stratum.dedicatedpool.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: east1.us.stratum.dedicatedpool.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3443": {
+    "timestamp": "2025-05-21T04:44:45.609350Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/188bf47c-7f07-4cbd-a928-d60297a2d220",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: ec2-54-193-58-54.us-west-1.compute.amazonaws.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: ec2-54-193-58-54.us-west-1.compute.amazonaws.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3444": {
+    "timestamp": "2025-05-21T04:45:01.045225Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/dcfbd61a-73de-4c4c-a03f-374d1fd49509",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "GET / HTTP/1.1\r\nHost: elitetrader.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": "GET / HTTP/1.1\r\nHost: elitetrader.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3445": {
+    "timestamp": "2025-05-21T04:45:17.098093Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/ec4704f4-0ba5-4dba-aae9-c60c9f7be315",
+    "test_name": "https_sni",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "received": null,
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": null,
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  }
+}
