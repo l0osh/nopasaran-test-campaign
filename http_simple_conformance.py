@@ -17,7 +17,7 @@ def classify_entry(entry):
     result = entry.get('result', {})
     if result.get('Worker_2') is None:
         return 'Failure'
-    
+
     vars1 = result.get('Worker_1', {}).get('Variables', {})
     vars2 = result.get('Worker_2', {}).get('Variables', {})
 
@@ -27,23 +27,20 @@ def classify_entry(entry):
     dict_result2 = vars2.get('dict', {}).get('result', {})
     sync_result2 = vars2.get('sync_dict', {}).get('result', {})
 
-    # 1. Match
     if dict_result1 == sync_result1 and dict_result2 == sync_result2:
         return 'Match'
 
-    # 2. HTTP status codes
     status1 = dict_result1.get('results', {}).get('HTTP', {}).get('status')
     status2 = dict_result2.get('results', {}).get('HTTP', {}).get('status')
 
-    if status1 == status2 and status1 != None:
+    if status1 == status2 and status1 is not None:
         return 'Match'
-    
+
     if status1 == 503 or status2 == 503:
         return '503'
     if status1 == 403 or status2 == 403:
         return '403'
 
-    # 3. Check errors in dict results
     errors1 = dict_result1.get('errors', [])
     errors2 = dict_result2.get('errors', [])
     combined_errors = errors1 + errors2
@@ -58,28 +55,26 @@ def classify_entry(entry):
         if "HTTPS request failed: timed out" in err:
             return 'HTTPSTimeout'
 
-    # 4. Default fallback
     return 'Other'
 
-# 4) Classify all test IDs for all runs
+# 4) Classify
 classifications = {run_idx: {} for run_idx in data}
 for run_idx in data:
     for tid in test_ids:
         classifications[run_idx][tid] = classify_entry(data[run_idx][tid])
 
-# 5) Plot settings
+# 5) Styles
 patterns = {
-    'Match':           '//',   # green with diagonal hatch
-    'Other':           '...',  # dark gray with dot hatch
-    'Empty':           'xx',   # yellow with crosshatch (if needed)
-    '503':             '\\\\', # red with backslash hatch
-    '403':             '++',   # orange with plus hatch
-    'HandshakeTimeout':'--',   # light blue with dash hatch
-    'ConnReset':       'oo',   # purple with circle hatch
-    'HTTPTimeout':     '++',   # pink with plus hatch
-    'HTTPSTimeout':    '--',  # pink with dash hatch
+    'Match':           '//',
+    'Other':           '...',
+    'Empty':           'xx',
+    '503':             '\\\\',
+    '403':             '++',
+    'HandshakeTimeout':'--',
+    'ConnReset':       'oo',
+    'HTTPTimeout':     '++',
+    'HTTPSTimeout':    '--',
 }
-
 colors = {
     'Match':           'green',
     'Other':           'dimgray',
@@ -92,70 +87,83 @@ colors = {
     'HTTPSTimeout':    'pink',
 }
 
+# Helper function for plotting
+def plot_classification_group(protocol_name, is_https, output_file):
+    fig, ax = plt.subplots(figsize=(len(test_ids)/8, 4.5))
 
-# 6) Create subplots
-fig, axes = plt.subplots(2, 2, figsize=(len(test_ids)/4, 6), sharex=True, sharey=True)
+    n_runs = len(classifications)
+    y_positions = list(range(n_runs, 0, -1))
 
-run_to_pos = {
-    1: (0, 0),
-    2: (0, 1),
-    3: (1, 0),
-    4: (1, 1),
-}
+    # Collect statuses present in the plot
+    present_statuses = set()
 
-for run_idx in sorted(classifications):
-    row, col = run_to_pos[run_idx]
-    ax = axes[row][col]
-    
-    http_vector = [classifications[run_idx][tid] for tid in test_ids if int(tid) % 2 == 0]
-    https_vector = [classifications[run_idx][tid] for tid in test_ids if int(tid) % 2 != 0]
+    for idx, run_idx in enumerate(sorted(classifications)):
+        y = y_positions[idx]
+        if is_https:
+            vector = [classifications[run_idx][tid] for tid in test_ids if int(tid) % 2 != 0]
+        else:
+            vector = [classifications[run_idx][tid] for tid in test_ids if int(tid) % 2 == 0]
 
-    # Top: HTTP (even)
-    for i, status in enumerate(http_vector):
-        ax.barh(y=2, width=1, left=i, height=0.8, color=colors[status], edgecolor='black', hatch=patterns[status])
+        # Track all statuses found in this vector
+        present_statuses.update(vector)
 
-    # Bottom: HTTPS (odd)
-    for i, status in enumerate(https_vector):
-        ax.barh(y=1, width=1, left=i, height=0.8, color=colors[status], edgecolor='black', hatch=patterns[status])
+        for i, status in enumerate(vector):
+            ax.barh(
+                y=y,
+                width=1,
+                left=i,
+                height=0.8,
+                color=colors[status],
+                edgecolor='black',
+                hatch=patterns[status]
+            )
+        ax.text(
+            -5, y,
+            f'Run {run_idx}',
+            va='center',
+            ha='right',
+            fontweight='bold',
+            fontsize=16
+        )
 
-    ax.set_xlim(-2, max(len(http_vector), len(https_vector)))
-    ax.set_ylim(0.5, 2.5)
-    ax.set_yticks([1, 2])
-    ax.set_yticklabels(['HTTPS', 'HTTP'], fontsize=16, fontweight='bold')
-    ax.set_xticks(range(0, max(len(http_vector), len(https_vector)), 5))
-    ax.set_xticklabels([str(i) for i in range(0, max(len(http_vector), len(https_vector)), 5)], fontsize=14)
-    ax.set_title(f'Run {run_idx}', fontsize=15, fontweight='bold')
-
-    for spine in ax.spines.values():
-        spine.set_visible(False)
-
-# 7) Add legend
-legend_handles = [
-    mpatches.Patch(facecolor=colors[key], edgecolor='black', hatch=patterns[key], label=key)
-    for key in [
-        'Match', 
-        '503', 
-        '403', 
-        'HandshakeTimeout', 
-        'ConnReset',
-        'HTTPTimeout',
-        'HTTPSTimeout', 
-        'Other'
+    # Create legend handles only for statuses present in data
+    legend_handles = [
+        mpatches.Patch(facecolor=colors[key], edgecolor='black', hatch=patterns[key], label=key)
+        for key in sorted(present_statuses)
     ]
-]
 
-fig.legend(
-    handles=legend_handles,
-    title="Classification",
-    title_fontsize=18,
-    fontsize=14,
-    loc='lower center',
-    bbox_to_anchor=(0.5, -0.1),
-    ncol=5,
-    frameon=True
-)
+    ax.legend(
+        handles=legend_handles,
+        title="Classification",
+        title_fontsize=18,
+        fontsize=16,
+        loc='lower center',
+        bbox_to_anchor=(0.5, -0.5),
+        ncol=4,
+        frameon=True
+    )
 
-# 8) Save plot
-plt.tight_layout(rect=[0, 0.08, 1, 1])
-plt.savefig('http_simple_matrix_vector.png', dpi=300, bbox_inches='tight')
-print("✅ Updated matrix-style chart saved as 'http_simple_matrix_vector.png'")
+    # Axes formatting
+    ax.set_xlim(-6, len(test_ids)/2)
+    ax.set_ylim(0.5, n_runs + 0.5)
+    xtick_positions = list(range(0, int(len(test_ids)/2), 5))
+    ax.set_xticks(xtick_positions)
+    ax.set_xticklabels([str(i) for i in xtick_positions], fontsize=13)
+
+    # Hide unnecessary spines and y-axis ticks/labels
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+    ax.spines['bottom'].set_visible(False)
+
+    ax.tick_params(axis='y', which='both', left=False, labelleft=False)
+
+    plt.tight_layout()
+    plt.savefig(output_file, dpi=300, bbox_inches='tight')
+    print(f"✅ Chart saved as '{output_file}'")
+
+
+
+# 6) Save HTTP and HTTPS plots
+plot_classification_group('HTTP', is_https=False, output_file='http_split_vector.png')
+plot_classification_group('HTTPS', is_https=True, output_file='https_split_vector.png')
