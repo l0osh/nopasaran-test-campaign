@@ -34,7 +34,7 @@ def classify_dns_entry(entry):
 
     # Case: query_sent true and received is literal string "false"
     if query_sent == "true" and received == "false":
-        return 'Empty'
+        return 'No Response'
 
     # Case: received is a dict with DNS answers
     if isinstance(received, dict):
@@ -58,14 +58,12 @@ classifications = {
 patterns = {
     'Received': '//',   # green diagonal
     'Sinkhole': '\\\\', # red backslash
-    'Empty':    'xx',   # yellow cross
-    'Failure':  '...',  # gray dots
+    'No Response':    'xx',   # yellow cross
 }
 colors = {
     'Received': 'green',
     'Sinkhole': 'red',
-    'Empty':    'yellow',
-    'Failure':  'gray',
+    'No Response':    'yellow',
 }
 
 # 6) Create the figure
@@ -91,21 +89,21 @@ for idx, run_idx in enumerate(sorted(classifications)):
         va='center',
         ha='right',
         fontweight='bold',
-        fontsize=12
+        fontsize=16
     )
 
 # 7) Add a legend
 legend_handles = [
     mpatches.Patch(facecolor=colors[key], edgecolor='black', hatch=patterns[key], label=key)
-    for key in ['Received', 'Sinkhole', 'Empty', 'Failure']
+    for key in ['Received', 'Sinkhole', 'No Response']
 ]
 ax.legend(
     handles=legend_handles,
     title="Classification",
-    title_fontsize=14,
-    fontsize=12,
+    title_fontsize=18,
+    fontsize=16,
     loc='lower center',
-    bbox_to_anchor=(0.5, -0.2),
+    bbox_to_anchor=(0.5, -0.5),
     ncol=4,
     frameon=True
 )
@@ -115,7 +113,7 @@ ax.set_xlim(-6, len(test_ids))
 ax.set_ylim(0.5, 4.5)
 xtick_positions = list(range(0, len(test_ids), 5))
 ax.set_xticks(xtick_positions)
-ax.set_xticklabels([str(i) for i in xtick_positions], fontsize=10)
+ax.set_xticklabels([str(i) for i in xtick_positions], fontsize=13)
 
 # Hide top, right, left spines and y-axis ticks/labels
 ax.spines['top'].set_visible(False)

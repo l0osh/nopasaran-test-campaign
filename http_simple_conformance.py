@@ -121,10 +121,10 @@ for run_idx in sorted(classifications):
     ax.set_xlim(-2, max(len(http_vector), len(https_vector)))
     ax.set_ylim(0.5, 2.5)
     ax.set_yticks([1, 2])
-    ax.set_yticklabels(['HTTPS (odd)', 'HTTP (even)'], fontsize=10)
+    ax.set_yticklabels(['HTTPS', 'HTTP'], fontsize=16, fontweight='bold')
     ax.set_xticks(range(0, max(len(http_vector), len(https_vector)), 5))
-    ax.set_xticklabels([str(i) for i in range(0, max(len(http_vector), len(https_vector)), 5)], fontsize=10)
-    ax.set_title(f'Run {run_idx}', fontsize=14, fontweight='bold')
+    ax.set_xticklabels([str(i) for i in range(0, max(len(http_vector), len(https_vector)), 5)], fontsize=14)
+    ax.set_title(f'Run {run_idx}', fontsize=15, fontweight='bold')
 
     for spine in ax.spines.values():
         spine.set_visible(False)
@@ -147,9 +147,10 @@ legend_handles = [
 fig.legend(
     handles=legend_handles,
     title="Classification",
-    title_fontsize=12,
-    fontsize=11,
+    title_fontsize=18,
+    fontsize=14,
     loc='lower center',
+    bbox_to_anchor=(0.5, -0.1),
     ncol=5,
     frameon=True
 )

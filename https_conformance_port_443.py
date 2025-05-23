@@ -43,12 +43,10 @@ classifications = {
 # 5) Plotting parameters
 patterns = {
     'Match':   '//',   # green with diagonal hatch
-    'Failure': '...',  # gray with dot hatch
     'Null':    'xx',   # blue with crosshatched
 }
 colors = {
     'Match':   'green',
-    'Failure': 'gray',
     'Null':    'blue',
 }
 
@@ -75,21 +73,21 @@ for idx, run_idx in enumerate(sorted(classifications)):
         va='center',
         ha='right',
         fontweight='bold',
-        fontsize=12
+        fontsize=16
     )
 
 # 7) Add a legend
 legend_handles = [
     mpatches.Patch(facecolor=colors[key], edgecolor='black', hatch=patterns[key], label=key)
-    for key in ['Match', 'Null', 'Failure']
+    for key in ['Match', 'Null']
 ]
 ax.legend(
     handles=legend_handles,
     title="Classification",
-    title_fontsize=14,
-    fontsize=12,
+    title_fontsize=18,
+    fontsize=16,
     loc='lower center',
-    bbox_to_anchor=(0.5, -0.2),
+    bbox_to_anchor=(0.5, -0.5),
     ncol=3,
     frameon=True
 )
@@ -100,7 +98,7 @@ ax.set_ylim(0.5, 4.5)
 # Show only x-axis ticks every 5 indices
 xtick_positions = list(range(0, len(test_ids), 5))
 ax.set_xticks(xtick_positions)
-ax.set_xticklabels([str(i) for i in xtick_positions], fontsize=10)
+ax.set_xticklabels([str(i) for i in xtick_positions], fontsize=13)
 
 # Hide top, right, left spines and y-axis ticks/labels
 ax.spines['top'].set_visible(False)
