@@ -87,12 +87,16 @@ colors = {
     'HTTPSTimeout':    'pink',
 }
 
-# Helper function for plotting
+# Helper function for plotting (compact layout)
 def plot_classification_group(protocol_name, is_https, output_file):
-    fig, ax = plt.subplots(figsize=(len(test_ids)/8, 4.5))
+    fig, ax = plt.subplots(figsize=(len(test_ids)/8, 3.5))  # Reduced height for compactness
 
     n_runs = len(classifications)
-    y_positions = list(range(n_runs, 0, -1))
+    y_spacing = 0.4  # Distance between runs on y-axis
+    bar_height = 0.35
+
+    # New y_positions with tighter spacing
+    y_positions = [y_spacing * (n_runs - i) for i in range(n_runs)]
 
     # Collect statuses present in the plot
     present_statuses = set()
@@ -104,7 +108,6 @@ def plot_classification_group(protocol_name, is_https, output_file):
         else:
             vector = [classifications[run_idx][tid] for tid in test_ids if int(tid) % 2 == 0]
 
-        # Track all statuses found in this vector
         present_statuses.update(vector)
 
         for i, status in enumerate(vector):
@@ -112,7 +115,7 @@ def plot_classification_group(protocol_name, is_https, output_file):
                 y=y,
                 width=1,
                 left=i,
-                height=0.8,
+                height=bar_height,
                 color=colors[status],
                 edgecolor='black',
                 hatch=patterns[status]
@@ -123,10 +126,10 @@ def plot_classification_group(protocol_name, is_https, output_file):
             va='center',
             ha='right',
             fontweight='bold',
-            fontsize=16
+            fontsize=13  # Slightly smaller font
         )
 
-    # Create legend handles only for statuses present in data
+    # Legend only for statuses in current data
     legend_handles = [
         mpatches.Patch(facecolor=colors[key], edgecolor='black', hatch=patterns[key], label=key)
         for key in sorted(present_statuses)
@@ -135,23 +138,23 @@ def plot_classification_group(protocol_name, is_https, output_file):
     ax.legend(
         handles=legend_handles,
         title="Classification",
-        title_fontsize=18,
-        fontsize=16,
+        title_fontsize=16,
+        fontsize=13,
         loc='upper center',
-        bbox_to_anchor=(0.5, -0.2),
+        bbox_to_anchor=(0.5, -0.3),
         ncol=4,
         frameon=True
     )
 
     # Axes formatting
-    ax.set_xlim(-6, len(test_ids)/2)
-    ax.set_ylim(0.5, n_runs + 0.5)
-    xtick_positions = list(range(0, int(len(test_ids)/2), 5))
+    ax.set_xlim(-6, len(test_ids) / 2)
+    ax.set_ylim(0, y_spacing * n_runs + 0.2)  # Adjusted for tighter layout
+    xtick_positions = list(range(0, int(len(test_ids) / 2), 5))
     ax.set_xticks(xtick_positions)
-    ax.set_xticklabels([str(i) for i in xtick_positions], fontsize=13)
+    ax.set_xticklabels([str(i) for i in xtick_positions], fontsize=11)
 
     # Add x-axis label
-    ax.set_xlabel('Domain Name ID', fontsize=14, fontweight='bold')
+    ax.set_xlabel('Domain Name ID', fontsize=13, fontweight='bold')
 
     # Hide unnecessary spines and y-axis ticks/labels
     ax.spines['top'].set_visible(False)
@@ -164,6 +167,7 @@ def plot_classification_group(protocol_name, is_https, output_file):
     plt.tight_layout()
     plt.savefig(output_file, dpi=300, bbox_inches='tight')
     print(f"✅ Chart saved as '{output_file}'")
+
 
 
 

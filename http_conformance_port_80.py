@@ -60,9 +60,12 @@ colors = {
     '503':    'red',
 }
 
+# 5.1) Modified plotting parameters
+y_positions = [1.6, 1.2, 0.8, 0.4]  # Tighter spacing on y-axis
+bar_height = 0.35  # Reduced height of the bars
+
 # 6) Create the figure
-fig, ax = plt.subplots(figsize=(len(test_ids)/4, 4.5))
-y_positions = [4, 3, 2, 1]  # one row per run
+fig, ax = plt.subplots(figsize=(len(test_ids)/4, 3.5))  # Slightly shorter height
 
 for idx, run_idx in enumerate(sorted(classifications)):
     vector = classifications[run_idx]
@@ -72,7 +75,7 @@ for idx, run_idx in enumerate(sorted(classifications)):
             y=y,
             width=1,
             left=i,
-            height=0.8,
+            height=bar_height,
             color=colors[status],
             edgecolor='black',
             hatch=patterns[status]
@@ -83,7 +86,7 @@ for idx, run_idx in enumerate(sorted(classifications)):
         va='center',
         ha='right',
         fontweight='bold',
-        fontsize=16
+        fontsize=13  # Slightly smaller font
     )
 
 # 7) Add a legend
@@ -97,14 +100,14 @@ ax.legend(
     title_fontsize=18,
     fontsize=16,
     loc='upper center',
-    bbox_to_anchor=(0.5, -0.2),
+    bbox_to_anchor=(0.5, -0.3),
     ncol=4,
     frameon=True
 )
 
 # 8) Final formatting & save
 ax.set_xlim(-6, len(test_ids))
-ax.set_ylim(0.5, 4.5)
+ax.set_ylim(0, 2)  # Adjusted to fit the new y_positions range
 # Show only x-axis ticks every 5 indices
 xtick_positions = list(range(0, len(test_ids), 5))
 ax.set_xticks(xtick_positions)
