@@ -137,8 +137,8 @@ def plot_classification_group(protocol_name, is_https, output_file):
         title="Classification",
         title_fontsize=18,
         fontsize=16,
-        loc='lower center',
-        bbox_to_anchor=(0.5, -0.5),
+        loc='upper center',
+        bbox_to_anchor=(0.5, -0.2),
         ncol=4,
         frameon=True
     )
@@ -149,6 +149,9 @@ def plot_classification_group(protocol_name, is_https, output_file):
     xtick_positions = list(range(0, int(len(test_ids)/2), 5))
     ax.set_xticks(xtick_positions)
     ax.set_xticklabels([str(i) for i in xtick_positions], fontsize=13)
+
+    # Add x-axis label
+    ax.set_xlabel('Domain Name ID', fontsize=14, fontweight='bold')
 
     # Hide unnecessary spines and y-axis ticks/labels
     ax.spines['top'].set_visible(False)
