@@ -132,12 +132,25 @@ def load_all_test_trees(tests_folder='./tests-trees'):
             try:
                 with open(path, 'r') as f:
                     data = yaml.safe_load(f)
+
+                # PATCH: Ensure qname in response_spec matches top-level qname
+                if (
+                    isinstance(data, dict)
+                    and data.get("name") == "udp_dns_qname_probing"
+                    and isinstance(data.get("parameters"), dict)
+                ):
+                    qname_value = data["parameters"].get("qname")
+                    if isinstance(data["parameters"].get("response_spec"), dict):
+                        data["parameters"]["response_spec"]["qname"] = qname_value
+
                 test_trees.append(data)
+
             except yaml.YAMLError as e:
                 print(f"YAML error in {filename}: {e}")
             except FileNotFoundError as e:
                 print(f"File reference error in {filename}: {e}")
     return test_trees
+
 
 
 def main():

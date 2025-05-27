@@ -3,6 +3,8 @@ worker_1_role: client
 worker_2_role: server
 parameters:
   qname: "@file:inputs/hostnames.yml"
-  response_spec: "127.0.0.1"
-  qtype: 1
   destination_port: 53
+  response_spec:
+    type: A
+    value: 127.0.0.1
+    qname: "@file:inputs/hostnames.yml"
