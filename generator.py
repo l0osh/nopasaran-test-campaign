@@ -162,7 +162,7 @@ def main():
                 continue
 
             # Additional skip for intranet-restricted tests
-            if test_name in ["https_sni", "dns_qname_probing", "http_1_conformance"]:
+            if test_name in ["https_sni", "udp_dns_qname_probing", "http_1_conformance"]:
                 if not pair["Worker_2"].get("intranet_accessible", False):
                     continue
 
@@ -185,12 +185,10 @@ def main():
                 }
 
                 # Apply special filters for dns_qname_prober
-                if test_name == "dns_qname_prober":
+                if test_name == "udp_dns_qname_probing":
                     w1_ip = pair["Worker_1"]["ip"]
                     w2_ip = pair["Worker_2"]["ip"]
 
-                    campaign_entry["Worker_1"]["filter"] = f"src host {w2_ip} and udp and src port 53"
-                    campaign_entry["Worker_2"]["filter"] = f"udp and dst port 53"
 
                 campaign_entries.append(campaign_entry)
                 test_id += 1

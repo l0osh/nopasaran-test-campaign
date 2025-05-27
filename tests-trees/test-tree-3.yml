@@ -1,6 +1,8 @@
-name: dns_qname_prober
+name: udp_dns_qname_probing
 worker_1_role: client
 worker_2_role: server
 parameters:
   qname: "@file:inputs/hostnames.yml"
-  response_ip: "127.0.0.1"
+  response_spec: "127.0.0.1"
+  qtype: 1
+  destination_port: 53
