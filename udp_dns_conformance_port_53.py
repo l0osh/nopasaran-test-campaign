@@ -25,26 +25,29 @@ def classify_dns_entry(entry):
     w1 = result.get('Worker_1')
     if not w1:
         return 'Failure'
-    
+
     vars1 = w1.get('Variables', {})
-    dict1 = vars1.get('dict', {})
 
-    query_sent = dict1.get('query_sent')
-    received = dict1.get('received')
-
-    # Case: query_sent true and received is literal string "false"
-    if query_sent == "true" and received == "false":
+    # Check for TIMEOUT event
+    if vars1.get('event') == 'TIMEOUT':
         return 'No Response'
 
-    # Case: received is a dict with DNS answers
-    if isinstance(received, dict):
-        answers = received.get('answers', [])
-        for ans in answers:
-            rdata = ans.get('rdata')
-            if rdata == "127.0.0.1":
-                return 'Received'
-            elif rdata == "sinkhole.paloaltonetworks.com.":
+    dict1 = vars1.get('dict', {})
+    response = dict1.get('response', {})
+
+    # Check if 'received' is explicitly null (=> it's a dict with key 'received' set to None)
+    if isinstance(response, dict):
+        inner_received = response.get('received')
+        if inner_received is None:
+            return 'Failure'
+
+        # Check for sinkhole in response
+        if isinstance(inner_received, dict):
+            response = inner_received.get('response', '')
+            if 'sinkhole.paloaltonetworks.com.' in response:
                 return 'Sinkhole'
+            if '127.0.0.1' in response:
+                return 'Received'
 
     return 'Failure'
 
@@ -59,11 +62,13 @@ patterns = {
     'Received': '//',   # green diagonal
     'Sinkhole': '\\\\', # red backslash
     'No Response':    'xx',   # yellow cross
+    'Failure': '---',
 }
 colors = {
     'Received': 'green',
     'Sinkhole': 'red',
-    'No Response':    'yellow',
+    'No Response': 'yellow',
+    'Failure': 'black',
 }
 
 # 5.1) Modified plotting parameters
@@ -98,7 +103,7 @@ for idx, run_idx in enumerate(sorted(classifications)):
 # 7) Add a legend
 legend_handles = [
     mpatches.Patch(facecolor=colors[key], edgecolor='black', hatch=patterns[key], label=key)
-    for key in ['Received', 'Sinkhole', 'No Response']
+    for key in ['Received', 'Sinkhole', 'No Response', 'Failure']
 ]
 ax.legend(
     handles=legend_handles,
