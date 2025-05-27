@@ -136,7 +136,7 @@ def load_all_test_trees(tests_folder='./tests-trees'):
                 # PATCH: Ensure qname in response_spec matches top-level qname
                 if (
                     isinstance(data, dict)
-                    and data.get("name") == "udp_dns_qname_probing"
+                    and data.get("name") == "udp_dns_qname_prober"
                     and isinstance(data.get("parameters"), dict)
                 ):
                     qname_value = data["parameters"].get("qname")
@@ -175,7 +175,7 @@ def main():
                 continue
 
             # Additional skip for intranet-restricted tests
-            if test_name in ["https_sni", "udp_dns_qname_probing", "http_1_conformance"]:
+            if test_name in ["https_sni", "udp_dns_qname_prober", "http_1_conformance"]:
                 if not pair["Worker_2"].get("intranet_accessible", False):
                     continue
 
@@ -198,7 +198,7 @@ def main():
                 }
 
                 # Apply special filters for dns_qname_prober
-                if test_name == "udp_dns_qname_probing":
+                if test_name == "udp_dns_qname_prober":
                     w1_ip = pair["Worker_1"]["ip"]
                     w2_ip = pair["Worker_2"]["ip"]
 

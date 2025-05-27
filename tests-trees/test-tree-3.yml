@@ -1,4 +1,4 @@
-name: udp_dns_qname_probing
+name: udp_dns_qname_prober
 worker_1_role: client
 worker_2_role: server
 parameters:
