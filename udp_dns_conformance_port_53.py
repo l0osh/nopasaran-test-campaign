@@ -28,10 +28,6 @@ def classify_dns_entry(entry):
 
     vars1 = w1.get('Variables', {})
 
-    # Check for TIMEOUT event
-    if vars1.get('event') == 'TIMEOUT':
-        return 'No Response'
-
     dict1 = vars1.get('dict', {})
     response = dict1.get('response', {})
 
@@ -39,7 +35,7 @@ def classify_dns_entry(entry):
     if isinstance(response, dict):
         inner_received = response.get('received')
         if inner_received is None:
-            return 'Failure'
+            return 'No Response'
 
         # Check for sinkhole in response
         if isinstance(inner_received, dict):
@@ -61,14 +57,12 @@ classifications = {
 patterns = {
     'Received': '//',   # green diagonal
     'Sinkhole': '\\\\', # red backslash
-    'No Response':    'xx',   # yellow cross
-    'Failure': '---',
+    'No Response':    'xx'   # yellow cross
 }
 colors = {
     'Received': 'green',
     'Sinkhole': 'red',
-    'No Response': 'yellow',
-    'Failure': 'black',
+    'No Response': 'yellow'
 }
 
 # 5.1) Modified plotting parameters
@@ -103,7 +97,7 @@ for idx, run_idx in enumerate(sorted(classifications)):
 # 7) Add a legend
 legend_handles = [
     mpatches.Patch(facecolor=colors[key], edgecolor='black', hatch=patterns[key], label=key)
-    for key in ['Received', 'Sinkhole', 'No Response', 'Failure']
+    for key in ['Received', 'Sinkhole', 'No Response']
 ]
 ax.legend(
     handles=legend_handles,

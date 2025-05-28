@@ -1,9 +1,9 @@
 {
   "3251": {
-    "timestamp": "2025-05-27T13:53:48.297012Z",
+    "timestamp": "2025-05-28T10:35:58.081655Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/2a7c794c-3773-423f-9c40-374063031a4c",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/3a766ebe-182a-4a1d-ac43-4c8391b62455",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -13,8 +13,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47944\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;ad2bitcoin.com.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47944 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;ad2bitcoin.com.                IN      A ANSWER SECTION:ad2bitcoin.com.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65262\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;ad2bitcoin.com.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65262 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;ad2bitcoin.com.                IN      A ANSWER SECTION:ad2bitcoin.com.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -43,8 +43,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47944\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;ad2bitcoin.com.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47944 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;ad2bitcoin.com.                IN      A ANSWER SECTION:ad2bitcoin.com.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65262\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;ad2bitcoin.com.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65262 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;ad2bitcoin.com.                IN      A ANSWER SECTION:ad2bitcoin.com.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -57,10 +57,10 @@
     "error": null
   },
   "3252": {
-    "timestamp": "2025-05-27T13:54:04.159663Z",
+    "timestamp": "2025-05-28T10:36:15.345316Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/337bf4fc-1536-4515-aeb4-1dc4c8837210",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/3eab9e4f-d226-49dd-aae4-4faaa91c777c",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -70,8 +70,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20741\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;airplus.website.               IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20741 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;airplus.website.               IN      A ANSWER SECTION:airplus.website.        1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2506\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;airplus.website.               IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2506 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;airplus.website.               IN      A ANSWER SECTION:airplus.website.        1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -100,8 +100,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20741\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;airplus.website.               IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20741 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;airplus.website.               IN      A ANSWER SECTION:airplus.website.        1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2506\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;airplus.website.               IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2506 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;airplus.website.               IN      A ANSWER SECTION:airplus.website.        1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -114,10 +114,10 @@
     "error": null
   },
   "3253": {
-    "timestamp": "2025-05-27T13:54:20.107859Z",
+    "timestamp": "2025-05-28T10:36:31.469023Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d949b995-5aa9-46c7-a107-05bde1276843",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/7ae72e40-a489-4ce0-9e42-66ad38915a46",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -126,11 +126,7 @@
         "Variables": {
           "dict": {
             "response": {
-              "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59976\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;alt.litebonk.com.              IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59976 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;alt.litebonk.com.              IN      A ANSWER SECTION:alt.litebonk.com.       60      IN      A       127.0.0.1",
-                "error": null
-              }
+              "received": null
             }
           },
           "ctrl": null,
@@ -156,11 +152,7 @@
           "event": "DONE",
           "sync_dict": {
             "response": {
-              "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59976\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;alt.litebonk.com.              IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59976 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;alt.litebonk.com.              IN      A ANSWER SECTION:alt.litebonk.com.       60      IN      A       127.0.0.1",
-                "error": null
-              }
+              "received": null
             }
           },
           "signal_type": "ready_stop",
@@ -171,10 +163,10 @@
     "error": null
   },
   "3254": {
-    "timestamp": "2025-05-27T13:54:35.957987Z",
+    "timestamp": "2025-05-28T10:36:47.494845Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/ca87a58f-f427-4d42-8d8f-2d2a0e7cf9c6",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/37557072-4334-4ae6-a851-572ea9369778",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -184,8 +176,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35843\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;api-stratum.bitcoin.cz.        IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35843 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;api-stratum.bitcoin.cz.        IN      A ANSWER SECTION:api-stratum.bitcoin.cz. 60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11384\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;api-stratum.bitcoin.cz.        IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11384 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;api-stratum.bitcoin.cz.        IN      A ANSWER SECTION:api-stratum.bitcoin.cz. 60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -214,8 +206,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35843\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;api-stratum.bitcoin.cz.        IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35843 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;api-stratum.bitcoin.cz.        IN      A ANSWER SECTION:api-stratum.bitcoin.cz. 60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11384\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;api-stratum.bitcoin.cz.        IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11384 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;api-stratum.bitcoin.cz.        IN      A ANSWER SECTION:api-stratum.bitcoin.cz. 60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -228,10 +220,10 @@
     "error": null
   },
   "3255": {
-    "timestamp": "2025-05-27T13:54:51.664827Z",
+    "timestamp": "2025-05-28T10:37:03.519795Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/42bbefea-f427-4357-b027-7c46b760d43a",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/cbeb2fda-06ca-46ce-942e-2855d3bed33a",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -241,8 +233,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4389\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;api.bitcoin.cz.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4389 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;api.bitcoin.cz.                IN      A ANSWER SECTION:api.bitcoin.cz.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20782\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;api.bitcoin.cz.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20782 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;api.bitcoin.cz.                IN      A ANSWER SECTION:api.bitcoin.cz.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -271,8 +263,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4389\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;api.bitcoin.cz.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4389 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;api.bitcoin.cz.                IN      A ANSWER SECTION:api.bitcoin.cz.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20782\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;api.bitcoin.cz.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20782 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;api.bitcoin.cz.                IN      A ANSWER SECTION:api.bitcoin.cz.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -285,10 +277,10 @@
     "error": null
   },
   "3256": {
-    "timestamp": "2025-05-27T13:55:08.504732Z",
+    "timestamp": "2025-05-28T10:37:19.296011Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c9af7507-7621-4e07-91bb-9d0dea4b8773",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/53fc1760-cac0-4e45-8654-7bca935dccf5",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -298,8 +290,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36080\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;api2.bitcoin.cz.               IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36080 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;api2.bitcoin.cz.               IN      A ANSWER SECTION:api2.bitcoin.cz.        60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19880\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;api2.bitcoin.cz.               IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19880 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;api2.bitcoin.cz.               IN      A ANSWER SECTION:api2.bitcoin.cz.        60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -328,8 +320,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36080\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;api2.bitcoin.cz.               IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36080 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;api2.bitcoin.cz.               IN      A ANSWER SECTION:api2.bitcoin.cz.        60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19880\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;api2.bitcoin.cz.               IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19880 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;api2.bitcoin.cz.               IN      A ANSWER SECTION:api2.bitcoin.cz.        60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -342,10 +334,10 @@
     "error": null
   },
   "3257": {
-    "timestamp": "2025-05-27T13:55:21.815703Z",
+    "timestamp": "2025-05-28T10:37:35.799914Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d600adaa-ab77-4d20-8b03-a4ed049172f0",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d7259a8a-a59d-4fd8-9ad1-97c2dc7ff961",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -355,8 +347,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45923\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;arsbitcoin.com.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45923 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;arsbitcoin.com.                IN      A ANSWER SECTION:arsbitcoin.com.         1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21661\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;arsbitcoin.com.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21661 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;arsbitcoin.com.                IN      A ANSWER SECTION:arsbitcoin.com.         1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -385,8 +377,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45923\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;arsbitcoin.com.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45923 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;arsbitcoin.com.                IN      A ANSWER SECTION:arsbitcoin.com.         1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21661\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;arsbitcoin.com.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21661 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;arsbitcoin.com.                IN      A ANSWER SECTION:arsbitcoin.com.         1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -399,10 +391,10 @@
     "error": null
   },
   "3258": {
-    "timestamp": "2025-05-27T13:55:37.763911Z",
+    "timestamp": "2025-05-28T10:37:50.113185Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5b8e8e71-c36a-44f2-96d9-2ec31b03501d",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/92f48730-1841-4395-a26c-d3646d7b9d79",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -412,8 +404,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10553\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;auroracoin.org.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10553 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;auroracoin.org.                IN      A ANSWER SECTION:auroracoin.org.         1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60808\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;auroracoin.org.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60808 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;auroracoin.org.                IN      A ANSWER SECTION:auroracoin.org.         1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -442,8 +434,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10553\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;auroracoin.org.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10553 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;auroracoin.org.                IN      A ANSWER SECTION:auroracoin.org.         1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60808\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;auroracoin.org.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60808 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;auroracoin.org.                IN      A ANSWER SECTION:auroracoin.org.         1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -456,10 +448,10 @@
     "error": null
   },
   "3259": {
-    "timestamp": "2025-05-27T13:55:53.885438Z",
+    "timestamp": "2025-05-28T10:38:03.985161Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/0249d030-6b9a-4e44-824d-016b1a776023",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/48ceab6b-39f1-4fdf-b4cf-6f6247f4ff4b",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -469,8 +461,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49867\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;autosurfdusoleil.com.          IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49867 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;autosurfdusoleil.com.          IN      A ANSWER SECTION:autosurfdusoleil.com.   1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5560\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;autosurfdusoleil.com.          IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5560 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;autosurfdusoleil.com.          IN      A ANSWER SECTION:autosurfdusoleil.com.   1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -499,8 +491,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49867\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;autosurfdusoleil.com.          IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49867 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;autosurfdusoleil.com.          IN      A ANSWER SECTION:autosurfdusoleil.com.   1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5560\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;autosurfdusoleil.com.          IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5560 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;autosurfdusoleil.com.          IN      A ANSWER SECTION:autosurfdusoleil.com.   1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -513,10 +505,10 @@
     "error": null
   },
   "3260": {
-    "timestamp": "2025-05-27T13:56:07.875826Z",
+    "timestamp": "2025-05-28T10:38:20.221710Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4a44e054-4840-430a-8115-08a95e485025",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e3892e25-cda8-4969-93db-af5a1a465333",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -526,8 +518,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45664\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bfgminer.org.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45664 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bfgminer.org.                  IN      A ANSWER SECTION:bfgminer.org.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59206\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bfgminer.org.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59206 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bfgminer.org.                  IN      A ANSWER SECTION:bfgminer.org.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -556,8 +548,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45664\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bfgminer.org.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45664 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bfgminer.org.                  IN      A ANSWER SECTION:bfgminer.org.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59206\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bfgminer.org.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59206 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bfgminer.org.                  IN      A ANSWER SECTION:bfgminer.org.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -570,10 +562,10 @@
     "error": null
   },
   "3261": {
-    "timestamp": "2025-05-27T13:56:23.711013Z",
+    "timestamp": "2025-05-28T10:38:35.667383Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/68e4c769-66fe-41dc-82fc-9e6f9244e854",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/09cf311d-6846-460e-bcea-b13150c0d7e9",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -583,8 +575,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 998\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bibox.com.                     IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 998 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bibox.com.                     IN      A ANSWER SECTION:bibox.com.              60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29607\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bibox.com.                     IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29607 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bibox.com.                     IN      A ANSWER SECTION:bibox.com.              60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -613,8 +605,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 998\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bibox.com.                     IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 998 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bibox.com.                     IN      A ANSWER SECTION:bibox.com.              60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29607\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bibox.com.                     IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29607 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bibox.com.                     IN      A ANSWER SECTION:bibox.com.              60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -627,10 +619,10 @@
     "error": null
   },
   "3262": {
-    "timestamp": "2025-05-27T13:56:39.663226Z",
+    "timestamp": "2025-05-28T10:38:50.030946Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/3b8aa476-1819-4b2a-8cc2-cecf5f7704a1",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/6fe3cab8-6250-4b54-bf65-742542ed04a6",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -640,8 +632,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19447\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bigzone.xyz.                   IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19447 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bigzone.xyz.                   IN      A ANSWER SECTION:bigzone.xyz.            60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13177\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bigzone.xyz.                   IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13177 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bigzone.xyz.                   IN      A ANSWER SECTION:bigzone.xyz.            60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -670,8 +662,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19447\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bigzone.xyz.                   IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19447 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bigzone.xyz.                   IN      A ANSWER SECTION:bigzone.xyz.            60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13177\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bigzone.xyz.                   IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13177 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bigzone.xyz.                   IN      A ANSWER SECTION:bigzone.xyz.            60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -684,10 +676,10 @@
     "error": null
   },
   "3263": {
-    "timestamp": "2025-05-27T13:56:55.735355Z",
+    "timestamp": "2025-05-28T10:39:05.201463Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/a32d3d23-7109-49fb-af73-7339ab5c0943",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/84d1212e-4d75-4a46-ac48-a2ac1454aace",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -697,8 +689,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4940\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;binance.com.                   IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4940 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;binance.com.                   IN      A ANSWER SECTION:binance.com.            60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56444\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;binance.com.                   IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56444 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;binance.com.                   IN      A ANSWER SECTION:binance.com.            60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -727,8 +719,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4940\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;binance.com.                   IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4940 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;binance.com.                   IN      A ANSWER SECTION:binance.com.            60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56444\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;binance.com.                   IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56444 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;binance.com.                   IN      A ANSWER SECTION:binance.com.            60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -741,10 +733,10 @@
     "error": null
   },
   "3264": {
-    "timestamp": "2025-05-27T13:57:09.347642Z",
+    "timestamp": "2025-05-28T10:39:21.163520Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/334b55ae-5946-4a72-9047-30cb83a4a22a",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/9a284665-45a5-44d1-8786-3cf10e5dfa63",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -754,8 +746,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54176\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcanna.io.                   IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54176 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcanna.io.                   IN      A ANSWER SECTION:bitcanna.io.            60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65504\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcanna.io.                   IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65504 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcanna.io.                   IN      A ANSWER SECTION:bitcanna.io.            60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -784,8 +776,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54176\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcanna.io.                   IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54176 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcanna.io.                   IN      A ANSWER SECTION:bitcanna.io.            60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65504\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcanna.io.                   IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65504 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcanna.io.                   IN      A ANSWER SECTION:bitcanna.io.            60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -798,10 +790,10 @@
     "error": null
   },
   "3265": {
-    "timestamp": "2025-05-27T13:57:25.173596Z",
+    "timestamp": "2025-05-28T10:39:37.867628Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5e885462-21de-471d-9dac-663f3c8af07d",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/fafb4db4-f004-4cd1-bb99-f6049a4d7230",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -811,8 +803,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36997\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitclockers.com.               IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36997 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitclockers.com.               IN      A ANSWER SECTION:bitclockers.com.        60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6310\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitclockers.com.               IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6310 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitclockers.com.               IN      A ANSWER SECTION:bitclockers.com.        60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -841,8 +833,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36997\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitclockers.com.               IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36997 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitclockers.com.               IN      A ANSWER SECTION:bitclockers.com.        60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6310\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitclockers.com.               IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6310 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitclockers.com.               IN      A ANSWER SECTION:bitclockers.com.        60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -855,10 +847,10 @@
     "error": null
   },
   "3266": {
-    "timestamp": "2025-05-27T13:57:44.454732Z",
+    "timestamp": "2025-05-28T10:39:54.051844Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c50f776b-7e5e-41c7-b851-21cf4554fe73",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/14b7350c-e8c9-4201-ae0c-de29f3fba7ab",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -868,8 +860,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18971\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-champion.com.          IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18971 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-champion.com.          IN      A ANSWER SECTION:bitcoin-champion.com.   60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28175\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-champion.com.          IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28175 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-champion.com.          IN      A ANSWER SECTION:bitcoin-champion.com.   60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -898,8 +890,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18971\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-champion.com.          IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18971 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-champion.com.          IN      A ANSWER SECTION:bitcoin-champion.com.   60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28175\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-champion.com.          IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28175 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-champion.com.          IN      A ANSWER SECTION:bitcoin-champion.com.   60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -912,47 +904,10 @@
     "error": null
   },
   "3267": {
-    "timestamp": "2025-05-27T13:57:59.922824Z",
+    "timestamp": "2025-05-28T10:40:09.755544Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/bc24eaaf-3e7d-4691-aad7-7825b2a4effe",
-    "test_name": "udp_dns_qname_prober",
-    "status": "completed",
-    "result": {
-      "Worker_1": {
-        "State": "INITIATING_CONTROL_CHANNEL",
-        "Variables": {
-          "role": "client",
-          "controller_conf_filename": "controller_configuration.json",
-          "client": "client",
-          "server": "server",
-          "ip": "139.162.102.98",
-          "destination_port": 53,
-          "event": "TIMEOUT",
-          "ctrl": "NULL"
-        }
-      },
-      "Worker_2": {
-        "State": "INITIATING_CONTROL_CHANNEL",
-        "Variables": {
-          "role": "server",
-          "controller_conf_filename": "controller_configuration.json",
-          "client": "client",
-          "server": "server",
-          "ip": "139.162.102.98",
-          "destination_port": 53,
-          "event": "TIMEOUT",
-          "ctrl": "NULL"
-        }
-      }
-    },
-    "error": null
-  },
-  "3268": {
-    "timestamp": "2025-05-27T13:58:16.524319Z",
-    "worker_1": "alyanetalyrz4",
-    "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/254b59e1-78f4-4e9a-b2f8-95a417191d1d",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/48064f11-c2f3-4420-81e3-6bc8a3cffc8e",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -962,8 +917,65 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1788\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-server.de.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1788 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-server.de.             IN      A ANSWER SECTION:bitcoin-server.de.      60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38086\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-patrimoine.com.        IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38086 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-patrimoine.com.        IN      A ANSWER SECTION:bitcoin-patrimoine.com. 60      IN      A       127.0.0.1",
+                "error": null
+              }
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query": {
+              "received": ";bitcoin-patrimoine.com.        IN      A"
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query": {
+              "received": ";bitcoin-patrimoine.com.        IN      A"
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "response": {
+              "received": {
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38086\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-patrimoine.com.        IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38086 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-patrimoine.com.        IN      A ANSWER SECTION:bitcoin-patrimoine.com. 60      IN      A       127.0.0.1",
+                "error": null
+              }
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
+  },
+  "3268": {
+    "timestamp": "2025-05-28T10:40:27.574391Z",
+    "worker_1": "alyanetalyrz4",
+    "worker_2": "linodejapan",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/a13d2fab-47a1-432d-be79-19375de50356",
+    "test_name": "udp_dns_qname_prober",
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "response": {
+              "received": {
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40220\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-server.de.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40220 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-server.de.             IN      A ANSWER SECTION:bitcoin-server.de.      60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -992,8 +1004,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1788\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-server.de.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1788 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-server.de.             IN      A ANSWER SECTION:bitcoin-server.de.      60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40220\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-server.de.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40220 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-server.de.             IN      A ANSWER SECTION:bitcoin-server.de.      60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1006,10 +1018,10 @@
     "error": null
   },
   "3269": {
-    "timestamp": "2025-05-27T13:58:32.517461Z",
+    "timestamp": "2025-05-28T10:40:43.552912Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/fd45e576-2ec5-44e9-9377-e821fc0467c7",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4cfec5fe-66ee-48a0-9d1a-84f0e86536b2",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1019,8 +1031,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22074\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-storm.com.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22074 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-storm.com.             IN      A ANSWER SECTION:bitcoin-storm.com.      1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37398\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-storm.com.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37398 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-storm.com.             IN      A ANSWER SECTION:bitcoin-storm.com.      1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -1049,8 +1061,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22074\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-storm.com.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22074 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-storm.com.             IN      A ANSWER SECTION:bitcoin-storm.com.      1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37398\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin-storm.com.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37398 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin-storm.com.             IN      A ANSWER SECTION:bitcoin-storm.com.      1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -1063,10 +1075,10 @@
     "error": null
   },
   "3270": {
-    "timestamp": "2025-05-27T13:58:48.097212Z",
+    "timestamp": "2025-05-28T10:41:01.662181Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/1ed416fe-47e1-4a3b-bf16-ae29e21f2d2c",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e9d5b4ab-ea2c-4456-9bf8-9e3a8f1b460c",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1076,8 +1088,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51911\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin.de.                    IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51911 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin.de.                    IN      A ANSWER SECTION:bitcoin.de.             60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39460\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin.de.                    IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39460 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin.de.                    IN      A ANSWER SECTION:bitcoin.de.             60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1106,8 +1118,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51911\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin.de.                    IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51911 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin.de.                    IN      A ANSWER SECTION:bitcoin.de.             60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39460\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin.de.                    IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39460 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin.de.                    IN      A ANSWER SECTION:bitcoin.de.             60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1120,10 +1132,10 @@
     "error": null
   },
   "3271": {
-    "timestamp": "2025-05-27T13:59:04.030367Z",
+    "timestamp": "2025-05-28T10:41:17.979889Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/faf33c3d-d798-497a-9f45-8ed5ea766eb3",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/063af5a5-8b04-4667-bb49-cb96ec16e420",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1133,8 +1145,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48564\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin.it.                    IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48564 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin.it.                    IN      A ANSWER SECTION:bitcoin.it.             60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36543\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin.it.                    IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36543 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin.it.                    IN      A ANSWER SECTION:bitcoin.it.             60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1163,8 +1175,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48564\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin.it.                    IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48564 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin.it.                    IN      A ANSWER SECTION:bitcoin.it.             60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36543\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoin.it.                    IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36543 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoin.it.                    IN      A ANSWER SECTION:bitcoin.it.             60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1177,10 +1189,10 @@
     "error": null
   },
   "3272": {
-    "timestamp": "2025-05-27T13:59:20.013136Z",
+    "timestamp": "2025-05-28T10:41:33.989053Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d7529985-06dd-4de5-b265-9161c64cb5d3",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/3f95356a-fc4d-4e89-8b29-2da05d398512",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1190,8 +1202,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42097\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoincode.store.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42097 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoincode.store.             IN      A ANSWER SECTION:bitcoincode.store.      1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3650\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoincode.store.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3650 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoincode.store.             IN      A ANSWER SECTION:bitcoincode.store.      1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -1220,8 +1232,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42097\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoincode.store.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42097 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoincode.store.             IN      A ANSWER SECTION:bitcoincode.store.      1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3650\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoincode.store.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3650 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoincode.store.             IN      A ANSWER SECTION:bitcoincode.store.      1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -1234,10 +1246,10 @@
     "error": null
   },
   "3273": {
-    "timestamp": "2025-05-27T13:59:36.260228Z",
+    "timestamp": "2025-05-28T10:41:50.023098Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/b06af8df-0ca7-4d4a-bcfc-1f26e1f84491",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/800369d6-7a7f-45ed-9878-e45690baaeb3",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1246,7 +1258,11 @@
         "Variables": {
           "dict": {
             "response": {
-              "received": null
+              "received": {
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59124\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinera.app.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59124 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinera.app.                IN      A ANSWER SECTION:bitcoinera.app.         60      IN      A       127.0.0.1",
+                "error": null
+              }
             }
           },
           "ctrl": null,
@@ -1272,7 +1288,11 @@
           "event": "DONE",
           "sync_dict": {
             "response": {
-              "received": null
+              "received": {
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59124\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinera.app.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59124 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinera.app.                IN      A ANSWER SECTION:bitcoinera.app.         60      IN      A       127.0.0.1",
+                "error": null
+              }
             }
           },
           "signal_type": "ready_stop",
@@ -1283,10 +1303,10 @@
     "error": null
   },
   "3274": {
-    "timestamp": "2025-05-27T13:59:53.880886Z",
+    "timestamp": "2025-05-28T10:42:07.639138Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/338d8318-084a-4a91-a88f-fee358a875d9",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/da4f1d7f-6fdf-452f-9a54-adace4104fbc",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1296,8 +1316,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63251\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinmonkey.com.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63251 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinmonkey.com.             IN      A ANSWER SECTION:bitcoinmonkey.com.      60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16591\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinmonkey.com.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16591 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinmonkey.com.             IN      A ANSWER SECTION:bitcoinmonkey.com.      60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1326,8 +1346,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63251\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinmonkey.com.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63251 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinmonkey.com.             IN      A ANSWER SECTION:bitcoinmonkey.com.      60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16591\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinmonkey.com.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16591 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinmonkey.com.             IN      A ANSWER SECTION:bitcoinmonkey.com.      60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1340,10 +1360,10 @@
     "error": null
   },
   "3275": {
-    "timestamp": "2025-05-27T14:00:10.500221Z",
+    "timestamp": "2025-05-28T10:42:23.475811Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/58a0ef61-e206-44b5-815c-700b4d569300",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e8f39528-8ed5-4ca6-a827-d134eb3a8809",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1353,8 +1373,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57309\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinpool.com.               IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57309 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinpool.com.               IN      A ANSWER SECTION:bitcoinpool.com.        60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58283\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinpool.com.               IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58283 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinpool.com.               IN      A ANSWER SECTION:bitcoinpool.com.        60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1383,8 +1403,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57309\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinpool.com.               IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57309 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinpool.com.               IN      A ANSWER SECTION:bitcoinpool.com.        60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58283\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinpool.com.               IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58283 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinpool.com.               IN      A ANSWER SECTION:bitcoinpool.com.        60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1397,10 +1417,10 @@
     "error": null
   },
   "3276": {
-    "timestamp": "2025-05-27T14:00:26.857253Z",
+    "timestamp": "2025-05-28T10:42:39.913548Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4fc6796b-31ad-4481-a2a1-b2601d0d5269",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/043610a0-2f8d-420f-8cbe-fab5f7fbe633",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1410,8 +1430,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18777\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinptc.top.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18777 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinptc.top.                IN      A ANSWER SECTION:bitcoinptc.top.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14109\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinptc.top.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14109 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinptc.top.                IN      A ANSWER SECTION:bitcoinptc.top.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1440,8 +1460,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18777\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinptc.top.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18777 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinptc.top.                IN      A ANSWER SECTION:bitcoinptc.top.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14109\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinptc.top.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14109 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinptc.top.                IN      A ANSWER SECTION:bitcoinptc.top.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1454,10 +1474,10 @@
     "error": null
   },
   "3277": {
-    "timestamp": "2025-05-27T14:00:42.714383Z",
+    "timestamp": "2025-05-28T10:42:56.471022Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e2a155d2-aa1f-47c5-92b4-a39dda4434fc",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/60609020-e329-4985-ac0c-138f96635c73",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1467,8 +1487,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39351\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinrevolution.org.         IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39351 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinrevolution.org.         IN      A ANSWER SECTION:bitcoinrevolution.org.  60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41935\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinrevolution.org.         IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41935 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinrevolution.org.         IN      A ANSWER SECTION:bitcoinrevolution.org.  60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1497,8 +1517,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39351\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinrevolution.org.         IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39351 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinrevolution.org.         IN      A ANSWER SECTION:bitcoinrevolution.org.  60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41935\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinrevolution.org.         IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41935 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinrevolution.org.         IN      A ANSWER SECTION:bitcoinrevolution.org.  60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1511,10 +1531,10 @@
     "error": null
   },
   "3278": {
-    "timestamp": "2025-05-27T14:00:58.873864Z",
+    "timestamp": "2025-05-28T10:43:13.798171Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c37ea491-bf16-4d3d-b76c-0269db7f7b81",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/71a65c31-7f22-407a-a019-88238919a6a0",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1524,8 +1544,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63416\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinrigs.org.               IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63416 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinrigs.org.               IN      A ANSWER SECTION:bitcoinrigs.org.        60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22359\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinrigs.org.               IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22359 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinrigs.org.               IN      A ANSWER SECTION:bitcoinrigs.org.        60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1554,8 +1574,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63416\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinrigs.org.               IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63416 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinrigs.org.               IN      A ANSWER SECTION:bitcoinrigs.org.        60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22359\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinrigs.org.               IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22359 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinrigs.org.               IN      A ANSWER SECTION:bitcoinrigs.org.        60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1568,10 +1588,10 @@
     "error": null
   },
   "3279": {
-    "timestamp": "2025-05-27T14:01:14.774953Z",
+    "timestamp": "2025-05-28T10:43:29.029808Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/aa472bf7-9a76-4a22-ab41-2e70812fd704",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4c242e0b-2652-48ba-bf63-f4020d83273c",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1581,8 +1601,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24720\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinscrypt.org.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24720 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinscrypt.org.             IN      A ANSWER SECTION:bitcoinscrypt.org.      60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28826\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinscrypt.org.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28826 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinscrypt.org.             IN      A ANSWER SECTION:bitcoinscrypt.org.      60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1611,8 +1631,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24720\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinscrypt.org.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24720 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinscrypt.org.             IN      A ANSWER SECTION:bitcoinscrypt.org.      60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28826\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitcoinscrypt.org.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28826 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitcoinscrypt.org.             IN      A ANSWER SECTION:bitcoinscrypt.org.      60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1625,10 +1645,10 @@
     "error": null
   },
   "3280": {
-    "timestamp": "2025-05-27T14:01:29.215091Z",
+    "timestamp": "2025-05-28T10:43:45.056576Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c22b1a2c-d6b5-4485-80f3-fa95b473a0e2",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d5da3ab7-c67f-4b3d-a50d-35cff44c746c",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1638,8 +1658,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32746\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitforex.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32746 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitforex.com.                  IN      A ANSWER SECTION:bitforex.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34451\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitforex.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34451 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitforex.com.                  IN      A ANSWER SECTION:bitforex.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1668,8 +1688,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32746\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitforex.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32746 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitforex.com.                  IN      A ANSWER SECTION:bitforex.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34451\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitforex.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34451 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitforex.com.                  IN      A ANSWER SECTION:bitforex.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1682,10 +1702,10 @@
     "error": null
   },
   "3281": {
-    "timestamp": "2025-05-27T14:01:45.388351Z",
+    "timestamp": "2025-05-28T10:44:01.380583Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4022437a-0332-48ae-9888-2135a5539fb5",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/cf14c02b-73da-45a3-a075-ed6db56047ab",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1695,8 +1715,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40110\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitit.io.                      IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40110 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitit.io.                      IN      A ANSWER SECTION:bitit.io.               60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63793\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitit.io.                      IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63793 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitit.io.                      IN      A ANSWER SECTION:bitit.io.               60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1725,8 +1745,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40110\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitit.io.                      IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40110 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitit.io.                      IN      A ANSWER SECTION:bitit.io.               60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63793\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitit.io.                      IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63793 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitit.io.                      IN      A ANSWER SECTION:bitit.io.               60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1739,10 +1759,10 @@
     "error": null
   },
   "3282": {
-    "timestamp": "2025-05-27T14:01:59.877266Z",
+    "timestamp": "2025-05-28T10:44:17.350277Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/9f6fcb58-e03e-4835-a98a-0ca78c41a78b",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/0c380edf-6344-426e-b862-7c3fb495366c",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1752,8 +1772,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64964\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitpanda.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64964 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitpanda.com.                  IN      A ANSWER SECTION:bitpanda.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3928\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitpanda.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3928 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitpanda.com.                  IN      A ANSWER SECTION:bitpanda.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1782,8 +1802,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64964\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitpanda.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64964 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitpanda.com.                  IN      A ANSWER SECTION:bitpanda.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3928\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bitpanda.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3928 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bitpanda.com.                  IN      A ANSWER SECTION:bitpanda.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1796,10 +1816,10 @@
     "error": null
   },
   "3283": {
-    "timestamp": "2025-05-27T14:02:17.307695Z",
+    "timestamp": "2025-05-28T10:44:33.140532Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/7bf471c8-0ba4-43fe-9262-b6c8e53b2b06",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/b0dfb04b-f25c-464c-9fb0-af0051f1ac09",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1809,8 +1829,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14841\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bittylicious.com.              IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14841 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bittylicious.com.              IN      A ANSWER SECTION:bittylicious.com.       60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6319\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bittylicious.com.              IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6319 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bittylicious.com.              IN      A ANSWER SECTION:bittylicious.com.       60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1839,8 +1859,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14841\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bittylicious.com.              IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14841 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bittylicious.com.              IN      A ANSWER SECTION:bittylicious.com.       60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6319\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;bittylicious.com.              IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6319 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;bittylicious.com.              IN      A ANSWER SECTION:bittylicious.com.       60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1853,10 +1873,10 @@
     "error": null
   },
   "3284": {
-    "timestamp": "2025-05-27T14:02:33.726487Z",
+    "timestamp": "2025-05-28T10:44:49.235962Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/61ecfcfb-5e57-4a9e-93ee-f06c084c112b",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/6aa99891-bd4a-423b-ace9-383273a89cd2",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1866,8 +1886,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6263\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btc.digbtc.net.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6263 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btc.digbtc.net.                IN      A ANSWER SECTION:btc.digbtc.net.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26296\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btc.digbtc.net.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26296 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btc.digbtc.net.                IN      A ANSWER SECTION:btc.digbtc.net.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1896,8 +1916,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6263\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btc.digbtc.net.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6263 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btc.digbtc.net.                IN      A ANSWER SECTION:btc.digbtc.net.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26296\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btc.digbtc.net.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26296 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btc.digbtc.net.                IN      A ANSWER SECTION:btc.digbtc.net.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -1910,32 +1930,13 @@
     "error": null
   },
   "3285": {
-    "timestamp": "2025-05-27T14:02:52.544931Z",
+    "timestamp": "2025-05-28T10:45:05.295606Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/49aee8f6-8bb3-4b6e-8c8f-cfe0d80c0e56",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/7f12b75f-8145-44b9-8fd8-19b5e1cf0c20",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
-      "Worker_1": {
-        "State": "EXCHANGE_SYNC",
-        "Variables": {
-          "dict": {
-            "response": {
-              "received": null
-            }
-          },
-          "ctrl": null,
-          "event": "DONE",
-          "sync_dict": {
-            "query": {
-              "received": ";btc2.cryptominer.net.          IN      A"
-            }
-          },
-          "signal_type": "ready_stop",
-          "signaling-event": "DONE"
-        }
-      },
       "Worker_2": {
         "State": "EXCHANGE_SYNC",
         "Variables": {
@@ -1948,7 +1949,34 @@
           "event": "DONE",
           "sync_dict": {
             "response": {
-              "received": null
+              "received": {
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33549\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btc2.cryptominer.net.          IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33549 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btc2.cryptominer.net.          IN      A ANSWER SECTION:btc2.cryptominer.net.   60      IN      A       127.0.0.1",
+                "error": null
+              }
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "response": {
+              "received": {
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33549\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btc2.cryptominer.net.          IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33549 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btc2.cryptominer.net.          IN      A ANSWER SECTION:btc2.cryptominer.net.   60      IN      A       127.0.0.1",
+                "error": null
+              }
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query": {
+              "received": ";btc2.cryptominer.net.          IN      A"
             }
           },
           "signal_type": "ready_stop",
@@ -1959,10 +1987,10 @@
     "error": null
   },
   "3286": {
-    "timestamp": "2025-05-27T14:03:06.578844Z",
+    "timestamp": "2025-05-28T10:45:20.731332Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/9c0b86eb-08aa-4a91-9dc6-4b3b05b21fae",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/089f2d33-e78d-4fe3-b383-5a424c41dec8",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -1972,8 +2000,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38894\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btcguild.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38894 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btcguild.com.                  IN      A ANSWER SECTION:btcguild.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39701\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btcguild.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39701 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btcguild.com.                  IN      A ANSWER SECTION:btcguild.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2002,8 +2030,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38894\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btcguild.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38894 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btcguild.com.                  IN      A ANSWER SECTION:btcguild.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39701\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btcguild.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39701 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btcguild.com.                  IN      A ANSWER SECTION:btcguild.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2016,10 +2044,10 @@
     "error": null
   },
   "3287": {
-    "timestamp": "2025-05-27T14:03:21.568375Z",
+    "timestamp": "2025-05-28T10:45:36.741577Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/0c6e3368-787f-4317-a440-b7739af09818",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/eae113ff-0bde-4caa-a202-22313ab785d0",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2029,8 +2057,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38567\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btcmine.com.                   IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38567 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btcmine.com.                   IN      A ANSWER SECTION:btcmine.com.            60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56140\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btcmine.com.                   IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56140 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btcmine.com.                   IN      A ANSWER SECTION:btcmine.com.            60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2059,8 +2087,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38567\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btcmine.com.                   IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38567 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btcmine.com.                   IN      A ANSWER SECTION:btcmine.com.            60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56140\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;btcmine.com.                   IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56140 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;btcmine.com.                   IN      A ANSWER SECTION:btcmine.com.            60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2073,10 +2101,10 @@
     "error": null
   },
   "3288": {
-    "timestamp": "2025-05-27T14:03:35.587174Z",
+    "timestamp": "2025-05-28T10:45:52.636008Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/9ba72ef5-2cb7-458f-9ea7-3a8115956210",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/52eb059e-8bce-4817-a01d-ad238e251922",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2086,8 +2114,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24727\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;butterflylabs.com.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24727 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;butterflylabs.com.             IN      A ANSWER SECTION:butterflylabs.com.      60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48421\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;butterflylabs.com.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48421 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;butterflylabs.com.             IN      A ANSWER SECTION:butterflylabs.com.      60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2116,8 +2144,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24727\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;butterflylabs.com.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24727 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;butterflylabs.com.             IN      A ANSWER SECTION:butterflylabs.com.      60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48421\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;butterflylabs.com.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48421 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;butterflylabs.com.             IN      A ANSWER SECTION:butterflylabs.com.      60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2130,36 +2158,13 @@
     "error": null
   },
   "3289": {
-    "timestamp": "2025-05-27T14:03:49.225194Z",
+    "timestamp": "2025-05-28T10:46:12.405640Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/50b42a06-d096-452c-a89a-15d8cff4525d",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/69438ed4-b5da-4e15-be83-91bdaa22dd93",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
-      "Worker_1": {
-        "State": "EXCHANGE_SYNC",
-        "Variables": {
-          "dict": {
-            "response": {
-              "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64333\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;camelbtc.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64333 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;camelbtc.com.                  IN      A ANSWER SECTION:camelbtc.com.           60      IN      A       127.0.0.1",
-                "error": null
-              }
-            }
-          },
-          "ctrl": null,
-          "event": "DONE",
-          "sync_dict": {
-            "query": {
-              "received": ";camelbtc.com.                  IN      A"
-            }
-          },
-          "signal_type": "ready_stop",
-          "signaling-event": "DONE"
-        }
-      },
       "Worker_2": {
         "State": "EXCHANGE_SYNC",
         "Variables": {
@@ -2173,10 +2178,33 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64333\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;camelbtc.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64333 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;camelbtc.com.                  IN      A ANSWER SECTION:camelbtc.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1579\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;camelbtc.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1579 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;camelbtc.com.                  IN      A ANSWER SECTION:camelbtc.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "response": {
+              "received": {
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1579\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;camelbtc.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1579 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;camelbtc.com.                  IN      A ANSWER SECTION:camelbtc.com.           60      IN      A       127.0.0.1",
+                "error": null
+              }
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query": {
+              "received": ";camelbtc.com.                  IN      A"
             }
           },
           "signal_type": "ready_stop",
@@ -2187,10 +2215,10 @@
     "error": null
   },
   "3290": {
-    "timestamp": "2025-05-27T14:04:05.550398Z",
+    "timestamp": "2025-05-28T10:46:28.372491Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c2dd89b8-b863-49b3-b8c1-b52a1f290029",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5b166b57-1b5a-48ba-9b88-df179b2a2317",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2200,8 +2228,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41246\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;centogx.com.                   IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41246 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;centogx.com.                   IN      A ANSWER SECTION:centogx.com.            1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21075\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;centogx.com.                   IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21075 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;centogx.com.                   IN      A ANSWER SECTION:centogx.com.            1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -2230,8 +2258,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41246\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;centogx.com.                   IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41246 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;centogx.com.                   IN      A ANSWER SECTION:centogx.com.            1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21075\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;centogx.com.                   IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21075 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;centogx.com.                   IN      A ANSWER SECTION:centogx.com.            1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -2244,10 +2272,10 @@
     "error": null
   },
   "3291": {
-    "timestamp": "2025-05-27T14:04:21.547558Z",
+    "timestamp": "2025-05-28T10:46:42.914136Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/0c117ec0-988e-4f64-b1e3-c7b326e7661f",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/9db6a73f-7523-44fd-bd8c-80b0ece5de29",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2257,8 +2285,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13194\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;chiliz.net.                    IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13194 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;chiliz.net.                    IN      A ANSWER SECTION:chiliz.net.             60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39116\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;chiliz.net.                    IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39116 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;chiliz.net.                    IN      A ANSWER SECTION:chiliz.net.             60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2287,8 +2315,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13194\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;chiliz.net.                    IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13194 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;chiliz.net.                    IN      A ANSWER SECTION:chiliz.net.             60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39116\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;chiliz.net.                    IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39116 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;chiliz.net.                    IN      A ANSWER SECTION:chiliz.net.             60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2301,10 +2329,10 @@
     "error": null
   },
   "3292": {
-    "timestamp": "2025-05-27T14:04:37.646827Z",
+    "timestamp": "2025-05-28T10:46:59.218720Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/10ffd03e-a439-4028-b717-62974980b417",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/fd9c228d-f8ae-4bc2-8456-e4d1ea01b306",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2314,8 +2342,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54067\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coin-base.info.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54067 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coin-base.info.                IN      A ANSWER SECTION:coin-base.info.         1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52114\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coin-base.info.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52114 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coin-base.info.                IN      A ANSWER SECTION:coin-base.info.         1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -2344,8 +2372,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54067\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coin-base.info.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54067 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coin-base.info.                IN      A ANSWER SECTION:coin-base.info.         1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52114\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coin-base.info.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52114 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coin-base.info.                IN      A ANSWER SECTION:coin-base.info.         1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -2358,10 +2386,10 @@
     "error": null
   },
   "3293": {
-    "timestamp": "2025-05-27T14:04:54.002223Z",
+    "timestamp": "2025-05-28T10:47:15.866235Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/ccb873ba-592e-443b-ae2c-1cefc00608d8",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/30b7fca4-b50d-4ddb-aa95-96e8b89c7023",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2371,8 +2399,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6268\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinbase.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6268 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinbase.com.                  IN      A ANSWER SECTION:coinbase.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20889\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinbase.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20889 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinbase.com.                  IN      A ANSWER SECTION:coinbase.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2401,8 +2429,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6268\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinbase.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6268 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinbase.com.                  IN      A ANSWER SECTION:coinbase.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20889\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinbase.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20889 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinbase.com.                  IN      A ANSWER SECTION:coinbase.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2415,10 +2443,10 @@
     "error": null
   },
   "3294": {
-    "timestamp": "2025-05-27T14:05:10.495639Z",
+    "timestamp": "2025-05-28T10:47:29.752146Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/84d66269-3b19-4d6d-8767-b2a97da584fc",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/71dbbbef-5e9b-4242-9a9b-b6a33bfbdd8e",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2428,8 +2456,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28886\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinfaucet.eu.                 IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28886 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinfaucet.eu.                 IN      A ANSWER SECTION:coinfaucet.eu.          60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30157\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinfaucet.eu.                 IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30157 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinfaucet.eu.                 IN      A ANSWER SECTION:coinfaucet.eu.          60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2458,8 +2486,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28886\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinfaucet.eu.                 IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28886 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinfaucet.eu.                 IN      A ANSWER SECTION:coinfaucet.eu.          60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30157\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinfaucet.eu.                 IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30157 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinfaucet.eu.                 IN      A ANSWER SECTION:coinfaucet.eu.          60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2472,10 +2500,10 @@
     "error": null
   },
   "3295": {
-    "timestamp": "2025-05-27T14:05:28.743369Z",
+    "timestamp": "2025-05-28T10:47:46.113923Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/581223cd-76c7-4c53-9657-8114b346f8da",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/779294b1-8de9-4c6f-bb9c-1a6541e66f6f",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2485,8 +2513,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62637\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinmama.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62637 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinmama.com.                  IN      A ANSWER SECTION:coinmama.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50383\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinmama.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50383 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinmama.com.                  IN      A ANSWER SECTION:coinmama.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2515,8 +2543,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62637\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinmama.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62637 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinmama.com.                  IN      A ANSWER SECTION:coinmama.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50383\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinmama.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50383 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinmama.com.                  IN      A ANSWER SECTION:coinmama.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2529,10 +2557,10 @@
     "error": null
   },
   "3296": {
-    "timestamp": "2025-05-27T14:05:43.282129Z",
+    "timestamp": "2025-05-28T10:48:02.834806Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e53bd6bb-a949-4d7c-b10d-f644ca2cd4bd",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c7578336-6d32-4c43-a4ba-13603e93907c",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2542,8 +2570,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11065\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinmarketcap.com.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11065 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinmarketcap.com.             IN      A ANSWER SECTION:coinmarketcap.com.      60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31208\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinmarketcap.com.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31208 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinmarketcap.com.             IN      A ANSWER SECTION:coinmarketcap.com.      60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2572,8 +2600,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11065\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinmarketcap.com.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11065 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinmarketcap.com.             IN      A ANSWER SECTION:coinmarketcap.com.      60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31208\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinmarketcap.com.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31208 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinmarketcap.com.             IN      A ANSWER SECTION:coinmarketcap.com.      60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2586,10 +2614,10 @@
     "error": null
   },
   "3297": {
-    "timestamp": "2025-05-27T14:05:57.820020Z",
+    "timestamp": "2025-05-28T10:48:19.057342Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/78aaacca-e786-4f28-a9bc-0b2b2632d4a7",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/84de9798-cb99-42b5-8d13-cb3d740966b1",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2599,8 +2627,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38995\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinotron.com.                 IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38995 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinotron.com.                 IN      A ANSWER SECTION:coinotron.com.          60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26790\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinotron.com.                 IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26790 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinotron.com.                 IN      A ANSWER SECTION:coinotron.com.          60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2629,8 +2657,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38995\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinotron.com.                 IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38995 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinotron.com.                 IN      A ANSWER SECTION:coinotron.com.          60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26790\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinotron.com.                 IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26790 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinotron.com.                 IN      A ANSWER SECTION:coinotron.com.          60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2643,10 +2671,10 @@
     "error": null
   },
   "3298": {
-    "timestamp": "2025-05-27T14:06:12.097229Z",
+    "timestamp": "2025-05-28T10:48:33.329507Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/171e4b82-13af-4485-85fa-712c17ad563d",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/b4431180-0bf7-40e4-bd87-a8a114969d8f",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2656,8 +2684,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29366\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cointweak.com.                 IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29366 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cointweak.com.                 IN      A ANSWER SECTION:cointweak.com.          60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33126\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cointweak.com.                 IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33126 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cointweak.com.                 IN      A ANSWER SECTION:cointweak.com.          60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2686,8 +2714,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29366\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cointweak.com.                 IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29366 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cointweak.com.                 IN      A ANSWER SECTION:cointweak.com.          60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33126\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cointweak.com.                 IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33126 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cointweak.com.                 IN      A ANSWER SECTION:cointweak.com.          60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2700,10 +2728,10 @@
     "error": null
   },
   "3299": {
-    "timestamp": "2025-05-27T14:06:28.052540Z",
+    "timestamp": "2025-05-28T10:48:49.319279Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d8197009-39dd-4270-be1d-d7b4e512bdb1",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/90da2f47-72e9-4ce6-994b-ee14349566e2",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2713,8 +2741,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37691\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinwarz.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37691 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinwarz.com.                  IN      A ANSWER SECTION:coinwarz.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38329\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinwarz.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38329 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinwarz.com.                  IN      A ANSWER SECTION:coinwarz.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2743,8 +2771,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37691\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinwarz.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37691 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinwarz.com.                  IN      A ANSWER SECTION:coinwarz.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38329\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;coinwarz.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38329 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;coinwarz.com.                  IN      A ANSWER SECTION:coinwarz.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2757,10 +2785,10 @@
     "error": null
   },
   "3300": {
-    "timestamp": "2025-05-27T14:06:44.457363Z",
+    "timestamp": "2025-05-28T10:49:03.120673Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/fc6c273d-1d1f-4b78-99ca-d54a3ed70a7a",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/731396c1-4386-4cfa-ab69-c42941dbf8f8",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2770,8 +2798,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16401\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;crptrade.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16401 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;crptrade.com.                  IN      A ANSWER SECTION:crptrade.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 695\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;crptrade.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 695 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;crptrade.com.                  IN      A ANSWER SECTION:crptrade.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2800,8 +2828,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16401\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;crptrade.com.                  IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16401 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;crptrade.com.                  IN      A ANSWER SECTION:crptrade.com.           60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 695\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;crptrade.com.                  IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 695 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;crptrade.com.                  IN      A ANSWER SECTION:crptrade.com.           60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2814,10 +2842,10 @@
     "error": null
   },
   "3301": {
-    "timestamp": "2025-05-27T14:07:01.601484Z",
+    "timestamp": "2025-05-28T10:49:18.736254Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/ba5010ba-fc2b-4799-879e-86e6e7ebf476",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/318ac7a5-0a7c-4ff2-9e82-92006d26f8c7",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2827,8 +2855,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27392\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cryptocoinsnews.com.           IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27392 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cryptocoinsnews.com.           IN      A ANSWER SECTION:cryptocoinsnews.com.    60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44932\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cryptocoinsnews.com.           IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44932 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cryptocoinsnews.com.           IN      A ANSWER SECTION:cryptocoinsnews.com.    60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2857,8 +2885,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27392\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cryptocoinsnews.com.           IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27392 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cryptocoinsnews.com.           IN      A ANSWER SECTION:cryptocoinsnews.com.    60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44932\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cryptocoinsnews.com.           IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44932 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cryptocoinsnews.com.           IN      A ANSWER SECTION:cryptocoinsnews.com.    60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2871,10 +2899,10 @@
     "error": null
   },
   "3302": {
-    "timestamp": "2025-05-27T14:07:15.466941Z",
+    "timestamp": "2025-05-28T10:49:32.755083Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/812da84a-d833-4c6d-92f0-bcc203f005a2",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5560dd2b-1d0f-4e78-85a3-1855a5c92d9f",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2884,8 +2912,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57859\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cryptotab.farm.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57859 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cryptotab.farm.                IN      A ANSWER SECTION:cryptotab.farm.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49321\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cryptotab.farm.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49321 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cryptotab.farm.                IN      A ANSWER SECTION:cryptotab.farm.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2914,8 +2942,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57859\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cryptotab.farm.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57859 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cryptotab.farm.                IN      A ANSWER SECTION:cryptotab.farm.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49321\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cryptotab.farm.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49321 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cryptotab.farm.                IN      A ANSWER SECTION:cryptotab.farm.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2928,10 +2956,10 @@
     "error": null
   },
   "3303": {
-    "timestamp": "2025-05-27T14:07:30.351548Z",
+    "timestamp": "2025-05-28T10:49:49.646943Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/38ecaecd-ab0e-430e-853b-d3ce00f02045",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/1f6dba98-327d-4ed9-8297-b08dce2a85c7",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2941,8 +2969,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11282\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cryptowealthacademy.biz.       IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11282 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cryptowealthacademy.biz.       IN      A ANSWER SECTION:cryptowealthacademy.biz. 60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40859\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cryptowealthacademy.biz.       IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40859 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cryptowealthacademy.biz.       IN      A ANSWER SECTION:cryptowealthacademy.biz. 60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2971,8 +2999,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11282\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cryptowealthacademy.biz.       IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11282 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cryptowealthacademy.biz.       IN      A ANSWER SECTION:cryptowealthacademy.biz. 60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40859\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;cryptowealthacademy.biz.       IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40859 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;cryptowealthacademy.biz.       IN      A ANSWER SECTION:cryptowealthacademy.biz. 60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -2985,10 +3013,10 @@
     "error": null
   },
   "3304": {
-    "timestamp": "2025-05-27T14:07:45.622157Z",
+    "timestamp": "2025-05-28T10:50:03.193849Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/a7656f83-2650-48f2-81d3-f23251930eea",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/60a95b41-7587-4118-b23a-f8a29a4f2c5b",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -2998,8 +3026,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9548\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;digimonbtc.com.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9548 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;digimonbtc.com.                IN      A ANSWER SECTION:digimonbtc.com.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52166\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;digimonbtc.com.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52166 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;digimonbtc.com.                IN      A ANSWER SECTION:digimonbtc.com.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3028,8 +3056,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9548\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;digimonbtc.com.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9548 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;digimonbtc.com.                IN      A ANSWER SECTION:digimonbtc.com.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52166\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;digimonbtc.com.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52166 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;digimonbtc.com.                IN      A ANSWER SECTION:digimonbtc.com.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3042,10 +3070,10 @@
     "error": null
   },
   "3305": {
-    "timestamp": "2025-05-27T14:08:03.663988Z",
+    "timestamp": "2025-05-28T10:50:19.157574Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/e63ca580-1a2e-4f5c-86f9-ddb8e41a342d",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/fb78503d-6244-43af-8851-89b29231ad83",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -3055,8 +3083,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18952\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.hashfaster.com.           IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18952 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.hashfaster.com.           IN      A ANSWER SECTION:doge.hashfaster.com.    60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41883\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.hashfaster.com.           IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41883 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.hashfaster.com.           IN      A ANSWER SECTION:doge.hashfaster.com.    60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3085,8 +3113,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18952\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.hashfaster.com.           IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18952 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.hashfaster.com.           IN      A ANSWER SECTION:doge.hashfaster.com.    60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41883\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.hashfaster.com.           IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41883 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.hashfaster.com.           IN      A ANSWER SECTION:doge.hashfaster.com.    60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3099,10 +3127,10 @@
     "error": null
   },
   "3306": {
-    "timestamp": "2025-05-27T14:08:17.875031Z",
+    "timestamp": "2025-05-28T10:50:35.292419Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/21e7e1ba-504e-44e8-8a4d-013013a6fa25",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/0fac3765-d69f-4db2-b313-51de7e4a1396",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -3112,8 +3140,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22630\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.jir.dk.                   IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22630 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.jir.dk.                   IN      A ANSWER SECTION:doge.jir.dk.            60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26852\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.jir.dk.                   IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26852 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.jir.dk.                   IN      A ANSWER SECTION:doge.jir.dk.            60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3142,8 +3170,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22630\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.jir.dk.                   IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22630 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.jir.dk.                   IN      A ANSWER SECTION:doge.jir.dk.            60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26852\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.jir.dk.                   IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26852 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.jir.dk.                   IN      A ANSWER SECTION:doge.jir.dk.            60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3156,10 +3184,10 @@
     "error": null
   },
   "3307": {
-    "timestamp": "2025-05-27T14:08:34.035946Z",
+    "timestamp": "2025-05-28T10:50:51.311395Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/80148b6c-a2b5-4c97-a06d-1a88450276dc",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/2df9f303-8bc3-4c24-bb3a-c284eb86a317",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -3169,8 +3197,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45206\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.poolerino.com.            IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45206 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.poolerino.com.            IN      A ANSWER SECTION:doge.poolerino.com.     60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42928\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.poolerino.com.            IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42928 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.poolerino.com.            IN      A ANSWER SECTION:doge.poolerino.com.     60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3199,8 +3227,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45206\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.poolerino.com.            IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45206 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.poolerino.com.            IN      A ANSWER SECTION:doge.poolerino.com.     60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42928\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.poolerino.com.            IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42928 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.poolerino.com.            IN      A ANSWER SECTION:doge.poolerino.com.     60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3213,10 +3241,10 @@
     "error": null
   },
   "3308": {
-    "timestamp": "2025-05-27T14:08:50.720889Z",
+    "timestamp": "2025-05-28T10:51:09.743904Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c270bb5e-0e17-4fef-8245-ad50ef7c1aae",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/1e9af865-9609-458f-bbc7-3ccf94df96ef",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -3226,8 +3254,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30643\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.scryptpools.com.          IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30643 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.scryptpools.com.          IN      A ANSWER SECTION:doge.scryptpools.com.   60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10684\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.scryptpools.com.          IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10684 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.scryptpools.com.          IN      A ANSWER SECTION:doge.scryptpools.com.   60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3256,8 +3284,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30643\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.scryptpools.com.          IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30643 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.scryptpools.com.          IN      A ANSWER SECTION:doge.scryptpools.com.   60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10684\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;doge.scryptpools.com.          IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10684 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;doge.scryptpools.com.          IN      A ANSWER SECTION:doge.scryptpools.com.   60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3270,10 +3298,10 @@
     "error": null
   },
   "3309": {
-    "timestamp": "2025-05-27T14:09:07.317000Z",
+    "timestamp": "2025-05-28T10:51:24.674268Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/6e20f015-677c-4a02-a7f2-d4d2cf835687",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4c7fbdd3-0813-4c65-b756-0cac992af707",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -3283,8 +3311,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24191\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;dwarfpool.com.                 IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24191 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;dwarfpool.com.                 IN      A ANSWER SECTION:dwarfpool.com.          60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41243\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;dwarfpool.com.                 IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41243 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;dwarfpool.com.                 IN      A ANSWER SECTION:dwarfpool.com.          60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3313,8 +3341,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24191\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;dwarfpool.com.                 IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24191 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;dwarfpool.com.                 IN      A ANSWER SECTION:dwarfpool.com.          60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41243\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;dwarfpool.com.                 IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41243 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;dwarfpool.com.                 IN      A ANSWER SECTION:dwarfpool.com.          60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3327,10 +3355,10 @@
     "error": null
   },
   "3310": {
-    "timestamp": "2025-05-27T14:09:21.860401Z",
+    "timestamp": "2025-05-28T10:51:40.635018Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/91cbc955-2921-4ebe-b4c6-337581eb4989",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/1c3a100c-ab4d-4fde-bf12-7ad0cca3e175",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -3340,8 +3368,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60797\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;eac.cryptominer.net.           IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60797 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;eac.cryptominer.net.           IN      A ANSWER SECTION:eac.cryptominer.net.    60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25733\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;eac.cryptominer.net.           IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25733 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;eac.cryptominer.net.           IN      A ANSWER SECTION:eac.cryptominer.net.    60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3370,8 +3398,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60797\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;eac.cryptominer.net.           IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60797 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;eac.cryptominer.net.           IN      A ANSWER SECTION:eac.cryptominer.net.    60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25733\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;eac.cryptominer.net.           IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25733 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;eac.cryptominer.net.           IN      A ANSWER SECTION:eac.cryptominer.net.    60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3384,10 +3412,10 @@
     "error": null
   },
   "3311": {
-    "timestamp": "2025-05-27T14:09:38.151369Z",
+    "timestamp": "2025-05-28T10:51:56.127946Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/1fc8cb64-aefa-47f9-9aa3-196e959c0d23",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/fa2242d2-77be-46c4-8558-3975323fb5c8",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -3397,8 +3425,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59416\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;eac.poolerino.com.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59416 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;eac.poolerino.com.             IN      A ANSWER SECTION:eac.poolerino.com.      60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53590\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;eac.poolerino.com.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53590 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;eac.poolerino.com.             IN      A ANSWER SECTION:eac.poolerino.com.      60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3427,8 +3455,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59416\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;eac.poolerino.com.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59416 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;eac.poolerino.com.             IN      A ANSWER SECTION:eac.poolerino.com.      60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53590\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;eac.poolerino.com.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53590 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;eac.poolerino.com.             IN      A ANSWER SECTION:eac.poolerino.com.      60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3441,10 +3469,10 @@
     "error": null
   },
   "3312": {
-    "timestamp": "2025-05-27T14:09:54.495278Z",
+    "timestamp": "2025-05-28T10:52:12.384725Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/0dab846b-131c-4382-a5f0-8d4946986271",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/5588cc23-bb05-4a94-867a-4407d44a1dbc",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -3454,8 +3482,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1553\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;east1.us.stratum.dedicatedpool.com. IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1553 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;east1.us.stratum.dedicatedpool.com. IN      A ANSWER SECTION:east1.us.stratum.dedicatedpool.com. 60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60959\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;east1.us.stratum.dedicatedpool.com. IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60959 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;east1.us.stratum.dedicatedpool.com. IN      A ANSWER SECTION:east1.us.stratum.dedicatedpool.com. 60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3484,8 +3512,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1553\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;east1.us.stratum.dedicatedpool.com. IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1553 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;east1.us.stratum.dedicatedpool.com. IN      A ANSWER SECTION:east1.us.stratum.dedicatedpool.com. 60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60959\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;east1.us.stratum.dedicatedpool.com. IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60959 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;east1.us.stratum.dedicatedpool.com. IN      A ANSWER SECTION:east1.us.stratum.dedicatedpool.com. 60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3498,10 +3526,10 @@
     "error": null
   },
   "3313": {
-    "timestamp": "2025-05-27T14:10:10.493092Z",
+    "timestamp": "2025-05-28T10:52:28.510036Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/9b9fd395-f81c-4b6d-9c3b-20c4e8a62ba1",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4b5fa6a8-f30b-4ed0-86f0-aedd2c0c86ca",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -3511,8 +3539,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 408\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;ec2-54-193-58-54.us-west-1.compute.amazonaws.com. IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 408 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;ec2-54-193-58-54.us-west-1.compute.amazonaws.com. IN      A ANSWER SECTION:ec2-54-193-58-54.us-west-1.compute.amazonaws.com. 60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33131\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;ec2-54-193-58-54.us-west-1.compute.amazonaws.com. IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33131 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;ec2-54-193-58-54.us-west-1.compute.amazonaws.com. IN      A ANSWER SECTION:ec2-54-193-58-54.us-west-1.compute.amazonaws.com. 60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3541,8 +3569,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 408\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;ec2-54-193-58-54.us-west-1.compute.amazonaws.com. IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 408 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;ec2-54-193-58-54.us-west-1.compute.amazonaws.com. IN      A ANSWER SECTION:ec2-54-193-58-54.us-west-1.compute.amazonaws.com. 60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33131\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;ec2-54-193-58-54.us-west-1.compute.amazonaws.com. IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33131 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;ec2-54-193-58-54.us-west-1.compute.amazonaws.com. IN      A ANSWER SECTION:ec2-54-193-58-54.us-west-1.compute.amazonaws.com. 60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3555,10 +3583,10 @@
     "error": null
   },
   "3314": {
-    "timestamp": "2025-05-27T14:10:27.875764Z",
+    "timestamp": "2025-05-28T10:52:44.893228Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/c6b141ef-b7d7-4f62-b42b-5e40e3e04465",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/92983034-0394-4ec3-8cdb-46ddafb2f6e8",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -3568,8 +3596,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39298\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;elitetrader.io.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39298 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;elitetrader.io.                IN      A ANSWER SECTION:elitetrader.io.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43360\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;elitetrader.io.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43360 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;elitetrader.io.                IN      A ANSWER SECTION:elitetrader.io.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3598,8 +3626,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39298\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;elitetrader.io.                IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39298 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;elitetrader.io.                IN      A ANSWER SECTION:elitetrader.io.         60      IN      A       127.0.0.1",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43360\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;elitetrader.io.                IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43360 flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;elitetrader.io.                IN      A ANSWER SECTION:elitetrader.io.         60      IN      A       127.0.0.1",
                 "error": null
               }
             }
@@ -3612,10 +3640,10 @@
     "error": null
   },
   "3315": {
-    "timestamp": "2025-05-27T14:10:44.755373Z",
+    "timestamp": "2025-05-28T10:53:03.898210Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/7791186a-461a-4e23-a178-6c0d3d8efd71",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/f17c33f8-0d2e-47ba-8696-8378edfb87c1",
     "test_name": "udp_dns_qname_prober",
     "status": "completed",
     "result": {
@@ -3625,8 +3653,8 @@
           "dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57497\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;epargne-crypto.io.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57497 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;epargne-crypto.io.             IN      A ANSWER SECTION:epargne-crypto.io.      1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30911\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;epargne-crypto.io.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30911 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;epargne-crypto.io.             IN      A ANSWER SECTION:epargne-crypto.io.      1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
@@ -3655,8 +3683,8 @@
           "sync_dict": {
             "response": {
               "received": {
-                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57497\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;epargne-crypto.io.             IN      A",
-                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57497 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;epargne-crypto.io.             IN      A ANSWER SECTION:epargne-crypto.io.      1       IN      CNAME   sinkhole.paloaltonetworks.com.",
+                "query": ";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30911\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0\n;; QUESTION SECTION:\n;epargne-crypto.io.             IN      A",
+                "response": " ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30911 flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 QUESTION SECTION:;epargne-crypto.io.             IN      A ANSWER SECTION:epargne-crypto.io.      1       IN      CNAME   sinkhole.paloaltonetworks.com.",
                 "error": null
               }
             }
