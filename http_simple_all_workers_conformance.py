@@ -4,7 +4,7 @@ import matplotlib.patches as mpatches
 from collections import defaultdict
 
 # Load classification data
-with open('results.json', 'r') as f:
+with open('run_all_workers_simple_results.json', 'r') as f:
     data = json.load(f)
 
 # Load naming map
@@ -36,8 +36,8 @@ def classify_entry(entry):
         return 'PollingFailed'
 
     result = entry.get('result', {})
-    if result.get('Worker_2') is None:
-        return 'Failure'
+    if result.get('Worker_1') is None or result.get('Worker_2') is None:
+        return 'WorkerMissing'
 
     vars1 = result.get('Worker_1', {}).get('Variables', {})
     vars2 = result.get('Worker_2', {}).get('Variables', {})
@@ -78,6 +78,7 @@ def classify_entry(entry):
 
     return 'Other'
 
+
 # Apply classification
 classified_by_pair = defaultdict(lambda: {'HTTP': [], 'HTTPS': []})
 for pair, entries in pairwise_data.items():
@@ -96,9 +97,11 @@ patterns = {
     'ConnReset':       'oo',
     'HTTPTimeout':     '++',
     'HTTPSTimeout':    '--',
-    'SubmissionFailed': '',     # solid black
-    'PollingFailed':   '///',   # black hatched
+    'SubmissionFailed': '',
+    'PollingFailed':   '///',
+    'WorkerMissing':   'xx'
 }
+
 colors = {
     'Match':           'green',
     'Other':           'dimgray',
@@ -110,7 +113,9 @@ colors = {
     'HTTPSTimeout':    'pink',
     'SubmissionFailed':'black',
     'PollingFailed':   'black',
+    'WorkerMissing':   'black'
 }
+
 
 # Plotting function
 def plot_classification_group(protocol, output_file):
