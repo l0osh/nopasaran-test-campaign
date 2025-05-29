@@ -3,9 +3,24 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from collections import defaultdict
 
-# Load data
+# Load classification data
 with open('results.json', 'r') as f:
     data = json.load(f)
+
+# Load naming map
+with open('paper_workers_naming.json', 'r') as f:
+    name_map = json.load(f)
+
+# Unicode subscripts
+subscript_digits = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
+
+def format_worker_name(worker_id):
+    mapped = name_map.get(worker_id, worker_id)
+    if any(char.isdigit() for char in mapped):
+        base = ''.join([c for c in mapped if not c.isdigit()])
+        digits = ''.join([c for c in mapped if c.isdigit()])
+        return base + digits.translate(subscript_digits)
+    return mapped
 
 # Group by worker pairs
 pairwise_data = defaultdict(list)
@@ -13,9 +28,8 @@ for tid, entry in sorted(data.items(), key=lambda x: int(x[0])):  # sort by test
     pair = (entry['worker_1'], entry['worker_2'])
     pairwise_data[pair].append((tid, entry))
 
-# Classify each entry
+# Classify entries
 def classify_entry(entry):
-    # Check top-level failure first
     if entry.get('status') == 'submission_failed':
         return 'SubmissionFailed'
     if entry.get('status') == 'polling_failed':
@@ -64,9 +78,8 @@ def classify_entry(entry):
 
     return 'Other'
 
-# Apply classification and alternate protocol per-pair
+# Apply classification
 classified_by_pair = defaultdict(lambda: {'HTTP': [], 'HTTPS': []})
-
 for pair, entries in pairwise_data.items():
     for i, (tid, entry) in enumerate(entries):
         protocol = 'HTTP' if i % 2 == 0 else 'HTTPS'
@@ -96,14 +109,14 @@ colors = {
     'HTTPTimeout':     'pink',
     'HTTPSTimeout':    'pink',
     'SubmissionFailed':'black',
-    'PollingFailed':  'black',
+    'PollingFailed':   'black',
 }
 
 # Plotting function
 def plot_classification_group(protocol, output_file):
     fig, ax = plt.subplots(figsize=(15, 3.5))
-    y_spacing = 0.5
-    bar_height = 0.4
+    y_spacing = 0.4
+    bar_height = 0.35
 
     all_pairs = sorted(classified_by_pair.keys())
     y_positions = [y_spacing * (len(all_pairs) - i) for i in range(len(all_pairs))]
@@ -113,7 +126,7 @@ def plot_classification_group(protocol, output_file):
     for idx, pair in enumerate(all_pairs):
         y = y_positions[idx]
         test_vector = classified_by_pair[pair][protocol]
-        test_vector.sort()  # Sort by test ID just for consistency
+        test_vector.sort()
         statuses = [status for _, status in test_vector]
         present_statuses.update(statuses)
 
@@ -128,13 +141,16 @@ def plot_classification_group(protocol, output_file):
                 hatch=patterns.get(status, '')
             )
 
+        # Use mapped + subscripted name
+        w1 = format_worker_name(pair[0])
+        w2 = format_worker_name(pair[1])
         ax.text(
             -5, y,
-            f'{pair[0]} ↔ {pair[1]}',
+            f'{w1} ↔ {w2}',
             va='center',
             ha='right',
             fontweight='bold',
-            fontsize=11
+            fontsize=13
         )
 
     # Legend
@@ -145,18 +161,27 @@ def plot_classification_group(protocol, output_file):
     ax.legend(
         handles=legend_handles,
         title="Classification",
-        title_fontsize=14,
-        fontsize=11,
+        title_fontsize=16,
+        fontsize=13,
         loc='upper center',
-        bbox_to_anchor=(0.5, -0.25),
-        ncol=4
+        bbox_to_anchor=(0.5, -0.3),
+        ncol=4,
+        frameon=True
     )
 
     # Axes formatting
-    ax.set_xlim(-6, max(10, max(len(v[protocol]) for v in classified_by_pair.values())))
-    ax.set_ylim(0, y_spacing * len(all_pairs) + 0.5)
-    ax.set_xticks(range(0, 100, 5))
-    ax.set_xlabel('Domain Name Index (per-pair)', fontsize=12, fontweight='bold')
+    max_len = max(len(v[protocol]) for v in classified_by_pair.values())
+    ax.set_xlim(-6, max(10, max_len))
+    ax.set_ylim(0, y_spacing * len(all_pairs) + 0.2)
+    xtick_positions = list(range(0, max_len + 1, 5))
+    ax.set_xticks(xtick_positions)
+    ax.set_xticklabels([str(i) for i in xtick_positions], fontsize=11)
+
+    ax.set_xlabel('Domain Name ID', fontsize=13, fontweight='bold')
+
+    # Hide spines and y-axis details
+    for spine in ['top', 'right', 'left', 'bottom']:
+        ax.spines[spine].set_visible(False)
     ax.tick_params(axis='y', which='both', left=False, labelleft=False)
 
     plt.tight_layout()
