@@ -119,9 +119,9 @@ colors = {
 
 # Plotting function
 def plot_classification_group(protocol, output_file):
-    fig, ax = plt.subplots(figsize=(15, 3.5))
-    y_spacing = 0.4
-    bar_height = 0.35
+    fig, ax = plt.subplots(figsize=(15, 6))
+    y_spacing = 0.65
+    bar_height = 0.6
 
     all_pairs = sorted(classified_by_pair.keys())
     y_positions = [y_spacing * (len(all_pairs) - i) for i in range(len(all_pairs))]
