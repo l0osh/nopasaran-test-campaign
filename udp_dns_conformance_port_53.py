@@ -19,6 +19,26 @@ if data:
 else:
     test_ids = []
 
+def update_synthesis_file_s4(classifications, test_ids, filename='synthesis.json'):
+    synthesis = {}
+    try:
+        with open(filename, 'r') as f:
+            synthesis = json.load(f)
+    except FileNotFoundError:
+        synthesis = {}
+
+    synthesis['S4_DNS'] = {}
+
+    for idx, tid in enumerate(test_ids):
+        results = [classifications[run_idx][idx] for run_idx in sorted(classifications)]
+        non_received = sum(1 for r in results if r != 'Received')
+        status = 'Blocked' if non_received >= 3 else 'Passed'
+        synthesis['S4_DNS'][str(tid)] = status
+
+    with open(filename, 'w') as f:
+        json.dump(synthesis, f, indent=2)
+    print("✅ Synthesis file updated with 'S4_DNS'")
+
 # 3) Classification function for DNS
 def classify_dns_entry(entry):
     result = entry.get('result', {})
@@ -130,3 +150,6 @@ ax.tick_params(axis='y', which='both', left=False, labelleft=False)
 plt.tight_layout()
 plt.savefig('udp_dns_conformance_vector.png', dpi=300, bbox_inches='tight')
 print("✅ Vector chart saved as 'udp_dns_conformance_vector.png'")
+
+
+update_synthesis_file_s4(classifications, test_ids)

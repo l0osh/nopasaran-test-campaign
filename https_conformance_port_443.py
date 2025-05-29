@@ -12,6 +12,26 @@ for run_idx in range(1, 5):
 # 2) Gather a stable, sorted list of test IDs
 test_ids = sorted(data[1].keys(), key=int)
 
+def update_synthesis_file_s3(classifications, test_ids, filename='synthesis.json'):
+    synthesis = {}
+    try:
+        with open(filename, 'r') as f:
+            synthesis = json.load(f)
+    except FileNotFoundError:
+        synthesis = {}
+
+    synthesis['S3_HTTPS'] = {}
+
+    for idx, tid in enumerate(test_ids):
+        results = [classifications[run_idx][idx] for run_idx in sorted(classifications)]
+        non_matches = sum(1 for r in results if r != 'Match')
+        status = 'Blocked' if non_matches >= 3 else 'Passed'
+        synthesis['S3_HTTPS'][str(tid)] = status
+
+    with open(filename, 'w') as f:
+        json.dump(synthesis, f, indent=2)
+    print("✅ Synthesis file updated with 'S3_HTTPS'")
+
 # 3) Classification function with new rules (Match, Null, Failure only)
 def classify_entry(entry):
     result = entry.get('result', {})
@@ -116,3 +136,6 @@ ax.tick_params(axis='y', which='both', left=False, labelleft=False)
 plt.tight_layout()
 plt.savefig('https_1_conformance_vector.png', dpi=300, bbox_inches='tight')
 print("✅ Vector chart saved as 'https_1_conformance_vector.png'")
+
+update_synthesis_file_s3(classifications, test_ids)
+

@@ -12,6 +12,37 @@ for run_idx in range(1, 5):
 # 2) Gather sorted test IDs
 test_ids = sorted(data[1].keys(), key=int)
 
+def update_synthesis_file(classifications, test_ids, filename='synthesis.json'):
+    synthesis = {}
+    # Try to load existing synthesis file if it exists
+    try:
+        with open(filename, 'r') as f:
+            synthesis = json.load(f)
+    except FileNotFoundError:
+        synthesis = {}
+
+    synthesis['S1_HTTP'] = {}
+    synthesis['S1_HTTPS'] = {}
+
+    for tid in test_ids:
+        tid_str = str(tid)
+        # Collect classification results for this tid across runs
+        run_results = [classifications[run_idx][tid_str] for run_idx in sorted(classifications)]
+
+        non_matches = sum(1 for r in run_results if r != 'Match')
+        status = 'Blocked' if non_matches >= 3 else 'Passed'
+
+        if int(tid) % 2 == 0:
+            synthesis['S1_HTTP'][tid_str] = status
+        else:
+            synthesis['S1_HTTPS'][tid_str] = status
+
+    # Save the updated synthesis file
+    with open(filename, 'w') as f:
+        json.dump(synthesis, f, indent=2)
+    print(f"✅ Synthesis file '{filename}' updated")
+
+
 # 3) Classification function
 def classify_entry(entry):
     result = entry.get('result', {})
@@ -174,3 +205,5 @@ def plot_classification_group(protocol_name, is_https, output_file):
 # 6) Save HTTP and HTTPS plots
 plot_classification_group('HTTP', is_https=False, output_file='http_split_vector.png')
 plot_classification_group('HTTPS', is_https=True, output_file='https_split_vector.png')
+
+update_synthesis_file(classifications, test_ids)
