@@ -123,7 +123,7 @@ def plot_classification_group(protocol, output_file):
     y_spacing = 0.65
     bar_height = 0.6
 
-    all_pairs = sorted(classified_by_pair.keys())
+    all_pairs = sorted(classified_by_pair.keys(), key=lambda p: (format_worker_name(p[0]), format_worker_name(p[1])))
     y_positions = [y_spacing * (len(all_pairs) - i) for i in range(len(all_pairs))]
 
     present_statuses = set()
