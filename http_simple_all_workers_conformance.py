@@ -158,10 +158,19 @@ def plot_classification_group(protocol, output_file):
             fontsize=13
         )
 
+    def legend_sort_key(status):
+        if status == 'Match':
+            return '0'
+        if status == 'Other':
+            return 'zzz'
+        return status
+
+    sorted_statuses = sorted(present_statuses, key=legend_sort_key)
+
     # Legend
     legend_handles = [
         mpatches.Patch(facecolor=colors[key], edgecolor='black', hatch=patterns[key], label=key)
-        for key in sorted(present_statuses)
+        for key in sorted_statuses
     ]
     ax.legend(
         handles=legend_handles,

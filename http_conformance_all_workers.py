@@ -122,9 +122,13 @@ for idx, pair in enumerate(all_pairs):
     )
 
 # 7) Legend
+preferred_order = ['Match', '503', 'Empty']
+remaining_statuses = sorted(present_statuses - set(preferred_order))
+legend_keys = preferred_order + remaining_statuses
+
 legend_handles = [
     mpatches.Patch(facecolor=colors[key], edgecolor='black', hatch=patterns[key], label=key)
-    for key in sorted(present_statuses)
+    for key in legend_keys
 ]
 ax.legend(
     handles=legend_handles,
