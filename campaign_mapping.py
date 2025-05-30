@@ -1,5 +1,6 @@
 import yaml
 import json
+import os
 
 def load_campaign(filename):
     with open(filename, 'r') as f:
@@ -43,14 +44,12 @@ def build_id_mapping(old_campaign, new_campaign):
 
     return id_mapping, missing_entries
 
-def update_results_file(old_results_path, id_mapping, missing_entries):
-    output_path = old_results_path
-    with open(old_results_path, 'r') as f:
+def update_results_file(results_path, id_mapping, missing_entries):
+    with open(results_path, 'r') as f:
         results = json.load(f)
 
     missing_ids = {entry["id"] for entry in missing_entries}
     cleaned_results = {}
-
     removed_count = 0
     remapped_count = 0
     skipped_workers = set()
@@ -69,20 +68,23 @@ def update_results_file(old_results_path, id_mapping, missing_entries):
             cleaned_results[str(new_id)] = result_entry
             remapped_count += 1
 
-    with open(output_path, 'w') as f:
+    with open(results_path, 'w') as f:  # overwrite original file
         json.dump(cleaned_results, f, indent=2)
 
-    print("\n✅ Result mapping complete.")
+    print(f"\n📄 Updated: {results_path}")
     print(f"✔️ Remapped: {remapped_count} tests")
     print(f"🗑️ Removed: {removed_count} tests")
-    print(f"🧑 Skipped Workers: {', '.join(sorted(skipped_workers))}")
+    print(f"🧑 Skipped Workers: {', '.join(sorted(skipped_workers)) if skipped_workers else 'None'}")
 
 def main():
-    old_campaign = load_campaign("old_campaign.yml") #insert campaign with the removed worker here (alyanetalyrz2)
-    new_campaign = load_campaign("campaign.yml") #insert campaign without the removed worker here (alyanetalyrz2)
+    old_campaign = load_campaign("old_campaign.yml")
+    new_campaign = load_campaign("campaign.yml")
 
     id_mapping, missing_entries = build_id_mapping(old_campaign, new_campaign)
-    update_results_file("run_1_http_simple_results.json", id_mapping, missing_entries) # insert result file here
+
+    for filename in os.listdir():
+        if filename.endswith(".json") and "run" in filename:
+            update_results_file(filename, id_mapping, missing_entries)
 
 if __name__ == "__main__":
     main()
