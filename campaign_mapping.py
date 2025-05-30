@@ -42,7 +42,8 @@ def build_id_mapping(old_campaign, new_campaign):
 
     return id_mapping, missing_entries
 
-def update_results_file(old_results_path, id_mapping, missing_entries, output_path="results_mapped.json"):
+def update_results_file(old_results_path, id_mapping, missing_entries):
+    output_path = old_results_path
     with open(old_results_path, 'r') as f:
         results = json.load(f)
 
