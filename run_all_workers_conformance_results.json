@@ -6567,14 +6567,37 @@
     "error": null
   },
   "1240": {
-    "timestamp": "2025-05-29T19:31:53.589127Z",
+    "timestamp": "2025-05-30T16:20:12.298757Z",
     "worker_1": "alyanetalyrz3",
     "worker_2": "linodegermany",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/9f5c1799-0829-49f7-9d28-d1c6ee39ccfb",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/a698f233-30c5-4dda-9a8c-1a4b7393c9c0",
     "test_name": "http_1_conformance",
-    "status": "polling_failed",
-    "result": null,
-    "error": "Polling failed or timed out."
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: api.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: api.bitcoin.cz\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
   },
   "1241": {
     "timestamp": "2025-05-29T19:32:04.049974Z",
@@ -30403,23 +30426,70 @@
     "error": null
   },
   "4433": {
-    "timestamp": "2025-05-29T22:32:09.677117Z",
+    "timestamp": "2025-05-30T16:20:42.797670Z",
     "worker_1": "linodelosangeles",
     "worker_2": "linodejapan",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/dda8c064-1edd-4605-a69c-ce8e3f9caeb5",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/d3e7d420-9a42-4010-a11c-1aac05e86194",
     "test_name": "http_1_conformance",
-    "status": "polling_failed",
-    "result": null,
-    "error": "Polling failed or timed out."
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: binance.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: binance.com\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
   },
   "4434": {
-    "timestamp": "2025-05-29T22:32:41.710353Z",
+    "timestamp": "2025-05-30T16:21:17.579317Z",
     "worker_1": "linodelosangeles",
     "worker_2": "linodejapan",
-    "polling_url": null,
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/827eeee3-c887-486c-ab5a-884c169d84e3",
     "test_name": "http_1_conformance",
-    "status": "submission_failed",
-    "error": "522 Server Error: <none> for url: https://www.nopasaran.org/api/v1/tests-trees/task"
+    "status": "completed",
+    "result": {
+      "Worker_2": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "GET / HTTP/1.1\r\nHost: bitcanna.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_1": {
+        "State": "EXCHANGING_SYNC",
+        "Variables": {
+          "ctrl": null,
+          "received": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 18\r\nConnection: close\r\n\r\nhello from server\r\n\r\n",
+          "event": "DONE",
+          "sync_received": "GET / HTTP/1.1\r\nHost: bitcanna.io\r\nUser-Agent: Test-Client\r\nAccept: */*\r\n\r\n",
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
   },
   "4435": {
     "timestamp": "2025-05-29T22:32:53.948359Z",

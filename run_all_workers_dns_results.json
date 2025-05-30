@@ -22924,14 +22924,53 @@
     "error": null
   },
   "2172": {
-    "timestamp": "2025-05-30T06:37:47.715887Z",
+    "timestamp": "2025-05-30T16:14:49.715105Z",
     "worker_1": "alyanetalyrz4",
     "worker_2": "linodegermany",
-    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/4442a2f4-c87e-4f73-8186-421e064db5f4",
+    "polling_url": "https://www.nopasaran.org/api/v1/tests-trees/task/dc9aec5a-2e23-4894-af2f-c4e60c343cb7",
     "test_name": "udp_dns_qname_prober",
-    "status": "polling_failed",
-    "result": null,
-    "error": "Polling failed or timed out."
+    "status": "completed",
+    "result": {
+      "Worker_1": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "response": {
+              "received": null
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "query": {
+              "received": ";bitcoinrevolution.org.         IN      A"
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      },
+      "Worker_2": {
+        "State": "EXCHANGE_SYNC",
+        "Variables": {
+          "dict": {
+            "query": {
+              "received": ";bitcoinrevolution.org.         IN      A"
+            }
+          },
+          "ctrl": null,
+          "event": "DONE",
+          "sync_dict": {
+            "response": {
+              "received": null
+            }
+          },
+          "signal_type": "ready_stop",
+          "signaling-event": "DONE"
+        }
+      }
+    },
+    "error": null
   },
   "2173": {
     "timestamp": "2025-05-30T06:38:01.857095Z",
