@@ -21,6 +21,7 @@ def get_fingerprint(entry):
         base.append(params.get("qname"))
     elif test_name == "http_simple_request":
         base.append(params.get("hostname"))
+        base.append(params.get("use_https"))
     else:
         base.append(str(params))  # fallback
 
@@ -81,7 +82,7 @@ def main():
     new_campaign = load_campaign("campaign.yml") #insert campaign without the removed worker here (alyanetalyrz2)
 
     id_mapping, missing_entries = build_id_mapping(old_campaign, new_campaign)
-    update_results_file("run_1_http_results.json", id_mapping, missing_entries) # insert result file here
+    update_results_file("run_1_http_simple_results.json", id_mapping, missing_entries) # insert result file here
 
 if __name__ == "__main__":
     main()
