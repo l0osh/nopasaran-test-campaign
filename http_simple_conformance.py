@@ -161,9 +161,10 @@ def plot_classification_group(protocol_name, is_https, output_file):
         )
 
     # Legend only for statuses in current data
+    sorted_keys = ['Match'] + sorted(k for k in present_statuses if k != 'Match')
     legend_handles = [
         mpatches.Patch(facecolor=colors[key], edgecolor='black', hatch=patterns[key], label=key)
-        for key in sorted(present_statuses)
+        for key in sorted_keys
     ]
 
     ax.legend(
