@@ -121,7 +121,7 @@ ax.legend(
     title_fontsize=16,
     fontsize=13,
     loc='upper center',
-    bbox_to_anchor=(0.5, -0.3),
+    bbox_to_anchor=(0.5, -0.1),
     ncol=4,
     frameon=True
 )
